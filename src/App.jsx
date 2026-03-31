@@ -4,16 +4,15 @@ import Navbar from './components/Navbar.jsx'
 import DeptSidebar from './components/DeptSidebar.jsx'
 import CourseCard from './components/CourseCard.jsx'
 import CourseModal from './components/CourseModal.jsx'
+import WelcomeModal from './components/WelcomeModal.jsx'
 import COURSES from './data/allCourses.json'
 import { getBatchCourseStats } from './firebase.js'
 
-// Map every UCR subject code to a college
 const SUBJECT_TO_COLLEGE = {
   // Engineering (BCOE)
   "CS":"Engineering","CSE":"Engineering","EE":"Engineering","ENGR":"Engineering",
   "ME":"Engineering","ENVE":"Engineering","CEE":"Engineering","CHE":"Engineering",
-  "MSE":"Engineering","BIEN":"Engineering","EE":"Engineering","BENG":"Engineering",
-  "MASC":"Engineering",
+  "MSE":"Engineering","BIEN":"Engineering","BENG":"Engineering","MASC":"Engineering",
 
   // Natural & Agricultural Sciences (CNAS)
   "BIOL":"Natural Sciences","CHEM":"Natural Sciences","PHYS":"Natural Sciences",
@@ -21,8 +20,11 @@ const SUBJECT_TO_COLLEGE = {
   "NRSC":"Natural Sciences","CBNS":"Natural Sciences","MCBL":"Natural Sciences",
   "PLNT":"Natural Sciences","ENVS":"Natural Sciences","GEO":"Natural Sciences",
   "EEOB":"Natural Sciences","BPSC":"Natural Sciences","NEMA":"Natural Sciences",
-  "PLPA":"Natural Sciences","SOILS":"Natural Sciences","BIOL":"Natural Sciences",
-  "APPM":"Natural Sciences","NASC":"Natural Sciences","BCH":"Natural Sciences","AST":"Natural Sciences","BCHM":"Natural Sciences","AHS":"Humanities & Arts","KINE":"Natural Sciences","EXSC":"Natural Sciences",
+  "PLPA":"Natural Sciences","SOILS":"Natural Sciences","APPM":"Natural Sciences",
+  "NASC":"Natural Sciences","BCH":"Natural Sciences","AST":"Natural Sciences",
+  "BCHM":"Natural Sciences","KINE":"Natural Sciences","EXSC":"Natural Sciences",
+  "BIOC":"Natural Sciences","HNPG":"Natural Sciences","POSC":"Natural Sciences",
+
   // Business (SoBus)
   "BUS":"Business","MGT":"Business","ACCT":"Business","FIN":"Business",
   "MKTG":"Business","OB":"Business","IS":"Business","SCM":"Business",
@@ -34,19 +36,21 @@ const SUBJECT_TO_COLLEGE = {
   "HIST":"Social Sciences","SOSC":"Social Sciences","LGBS":"Social Sciences",
   "GSST":"Social Sciences","ETST":"Social Sciences","CHIC":"Social Sciences",
   "AAS":"Social Sciences","INTL":"Social Sciences","WMST":"Social Sciences",
-  "SOCI":"Social Sciences",
-  "GLBL":"Social Sciences","AFAM":"Social Sciences","CRES":"Social Sciences","SWRK":"Social Sciences","CRJU":"Social Sciences",
+  "SOCI":"Social Sciences","GLBL":"Social Sciences","AFAM":"Social Sciences",
+  "CRES":"Social Sciences","SWRK":"Social Sciences","CRJU":"Social Sciences",
+  "GEOB":"Social Sciences",
 
   // Humanities & Arts (CHASS)
-  "ENGL":"Humanities & Arts","PHIL":"Humanities & Arts","HIST":"Humanities & Arts",
-  "ART":"Humanities & Arts","MUS":"Humanities & Arts","THEA":"Humanities & Arts",
-  "DANCE":"Humanities & Arts","FREN":"Humanities & Arts","SPAN":"Humanities & Arts",
-  "GERM":"Humanities & Arts","JAPN":"Humanities & Arts","ITAL":"Humanities & Arts",
-  "CLAS":"Humanities & Arts","LING":"Humanities & Arts","COGS":"Humanities & Arts",
-  "HPSC":"Humanities & Arts","CPAC":"Humanities & Arts","WRIT":"Humanities & Arts",
-  "CRWT":"Humanities & Arts","CHIN":"Humanities & Arts","ARAB":"Humanities & Arts",
-  "RUSS":"Humanities & Arts","HEBR":"Humanities & Arts","PORT":"Humanities & Arts",
-  "LATN":"Humanities & Arts","GREK":"Humanities & Arts","MUSC":"Humanities & Arts",
+  "ENGL":"Humanities & Arts","PHIL":"Humanities & Arts","ART":"Humanities & Arts",
+  "MUS":"Humanities & Arts","THEA":"Humanities & Arts","DANCE":"Humanities & Arts",
+  "FREN":"Humanities & Arts","SPAN":"Humanities & Arts","GERM":"Humanities & Arts",
+  "JAPN":"Humanities & Arts","ITAL":"Humanities & Arts","CLAS":"Humanities & Arts",
+  "LING":"Humanities & Arts","COGS":"Humanities & Arts","HPSC":"Humanities & Arts",
+  "CPAC":"Humanities & Arts","WRIT":"Humanities & Arts","CRWT":"Humanities & Arts",
+  "CHIN":"Humanities & Arts","ARAB":"Humanities & Arts","RUSS":"Humanities & Arts",
+  "HEBR":"Humanities & Arts","PORT":"Humanities & Arts","LATN":"Humanities & Arts",
+  "GREK":"Humanities & Arts","MUSC":"Humanities & Arts","AHS":"Humanities & Arts",
+  "UNIV":"Humanities & Arts",
 }
 
 const COLLEGES = ["Engineering", "Natural Sciences", "Business", "Social Sciences", "Humanities & Arts", "Other"]
@@ -60,23 +64,20 @@ const COLLEGE_ICONS = {
   "Other":            "📚",
 }
 
-// Get college for a subject code
 function getCollege(subject) {
   return SUBJECT_TO_COLLEGE[subject] || "Other"
 }
 
-// Build counts per college
 const COLLEGE_COUNTS = COURSES.reduce((acc, c) => {
   const col = getCollege(c.subject)
   acc[col] = (acc[col] || 0) + 1
   return acc
 }, {})
 
-// Build college list with counts (only colleges that have courses)
-const COLLEGE_LIST = COLLEGES.filter(col => COLLEGE_COUNTS[col] > 0).map(col => ({
-  code: col,
-  name: col,
-  icon: COLLEGE_ICONS[col],
+const DEPT_LIST = COLLEGES.map(name => ({
+  code: name,
+  name: `${COLLEGE_ICONS[name]} ${name}`,
+  isCollege: true,
 }))
 
 export default function App() {
@@ -98,12 +99,6 @@ export default function App() {
     let list = COURSES
 
     if (search.trim()) {
-  // search always looks across ALL courses, ignoring sidebar selection
-    } else if (selectedDept) {
-      list = list.filter(c => c.subject === selectedDept)
-    }
-
-    if (search.trim()) {
       const q = search.toLowerCase()
       list = list.filter(c =>
         c.fullCode.toLowerCase().includes(q) ||
@@ -111,6 +106,8 @@ export default function App() {
         (c.description || '').toLowerCase().includes(q) ||
         (c.prerequisites || '').toLowerCase().includes(q)
       )
+    } else if (selectedCollege) {
+      list = list.filter(c => getCollege(c.subject) === selectedCollege)
     }
 
     list = [...list].sort((a, b) => {
@@ -136,14 +133,16 @@ export default function App() {
     setSearch('')
   }, [])
 
-  const sectionTitle = selectedCollege || (search ? `Results for "${search}"` : 'All Courses')
+  const sectionTitle = selectedCollege
+    ? `${COLLEGE_ICONS[selectedCollege]} ${selectedCollege}`
+    : search ? `Results for "${search}"` : 'All Courses'
 
   return (
     <div style={{ minHeight: '100vh', background: 'var(--bg)' }}>
       <Navbar search={search} onSearch={setSearch} courseCount={COURSES.length} />
       <div style={{ display: 'flex', paddingTop: 60 }}>
         <DeptSidebar
-          departments={COLLEGE_LIST}
+          departments={DEPT_LIST}
           selected={selectedCollege}
           onSelect={handleCollegeSelect}
           counts={COLLEGE_COUNTS}
@@ -151,9 +150,7 @@ export default function App() {
         <main style={{ flex: 1, padding: '28px 28px 60px', minWidth: 0 }}>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 20, flexWrap: 'wrap', gap: 12 }}>
             <div>
-              <h1 style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: 22, color: 'var(--text-primary)' }}>
-                {COLLEGE_ICONS[sectionTitle] && `${COLLEGE_ICONS[sectionTitle]} `}{sectionTitle}
-              </h1>
+              <h1 style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: 22, color: 'var(--text-primary)' }}>{sectionTitle}</h1>
               <p style={{ fontSize: 13, color: 'var(--text-muted)', marginTop: 2 }}>
                 {filtered.length} course{filtered.length !== 1 ? 's' : ''}
                 {!statsLoading && Object.keys(statsMap).length > 0 && <> · {Object.keys(statsMap).length} reviewed</>}
@@ -173,7 +170,7 @@ export default function App() {
             <div style={{ textAlign: 'center', padding: '60px 0', color: 'var(--text-muted)' }}>
               <div style={{ fontSize: 40, marginBottom: 12 }}>🔍</div>
               <div style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 18, marginBottom: 6 }}>No courses found</div>
-              <div style={{ fontSize: 14 }}>Try a different search or college</div>
+              <div style={{ fontSize: 14 }}>Try a different search or department</div>
             </div>
           ) : (
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: 16 }}>
@@ -187,6 +184,7 @@ export default function App() {
         </main>
       </div>
       {selectedCourse && <CourseModal course={selectedCourse} onClose={() => setSelectedCourse(null)} />}
+      <WelcomeModal />
     </div>
   )
 }

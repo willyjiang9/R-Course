@@ -79,14 +79,12 @@ export default function App() {
   const [search, setSearch]                   = useState('')
   const [selectedCollege, setSelectedCollege] = useState(null)
   const [selectedCourse, setSelectedCourse]   = useState(null)
+  const [unitsFilter, setUnitsFilter]         = useState('All')
   const [statsMap, setStatsMap]               = useState(() => {
-    // Load cached stats immediately on first render
     try {
       const cached = localStorage.getItem('rcourses_stats')
       return cached ? JSON.parse(cached) : {}
-    } catch (e) {
-      return {}
-    }
+    } catch (e) { return {} }
   })
   const [statsLoading, setStatsLoading] = useState(true)
   const [sortBy, setSortBy]             = useState('code')
@@ -106,6 +104,15 @@ export default function App() {
       list = list.filter(c => getCollege(c.subject) === selectedCollege)
     }
 
+    if (unitsFilter !== 'All') {
+      list = list.filter(c => {
+        const u = parseFloat(c.units)
+        if (isNaN(u)) return false
+        if (unitsFilter === '5+') return u >= 5
+        return u === parseFloat(unitsFilter)
+      })
+    }
+
     list = [...list].sort((a, b) => {
       if (sortBy === 'title') return a.title.localeCompare(b.title)
       if (sortBy === 'difficulty') {
@@ -122,9 +129,8 @@ export default function App() {
     })
 
     return list
-  }, [search, selectedCollege, sortBy, statsMap])
+  }, [search, selectedCollege, sortBy, statsMap, unitsFilter])
 
-  // Fetch fresh stats for visible courses in background
   useEffect(() => {
     const codes = filtered.slice(0, 50).map(c => c.fullCode)
     if (!codes.length) return
@@ -133,15 +139,13 @@ export default function App() {
       .then(map => {
         setStatsMap(prev => {
           const updated = { ...prev, ...map }
-          try {
-            localStorage.setItem('rcourses_stats', JSON.stringify(updated))
-          } catch (e) {}
+          try { localStorage.setItem('rcourses_stats', JSON.stringify(updated)) } catch (e) {}
           return updated
         })
         setStatsLoading(false)
       })
       .catch(() => setStatsLoading(false))
-  }, [search, selectedCollege])
+  }, [search, selectedCollege, unitsFilter])
 
   const handleCollegeSelect = useCallback(code => {
     setSelectedCollege(code)
@@ -171,12 +175,26 @@ export default function App() {
                 {!statsLoading && Object.keys(statsMap).length > 0 && <> · {Object.keys(statsMap).length} reviewed</>}
               </p>
             </div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-              <span style={{ fontSize: 13, color: 'var(--text-muted)' }}>Sort:</span>
-              <div style={{ display: 'flex', background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: 'var(--radius-sm)', overflow: 'hidden' }}>
-                {[{v:'code',label:'Code'},{v:'title',label:'Title'},{v:'difficulty',label:'Easiest'},{v:'rating',label:'Top Rated'}].map(({v,label}) => (
-                  <button key={v} onClick={() => setSortBy(v)} style={{ padding: '6px 12px', fontSize: 12, fontWeight: sortBy===v?700:400, color: sortBy===v?'var(--ucr-blue)':'var(--text-secondary)', background: sortBy===v?'var(--ucr-blue-light)':'transparent', border: 'none', cursor: 'pointer', transition: 'all 0.15s' }}>{label}</button>
-                ))}
+
+            <div style={{ display: 'flex', alignItems: 'center', gap: 12, flexWrap: 'wrap' }}>
+              {/* Units filter */}
+              <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+                <span style={{ fontSize: 13, color: 'var(--text-muted)' }}>Units:</span>
+                <div style={{ display: 'flex', background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: 'var(--radius-sm)', overflow: 'hidden' }}>
+                  {['All', '1', '2', '3', '4', '5+'].map(u => (
+                    <button key={u} onClick={() => setUnitsFilter(u)} style={{ padding: '6px 10px', fontSize: 12, fontWeight: unitsFilter===u?700:400, color: unitsFilter===u?'var(--ucr-blue)':'var(--text-secondary)', background: unitsFilter===u?'var(--ucr-blue-light)':'transparent', border: 'none', cursor: 'pointer', transition: 'all 0.15s' }}>{u}</button>
+                  ))}
+                </div>
+              </div>
+
+              {/* Sort */}
+              <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+                <span style={{ fontSize: 13, color: 'var(--text-muted)' }}>Sort:</span>
+                <div style={{ display: 'flex', background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: 'var(--radius-sm)', overflow: 'hidden' }}>
+                  {[{v:'code',label:'Code'},{v:'title',label:'Title'},{v:'difficulty',label:'Easiest'},{v:'rating',label:'Top Rated'}].map(({v,label}) => (
+                    <button key={v} onClick={() => setSortBy(v)} style={{ padding: '6px 12px', fontSize: 12, fontWeight: sortBy===v?700:400, color: sortBy===v?'var(--ucr-blue)':'var(--text-secondary)', background: sortBy===v?'var(--ucr-blue-light)':'transparent', border: 'none', cursor: 'pointer', transition: 'all 0.15s' }}>{label}</button>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
@@ -185,7 +203,7 @@ export default function App() {
             <div style={{ textAlign: 'center', padding: '60px 0', color: 'var(--text-muted)' }}>
               <div style={{ fontSize: 40, marginBottom: 12 }}>🔍</div>
               <div style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 18, marginBottom: 6 }}>No courses found</div>
-              <div style={{ fontSize: 14 }}>Try a different search or department</div>
+              <div style={{ fontSize: 14 }}>Try a different search, department, or units filter</div>
             </div>
           ) : (
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: 16 }}>

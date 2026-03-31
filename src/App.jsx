@@ -9,12 +9,10 @@ import COURSES from './data/allCourses.json'
 import { getBatchCourseStats } from './firebase.js'
 
 const SUBJECT_TO_COLLEGE = {
-  // Engineering (BCOE)
   "CS":"Engineering","CSE":"Engineering","EE":"Engineering","ENGR":"Engineering",
   "ME":"Engineering","ENVE":"Engineering","CEE":"Engineering","CHE":"Engineering",
   "MSE":"Engineering","BIEN":"Engineering","BENG":"Engineering","MASC":"Engineering",
 
-  // Natural & Agricultural Sciences (CNAS)
   "BIOL":"Natural Sciences","CHEM":"Natural Sciences","PHYS":"Natural Sciences",
   "MATH":"Natural Sciences","STAT":"Natural Sciences","ENTM":"Natural Sciences",
   "NRSC":"Natural Sciences","CBNS":"Natural Sciences","MCBL":"Natural Sciences",
@@ -25,11 +23,9 @@ const SUBJECT_TO_COLLEGE = {
   "BCHM":"Natural Sciences","KINE":"Natural Sciences","EXSC":"Natural Sciences",
   "BIOC":"Natural Sciences","HNPG":"Natural Sciences","POSC":"Natural Sciences",
 
-  // Business (SoBus)
   "BUS":"Business","MGT":"Business","ACCT":"Business","FIN":"Business",
   "MKTG":"Business","OB":"Business","IS":"Business","SCM":"Business",
 
-  // Social Sciences (CHASS)
   "ECON":"Social Sciences","POLS":"Social Sciences","PSY":"Social Sciences",
   "PSYC":"Social Sciences","SOC":"Social Sciences","ANTH":"Social Sciences",
   "GEOG":"Social Sciences","PBPL":"Social Sciences","EDUC":"Social Sciences",
@@ -40,7 +36,6 @@ const SUBJECT_TO_COLLEGE = {
   "CRES":"Social Sciences","SWRK":"Social Sciences","CRJU":"Social Sciences",
   "GEOB":"Social Sciences",
 
-  // Humanities & Arts (CHASS)
   "ENGL":"Humanities & Arts","PHIL":"Humanities & Arts","ART":"Humanities & Arts",
   "MUS":"Humanities & Arts","THEA":"Humanities & Arts","DANCE":"Humanities & Arts",
   "FREN":"Humanities & Arts","SPAN":"Humanities & Arts","GERM":"Humanities & Arts",
@@ -56,12 +51,12 @@ const SUBJECT_TO_COLLEGE = {
 const COLLEGES = ["Engineering", "Natural Sciences", "Business", "Social Sciences", "Humanities & Arts", "Other"]
 
 const COLLEGE_ICONS = {
-  "Engineering":      "⚙️",
-  "Natural Sciences": "🔬",
-  "Business":         "📊",
-  "Social Sciences":  "🌍",
-  "Humanities & Arts":"🎨",
-  "Other":            "📚",
+  "Engineering":       "⚙️",
+  "Natural Sciences":  "🔬",
+  "Business":          "📊",
+  "Social Sciences":   "🌍",
+  "Humanities & Arts": "🎨",
+  "Other":             "📚",
 }
 
 function getCollege(subject) {
@@ -81,19 +76,20 @@ const DEPT_LIST = COLLEGES.map(name => ({
 }))
 
 export default function App() {
-  const [search, setSearch]               = useState('')
+  const [search, setSearch]                   = useState('')
   const [selectedCollege, setSelectedCollege] = useState(null)
   const [selectedCourse, setSelectedCourse]   = useState(null)
-  const [statsMap, setStatsMap]           = useState({})
-  const [statsLoading, setStatsLoading]   = useState(true)
-  const [sortBy, setSortBy]               = useState('code')
-
-  useEffect(() => {
-    const codes = filtered.map(c => c.fullCode)
-    getBatchCourseStats(codes)
-      .then(map => { setStatsMap(map); setStatsLoading(false) })
-      .catch(() => setStatsLoading(false))
-  }, [filtered])
+  const [statsMap, setStatsMap]               = useState(() => {
+    // Load cached stats immediately on first render
+    try {
+      const cached = localStorage.getItem('rcourses_stats')
+      return cached ? JSON.parse(cached) : {}
+    } catch (e) {
+      return {}
+    }
+  })
+  const [statsLoading, setStatsLoading] = useState(true)
+  const [sortBy, setSortBy]             = useState('code')
 
   const filtered = useMemo(() => {
     let list = COURSES
@@ -127,6 +123,25 @@ export default function App() {
 
     return list
   }, [search, selectedCollege, sortBy, statsMap])
+
+  // Fetch fresh stats for visible courses in background
+  useEffect(() => {
+    const codes = filtered.slice(0, 50).map(c => c.fullCode)
+    if (!codes.length) return
+    setStatsLoading(true)
+    getBatchCourseStats(codes)
+      .then(map => {
+        setStatsMap(prev => {
+          const updated = { ...prev, ...map }
+          try {
+            localStorage.setItem('rcourses_stats', JSON.stringify(updated))
+          } catch (e) {}
+          return updated
+        })
+        setStatsLoading(false)
+      })
+      .catch(() => setStatsLoading(false))
+  }, [search, selectedCollege])
 
   const handleCollegeSelect = useCallback(code => {
     setSelectedCollege(code)

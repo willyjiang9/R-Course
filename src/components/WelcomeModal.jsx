@@ -6,7 +6,6 @@ export default function WelcomeModal() {
   const [visible, setVisible] = useState(false)
 
   useEffect(() => {
-    // Only show once per browser session
     const seen = sessionStorage.getItem('rcourses_welcome')
     if (!seen) {
       setTimeout(() => setVisible(true), 600)
@@ -22,7 +21,6 @@ export default function WelcomeModal() {
 
   return (
     <>
-      {/* Backdrop */}
       <div
         onClick={close}
         style={{
@@ -33,7 +31,6 @@ export default function WelcomeModal() {
         }}
       />
 
-      {/* Modal */}
       <div style={{
         position: 'fixed', inset: 0, zIndex: 301,
         display: 'flex', alignItems: 'center', justifyContent: 'center',
@@ -81,15 +78,15 @@ export default function WelcomeModal() {
           {/* Body */}
           <div style={{ padding: '24px 28px 28px', display: 'flex', flexDirection: 'column', gap: 16 }}>
             <p style={{ fontSize: 14, color: '#5a6273', lineHeight: 1.7 }}>
-              We're brand new! Our goal is to help UCR students make smarter decisions about which classes to take by sharing honest, firsthand experiences.
+              We just got a big upgrade! 🚀 We've added thousands more UCR courses and imported hundreds of real student reviews so you can start getting useful insights right away. Our goal is simple — help Highlanders make smarter decisions about which classes to take.
             </p>
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
               {[
-                { icon: '🔍', text: 'Browse all 1,100+ UCR undergraduate courses' },
-                { icon: '⭐', text: 'Rate difficulty, professor quality, and workload' },
+                { icon: '🔍', text: 'Browse all 4,700+ UCR undergraduate courses' },
+                { icon: '⭐', text: 'See real difficulty ratings from past students' },
                 { icon: '💬', text: 'Leave honest reviews to help future Highlanders' },
-                { icon: '📣', text: 'Share with friends to build the community' },
+                { icon: '📣', text: 'Share with friends to grow the community' },
               ].map(({ icon, text }) => (
                 <div key={text} style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
                   <span style={{ fontSize: 20, flexShrink: 0 }}>{icon}</span>
@@ -107,7 +104,7 @@ export default function WelcomeModal() {
               color: '#92580a',
               lineHeight: 1.6,
             }}>
-              🙏 Since we're just getting started, every review makes a huge difference. Please be honest and detailed — your experience helps the whole UCR community!
+              🙏 We now have real student reviews already loaded — but the more you add, the better it gets. Share your experience to help future Highlanders!
             </div>
 
             <div style={{ display: 'flex', gap: 10, marginTop: 4 }}>

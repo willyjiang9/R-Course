@@ -89,11 +89,11 @@ export default function App() {
   const [sortBy, setSortBy]               = useState('code')
 
   useEffect(() => {
-    const codes = COURSES.map(c => c.fullCode)
+    const codes = filtered.map(c => c.fullCode)
     getBatchCourseStats(codes)
       .then(map => { setStatsMap(map); setStatsLoading(false) })
       .catch(() => setStatsLoading(false))
-  }, [])
+  }, [filtered])
 
   const filtered = useMemo(() => {
     let list = COURSES

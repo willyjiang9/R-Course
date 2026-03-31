@@ -8,7 +8,9 @@
 //   5. Replace the placeholder values below with your real config
 // ─────────────────────────────────────────────────────────────────
 
+
 import { initializeApp } from 'firebase/app'
+import { getAnalytics } from "firebase/analytics";
 import {
   getFirestore,
   collection,
@@ -26,12 +28,13 @@ import {
 } from 'firebase/firestore'
 
 const firebaseConfig = {
-  apiKey:            "REPLACE_WITH_YOUR_API_KEY",
-  authDomain:        "REPLACE_WITH_YOUR_AUTH_DOMAIN",
-  projectId:         "REPLACE_WITH_YOUR_PROJECT_ID",
-  storageBucket:     "REPLACE_WITH_YOUR_STORAGE_BUCKET",
-  messagingSenderId: "REPLACE_WITH_YOUR_MESSAGING_SENDER_ID",
-  appId:             "REPLACE_WITH_YOUR_APP_ID",
+  apiKey:            "AIzaSyB3OJBHFWCo2ET9258ZTcmcPUDpkpih3f8",
+  authDomain:        "ucr-cour.firebaseapp.com",
+  projectId:         "ucr-cour",
+  storageBucket:     "ucr-cour.firebasestorage.app",
+  messagingSenderId: "213420603695",
+  appId:             "1:213420603695:web:dd773ab75201d1f4c849da",
+  measurementId: "G-0XLCQRP9Q4"
 }
 
 const app = initializeApp(firebaseConfig)

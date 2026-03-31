@@ -260,6 +260,106 @@
     "scheduleType": "Research"
   },
   {
+    "fullCode": "ANTH 200C",
+    "subject": "ANTH",
+    "number": "200C",
+    "title": "CORE THEORY IN ANTHROPOLOGY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "ANTH 210B",
+    "subject": "ANTH",
+    "number": "210B",
+    "title": "PROFESSIONALISM IN ANTHROPOLOGY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "ANTH 252",
+    "subject": "ANTH",
+    "number": "252",
+    "title": "SEMINAR IN ARCHAEOLOGY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "ANTH 264",
+    "subject": "ANTH",
+    "number": "264",
+    "title": "CODICES OF ANCIENT MEXICO",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "ANTH 290",
+    "subject": "ANTH",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "ANTH 291",
+    "subject": "ANTH",
+    "number": "291",
+    "title": "INDIVIDUAL STUDIES IN COORDINATED AREAS",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "ANTH 292",
+    "subject": "ANTH",
+    "number": "292",
+    "title": "CONCURRENT ANALYTICAL STUDIES IN ANTHROPOLOGY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "ANTH 297",
+    "subject": "ANTH",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "ANTH 299",
+    "subject": "ANTH",
+    "number": "299",
+    "title": "RESEARCH FOR THESIS OR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Thesis"
+  },
+  {
+    "fullCode": "ANTH 302",
+    "subject": "ANTH",
+    "number": "302",
+    "title": "TEACHING PRACTICUM",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Practicum"
+  },
+  {
     "fullCode": "ARBC 003",
     "subject": "ARBC",
     "number": "003",
@@ -470,6 +570,36 @@
     "scheduleType": "Field"
   },
   {
+    "fullCode": "ART 285",
+    "subject": "ART",
+    "number": "285",
+    "title": "PEER CRITIQUE",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "ART 293",
+    "subject": "ART",
+    "number": "293",
+    "title": "DIRECTED INDIVIDUAL STUDIO PRODUCTION",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Studio"
+  },
+  {
+    "fullCode": "ART 400",
+    "subject": "ART",
+    "number": "400",
+    "title": "ARTIST PRACTICE SEMINAR",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
     "fullCode": "AHS 008",
     "subject": "AHS",
     "number": "008",
@@ -538,6 +668,56 @@
     "description": "",
     "prerequisites": "",
     "scheduleType": "Tutorial"
+  },
+  {
+    "fullCode": "AHS 267",
+    "subject": "AHS",
+    "number": "267",
+    "title": "SEMINAR IN ASIAN ART",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "AHS 276",
+    "subject": "AHS",
+    "number": "276",
+    "title": "SEMINAR IN NINETEENTH-CENTURY ART",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "AHS 284",
+    "subject": "AHS",
+    "number": "284",
+    "title": "SEMINAR IN CONTEMPORARY ART AND THEORY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "AHS 299",
+    "subject": "AHS",
+    "number": "299",
+    "title": "RESEARCH FOR THESIS OR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Thesis"
+  },
+  {
+    "fullCode": "AHS 302",
+    "subject": "AHS",
+    "number": "302",
+    "title": "TEACHING PRACTICUM",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
   },
   {
     "fullCode": "AST 030",
@@ -740,6 +920,126 @@
     "scheduleType": "Research"
   },
   {
+    "fullCode": "BCH 212",
+    "subject": "BCH",
+    "number": "212",
+    "title": "SIGNAL TRANSDUCTION AND BIOCHEMICAL REGULATION",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "BCH 230P",
+    "subject": "BCH",
+    "number": "230P",
+    "title": "EMERGING TOPICS IN BCH &amp; MCBL",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "BCH 240",
+    "subject": "BCH",
+    "number": "240",
+    "title": "OPTICAL INSTRUMENTAL METHODS",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "BCH 251",
+    "subject": "BCH",
+    "number": "251",
+    "title": "GRADUATE SEMINAR IN BIOCHEMISTRY",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "BCH 252",
+    "subject": "BCH",
+    "number": "252",
+    "title": "GENERAL SEMINAR IN BIOCHEMISTRY",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "BCH 261",
+    "subject": "BCH",
+    "number": "261",
+    "title": "SEMINAR IN GENETICS, GENOMICS, AND BIOINFORMATICS",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "BCH 289",
+    "subject": "BCH",
+    "number": "289",
+    "title": "SPECIAL TOPICS IN NEUROSCIENCE",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "BCH 290",
+    "subject": "BCH",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "BCH 291",
+    "subject": "BCH",
+    "number": "291",
+    "title": "INDIVIDUAL STUDY IN BIOCHEMISTRY",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "BCH 297",
+    "subject": "BCH",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "BCH 299",
+    "subject": "BCH",
+    "number": "299",
+    "title": "RESEARCH FOR THESIS OR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "BCH 302",
+    "subject": "BCH",
+    "number": "302",
+    "title": "APPRENTICE TEACHING",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Clinic"
+  },
+  {
     "fullCode": "BIEN 105",
     "subject": "BIEN",
     "number": "105",
@@ -858,6 +1158,216 @@
     "description": "",
     "prerequisites": "",
     "scheduleType": "Activity"
+  },
+  {
+    "fullCode": "BIEN 201",
+    "subject": "BIEN",
+    "number": "201",
+    "title": "MATHEMATICAL METHODS FOR BIOENGINEERING",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "BIEN 211",
+    "subject": "BIEN",
+    "number": "211",
+    "title": "ADVANCED STATISTICS AND RESEARCH DESIGN FOR BIOENGINEERING",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "BIEN 225",
+    "subject": "BIEN",
+    "number": "225",
+    "title": "SELF ASSEMBLY IN ENGINEERED TISSUE",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "BIEN 235",
+    "subject": "BIEN",
+    "number": "235",
+    "title": "VASCULAR BIOMECHANICS AND ENGINEERING",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "BIEN 260",
+    "subject": "BIEN",
+    "number": "260",
+    "title": "SPEC TOPICS NANOSCALE BIO",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "BIEN 262",
+    "subject": "BIEN",
+    "number": "262",
+    "title": "SPECIAL TOPICS IN BIOSIGNALING",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "BIEN 263",
+    "subject": "BIEN",
+    "number": "263",
+    "title": "SPECIAL TOPICS IN BIOCOMPUTATION",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "BIEN 265",
+    "subject": "BIEN",
+    "number": "265",
+    "title": "SPECIAL TOPICS IN BIOMEDICAL OPTICAL IMAGING",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "BIEN 269",
+    "subject": "BIEN",
+    "number": "269",
+    "title": "SPECIAL TOPICS IN OPTICAL MEASUREMENTS AND PHOTOMEDICINE",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Discussion"
+  },
+  {
+    "fullCode": "BIEN 270",
+    "subject": "BIEN",
+    "number": "270",
+    "title": "TRANSPORT WITH REACTIONS IN BIOLOGICAL SYSTEMS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "BIEN 272",
+    "subject": "BIEN",
+    "number": "272",
+    "title": "SPECIAL TOPICS IN BIOMATERIALS AND TISSUE ENGINEERING",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Term Paper"
+  },
+  {
+    "fullCode": "BIEN 273",
+    "subject": "BIEN",
+    "number": "273",
+    "title": "SPECIAL TOPICS IN REGENERATIVE ENGINEERING AND BIOMECHANICS",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "BIEN 275",
+    "subject": "BIEN",
+    "number": "275",
+    "title": "MAGNETIC RESONANCE IMAGING",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "BIEN 277",
+    "subject": "BIEN",
+    "number": "277",
+    "title": "INTRODUCTION TO NEURAL ENGINEERING",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "BIEN 286",
+    "subject": "BIEN",
+    "number": "286",
+    "title": "COLLOQUIUM IN BIOENGINEERING",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Colloquium"
+  },
+  {
+    "fullCode": "BIEN 290",
+    "subject": "BIEN",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Individual Study"
+  },
+  {
+    "fullCode": "BIEN 297",
+    "subject": "BIEN",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "BIEN 298I",
+    "subject": "BIEN",
+    "number": "298I",
+    "title": "INDIVIDUAL INTERNSHIP",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Internship"
+  },
+  {
+    "fullCode": "BIEN 299",
+    "subject": "BIEN",
+    "number": "299",
+    "title": "RESEARCH FOR THE THESIS OR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "BIEN 302",
+    "subject": "BIEN",
+    "number": "302",
+    "title": "TEACHING PRACTICUM",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Practicum"
+  },
+  {
+    "fullCode": "BIEN 402",
+    "subject": "BIEN",
+    "number": "402",
+    "title": "EFFECTIVE WRITING FOR BIOENGINEERING RESEARCH PUBLICATIONS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
   },
   {
     "fullCode": "BIOL 002",
@@ -1230,6 +1740,76 @@
     "scheduleType": "Research"
   },
   {
+    "fullCode": "BIOL 250",
+    "subject": "BIOL",
+    "number": "250",
+    "title": "SPECIAL TOPICS IN BIOLOGY",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "BIOL 252",
+    "subject": "BIOL",
+    "number": "252",
+    "title": "GENERAL COLLOQUIUM IN BIOLOGY",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "BIOL 261",
+    "subject": "BIOL",
+    "number": "261",
+    "title": "SEMINAR IN GENETICS, GENOMICS, AND BIOINFORMATICS",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "BIOL 281E",
+    "subject": "BIOL",
+    "number": "281E",
+    "title": "CELL BIOLOGY",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "BIOL 281F",
+    "subject": "BIOL",
+    "number": "281F",
+    "title": "MOLECULAR BIOLOGY",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "BIOL 289",
+    "subject": "BIOL",
+    "number": "289",
+    "title": "SPECIAL TOPICS IN NEUROSCIENCE",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "BIOL 301",
+    "subject": "BIOL",
+    "number": "301",
+    "title": "TEACHING OF BIOLOGY AT THE COLLEGE LEVEL",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
     "fullCode": "BMSC 094",
     "subject": "BMSC",
     "number": "094",
@@ -1268,6 +1848,186 @@
     "description": "",
     "prerequisites": "",
     "scheduleType": "Laboratory"
+  },
+  {
+    "fullCode": "BMSC 222L",
+    "subject": "BMSC",
+    "number": "222L",
+    "title": "CURRENT TOPICS IN CELL BIOLOGY",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "BMSC 223E",
+    "subject": "BMSC",
+    "number": "223E",
+    "title": "INFLAM,AUTOIMMUN,&amp; PATHGN DEFN",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "BMSC 223F",
+    "subject": "BMSC",
+    "number": "223F",
+    "title": "CARDIOVASCULAR PHYSIOLOGY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "BMSC 234",
+    "subject": "BMSC",
+    "number": "234",
+    "title": "MUSCULOSKELETAL MEDICINE",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "BMSC 235",
+    "subject": "BMSC",
+    "number": "235",
+    "title": "CLINICAL NEUROSCIENCES I",
+    "units": "5",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "BMSC 241",
+    "subject": "BMSC",
+    "number": "241",
+    "title": "DATABASES IN BIOMEDICAL SCIENCES FOR RESEARCH AND CLINICAL SUPPORT",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "BMSC 251",
+    "subject": "BMSC",
+    "number": "251",
+    "title": "COLLOQUIUM IN BIOMEDICAL SCIENCES",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Colloquium"
+  },
+  {
+    "fullCode": "BMSC 252",
+    "subject": "BMSC",
+    "number": "252",
+    "title": "GENERAL SEMINAR IN BIOMEDICAL SCIENCES",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "BMSC 254",
+    "subject": "BMSC",
+    "number": "254",
+    "title": "GRADUATE SEMINAR IN BIOMEDICAL SCIENCES",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "BMSC 260C",
+    "subject": "BMSC",
+    "number": "260C",
+    "title": "TOPICS IN TRANSLATIONAL BIOMEDICAL RESEARCH",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "BMSC 261",
+    "subject": "BMSC",
+    "number": "261",
+    "title": "METHODS IN BIOMEDICAL RESEARCH",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Tutorial"
+  },
+  {
+    "fullCode": "BMSC 297",
+    "subject": "BMSC",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "BMSC 299",
+    "subject": "BMSC",
+    "number": "299",
+    "title": "RESEARCH FOR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "BMSC 302",
+    "subject": "BMSC",
+    "number": "302",
+    "title": "DIRECTED TEACHING",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Practicum"
+  },
+  {
+    "fullCode": "BPHY 250",
+    "subject": "BPHY",
+    "number": "250",
+    "title": "ADVANCED TOPICS IN BIOPHYSICS",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "BPHY 252",
+    "subject": "BPHY",
+    "number": "252",
+    "title": "SEMINAR IN BIOPHYSICS",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "BPHY 297",
+    "subject": "BPHY",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "BPHY 299",
+    "subject": "BPHY",
+    "number": "299",
+    "title": "THESIS OR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
   },
   {
     "fullCode": "BLKS 003S",
@@ -1478,6 +2238,136 @@
     "description": "",
     "prerequisites": "",
     "scheduleType": "Research"
+  },
+  {
+    "fullCode": "BPSC 200B",
+    "subject": "BPSC",
+    "number": "200B",
+    "title": "PLANT BIOLOGY CORE",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "BPSC 212",
+    "subject": "BPSC",
+    "number": "212",
+    "title": "METABOLOMICS: EXPLORING PLANT METABOLISM AND HUMAN HEALTH",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "BPSC 221",
+    "subject": "BPSC",
+    "number": "221",
+    "title": "ADVANCED PLANT BREEDING",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "BPSC 225K",
+    "subject": "BPSC",
+    "number": "225K",
+    "title": "PLANT GENETICS",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "BPSC 235",
+    "subject": "BPSC",
+    "number": "235",
+    "title": "PLANT CELL AND DEVELOPMENTAL BIOLOGY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "BPSC 240",
+    "subject": "BPSC",
+    "number": "240",
+    "title": "APPLIED NETWORK BIOLOGY",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "BPSC 250",
+    "subject": "BPSC",
+    "number": "250",
+    "title": "SEMINAR IN PLANT BIOLOGY",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "BPSC 261",
+    "subject": "BPSC",
+    "number": "261",
+    "title": "SEMINAR IN GENETICS, GENOMICS, AND BIOINFORMATICS",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "BPSC 290",
+    "subject": "BPSC",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Individual Study"
+  },
+  {
+    "fullCode": "BPSC 291",
+    "subject": "BPSC",
+    "number": "291",
+    "title": "INDIVIDUAL STUDY IN COORDINATED AREAS",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Tutorial"
+  },
+  {
+    "fullCode": "BPSC 292",
+    "subject": "BPSC",
+    "number": "292",
+    "title": "CONCURRENT AND ADVANCED STUDIES IN BOTANY AND PLANT SCIENCES",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "BPSC 297",
+    "subject": "BPSC",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "BPSC 299",
+    "subject": "BPSC",
+    "number": "299",
+    "title": "RESEARCH FOR THESIS OR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Thesis"
   },
   {
     "fullCode": "BUS 001",
@@ -2230,6 +3120,116 @@
     "scheduleType": "Research"
   },
   {
+    "fullCode": "CBNS 240",
+    "subject": "CBNS",
+    "number": "240",
+    "title": "TELOMERES, DNA REPLICATION",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "CMDB 202",
+    "subject": "CMDB",
+    "number": "202",
+    "title": "DEVELOPMENTAL BIOLOGY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CMDB 207",
+    "subject": "CMDB",
+    "number": "207",
+    "title": "STEM CELL BIOLOGY AND DISEASE",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CMDB 250",
+    "subject": "CMDB",
+    "number": "250",
+    "title": "SPECIAL TOPICS IN CELL, MOLECULAR, AND DEVELOPMENTAL BIOLOGY",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "CMDB 256",
+    "subject": "CMDB",
+    "number": "256",
+    "title": "SEMINAR IN STEM CELL BIOLOGY",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "CMDB 257",
+    "subject": "CMDB",
+    "number": "257",
+    "title": "SEMINAR IN CELL, MOLECULAR, AND DEVELOPMENTAL BIOLOGY",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "CMDB 281E",
+    "subject": "CMDB",
+    "number": "281E",
+    "title": "CELL BIOLOGY",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "CMDB 281F",
+    "subject": "CMDB",
+    "number": "281F",
+    "title": "MOLECULAR BIOLOGY",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "CMDB 290",
+    "subject": "CMDB",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Individual Study"
+  },
+  {
+    "fullCode": "CMDB 297",
+    "subject": "CMDB",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "CMDB 299",
+    "subject": "CMDB",
+    "number": "299",
+    "title": "RESEARCH FOR THE THESIS OR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
     "fullCode": "CHE 102",
     "subject": "CHE",
     "number": "102",
@@ -2338,6 +3338,186 @@
     "description": "",
     "prerequisites": "",
     "scheduleType": "Research"
+  },
+  {
+    "fullCode": "CEE 210",
+    "subject": "CEE",
+    "number": "210",
+    "title": "CELL ENGINEERING",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CEE 215",
+    "subject": "CEE",
+    "number": "215",
+    "title": "ENVIRONMENTAL MICROBIAL ECOLOGY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CEE 233",
+    "subject": "CEE",
+    "number": "233",
+    "title": "ADVANCED AIR POLLUTION CONTROL AND ENGINEERING",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CEE 234",
+    "subject": "CEE",
+    "number": "234",
+    "title": "VEHICLE EMISSIONS CONTROL TECHNOLOGY, MEASUREMENT PROCEDURES, AND ALTERNATIVE FUELS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CEE 241",
+    "subject": "CEE",
+    "number": "241",
+    "title": "AQUATIC CHEMISTRY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CEE 243",
+    "subject": "CEE",
+    "number": "243",
+    "title": "ADVANCED WATER TREATMENT TECHNOLOGIES",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CEE 250",
+    "subject": "CEE",
+    "number": "250",
+    "title": "SPECIAL TOPICS IN CHEMICAL AND ENVIRONMENTAL ENGINEERING",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "CEE 256",
+    "subject": "CEE",
+    "number": "256",
+    "title": "SPECIAL TOPICS IN PARTICULATE MEASUREMENT AND AIR QUALITY",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "CEE 258",
+    "subject": "CEE",
+    "number": "258",
+    "title": "BIOSENSING AND BIODETOXIFICATION",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "CEE 260",
+    "subject": "CEE",
+    "number": "260",
+    "title": "STRUCTURAL ORDERING IN COLLOIDAL DISPERSIONS",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "CEE 268",
+    "subject": "CEE",
+    "number": "268",
+    "title": "SPECIAL TOPICS IN ENVIRONMENTAL CHEMISTRY",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "CEE 286",
+    "subject": "CEE",
+    "number": "286",
+    "title": "COLLOQUIUM IN CHEMICAL AND ENVIRONMENTAL ENGINEERING",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Colloquium"
+  },
+  {
+    "fullCode": "CEE 290",
+    "subject": "CEE",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Individual Study"
+  },
+  {
+    "fullCode": "CEE 292",
+    "subject": "CEE",
+    "number": "292",
+    "title": "CONCURRENT STUDIES IN CHEMICAL AND ENVIRONMENTAL ENGINEERING",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "CEE 297",
+    "subject": "CEE",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "CEE 298I",
+    "subject": "CEE",
+    "number": "298I",
+    "title": "INDIVIDUAL INTERNSHIP",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Internship"
+  },
+  {
+    "fullCode": "CEE 299",
+    "subject": "CEE",
+    "number": "299",
+    "title": "RESEARCH FOR THE THESIS OR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "CEE 302",
+    "subject": "CEE",
+    "number": "302",
+    "title": "TEACHING PRACTICUM",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
   },
   {
     "fullCode": "CHEM 001A",
@@ -2610,6 +3790,206 @@
     "scheduleType": "Research"
   },
   {
+    "fullCode": "CHEM 201C",
+    "subject": "CHEM",
+    "number": "201C",
+    "title": "ADVANCED PHYSICAL CHEMISTRY: ELEMENTARY STATISTICAL MECHANICS",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CHEM 203",
+    "subject": "CHEM",
+    "number": "203",
+    "title": "NANOSCIENCE AND NANOTECHNOLOGY",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CHEM 206B",
+    "subject": "CHEM",
+    "number": "206B",
+    "title": "MODELING CHEMICAL AND BIOCHEMICAL MOLECULES",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CHEM 208",
+    "subject": "CHEM",
+    "number": "208",
+    "title": "INTERDISCIPLINARY OVERVIEW OF CURRENT ISSUES IN SEMICONDUCTOR PROCESSING",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CHEM 211B",
+    "subject": "CHEM",
+    "number": "211B",
+    "title": "ADVANCED ORGANIC CHEMISTRY:  REACTIONS AND MECHANISM",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CHEM 211D",
+    "subject": "CHEM",
+    "number": "211D",
+    "title": "SPECTROMETRY IN ORGANIC STRUCTURE ANALYSIS",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CHEM 221C",
+    "subject": "CHEM",
+    "number": "221C",
+    "title": "ADVANCED ANALYTICAL CHEMISTRY: ELECTROCHEMISTRY",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CHEM 221D",
+    "subject": "CHEM",
+    "number": "221D",
+    "title": "ADVANCED ANALYTICAL CHEMISTRY: MASS SPECTROSCOPY",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CHEM 231D",
+    "subject": "CHEM",
+    "number": "231D",
+    "title": "EXPERIMENTAL AND COMPUTATIONAL SOLID STATE AND MATERIALS CHEMISTRY",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CHEM 250",
+    "subject": "CHEM",
+    "number": "250",
+    "title": "GRADUATE SEMINAR IN CHEMISTRY",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "CHEM 251",
+    "subject": "CHEM",
+    "number": "251",
+    "title": "GRADUATE SEMINAR IN ANALYTICAL CHEMISTRY",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "CHEM 252",
+    "subject": "CHEM",
+    "number": "252",
+    "title": "GRADUATE SEMINAR IN INORGANIC CHEMISTRY",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "CHEM 253",
+    "subject": "CHEM",
+    "number": "253",
+    "title": "GRADUATE SEMINAR IN ORGANIC CHEMISTRY",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "CHEM 254",
+    "subject": "CHEM",
+    "number": "254",
+    "title": "GRADUATE SEMINAR IN PHYSICAL CHEMISTRY",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "CHEM 258",
+    "subject": "CHEM",
+    "number": "258",
+    "title": "SEMINAR IN SURFACE SCIENCE",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "CHEM 289",
+    "subject": "CHEM",
+    "number": "289",
+    "title": "SPECIAL TOPICS IN NEUROSCIENCE",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "CHEM 296",
+    "subject": "CHEM",
+    "number": "296",
+    "title": "SPECIAL TOPICS SEMINAR",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "CHEM 297",
+    "subject": "CHEM",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "CHEM 299",
+    "subject": "CHEM",
+    "number": "299",
+    "title": "RESEARCH FOR THESIS OR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Thesis"
+  },
+  {
+    "fullCode": "CHEM 302",
+    "subject": "CHEM",
+    "number": "302",
+    "title": "TEACHING PRACTICUM",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Practicum"
+  },
+  {
     "fullCode": "CHN 001",
     "subject": "CHN",
     "number": "001",
@@ -2798,6 +4178,176 @@
     "description": "",
     "prerequisites": "",
     "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "CPLT 214",
+    "subject": "CPLT",
+    "number": "214",
+    "title": "HISTORY OF CRITICISM",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CPLT 221",
+    "subject": "CPLT",
+    "number": "221",
+    "title": "FILM AND LITERATURE",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "CPLT 277",
+    "subject": "CPLT",
+    "number": "277",
+    "title": "SEMINAR IN COMPARATIVE LITERATURE",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "CPLT 290",
+    "subject": "CPLT",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "CPLT 291",
+    "subject": "CPLT",
+    "number": "291",
+    "title": "INDIVIDUAL STUDIES IN COORDINATED AREAS",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Tutorial"
+  },
+  {
+    "fullCode": "CPLT 292",
+    "subject": "CPLT",
+    "number": "292",
+    "title": "CONCURRENT ANALYTICAL STUDIES",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "CPLT 293E",
+    "subject": "CPLT",
+    "number": "293E",
+    "title": "RESEARCH TOPICS IN COMPARATIVE LITERATURE &amp; FOREIGN LANGUAGES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "CPLT 293F",
+    "subject": "CPLT",
+    "number": "293F",
+    "title": "RESEARCH TOPICS IN COMPARATIVE LITERATURE &amp; FOREIGN LANGUAGES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "CPLT 293G",
+    "subject": "CPLT",
+    "number": "293G",
+    "title": "RESEARCH TOPICS IN COMPARATIVE LITERATURE &amp; FOREIGN LANGUAGES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "CPLT 293H",
+    "subject": "CPLT",
+    "number": "293H",
+    "title": "RESEARCH TOPICS IN COMPARATIVE LITERATURE &amp; FOREIGN LANGUAGES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "CPLT 293I",
+    "subject": "CPLT",
+    "number": "293I",
+    "title": "RESEARCH TOPICS IN COMPARATIVE LITERATURE &amp; FOREIGN LANGUAGES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "CPLT 293J",
+    "subject": "CPLT",
+    "number": "293J",
+    "title": "RESEARCH TOPICS IN COMPARATIVE LITERATURE &amp; FOREIGN LANGUAGES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "CPLT 293N",
+    "subject": "CPLT",
+    "number": "293N",
+    "title": "RESEARCH TOPICS IN COMPARATIVE LITERATURE &amp; FOREIGN LANGUAGES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "CPLT 293T",
+    "subject": "CPLT",
+    "number": "293T",
+    "title": "RESEARCH TOPICS IN COMPARATIVE LITERATURE &amp; FOREIGN LANGUAGES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "CPLT 293U",
+    "subject": "CPLT",
+    "number": "293U",
+    "title": "RESEARCH TOPICS IN COMPARATIVE LITERATURE &amp; FOREIGN LANGUAGES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "CPLT 299",
+    "subject": "CPLT",
+    "number": "299",
+    "title": "RESEARCH FOR THESIS OR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Thesis"
+  },
+  {
+    "fullCode": "CPLT 302",
+    "subject": "CPLT",
+    "number": "302",
+    "title": "TEACHING PRACTICUM",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Practicum"
   },
   {
     "fullCode": "CS 005",
@@ -3220,6 +4770,266 @@
     "scheduleType": "Internship"
   },
   {
+    "fullCode": "CS 202",
+    "subject": "CS",
+    "number": "202",
+    "title": "ADVANCED OPERATING SYSTEMS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CS 203",
+    "subject": "CS",
+    "number": "203",
+    "title": "ADVANCED COMPUTER ARCHITECTURE",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CS 205",
+    "subject": "CS",
+    "number": "205",
+    "title": "ARTIFICIAL INTELLIGENCE",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CS 213",
+    "subject": "CS",
+    "number": "213",
+    "title": "MULTIPROCESSOR ARCHITECTURE AND PROGRAMMING",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CS 214",
+    "subject": "CS",
+    "number": "214",
+    "title": "PARALLEL ALGORITHMS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CS 216",
+    "subject": "CS",
+    "number": "216",
+    "title": "ADVANCED CRYPTOGRAPHY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CS 218",
+    "subject": "CS",
+    "number": "218",
+    "title": "DESIGN AND ANALYSIS OF ALGORITHMS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CS 220",
+    "subject": "CS",
+    "number": "220",
+    "title": "SYNTHESIS OF DIGITAL SYSTEMS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CS 222",
+    "subject": "CS",
+    "number": "222",
+    "title": "NATURAL LANGUAGE PROCESSING",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CS 228",
+    "subject": "CS",
+    "number": "228",
+    "title": "INTRODUCTION TO DEEP LEARNING",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CS 229",
+    "subject": "CS",
+    "number": "229",
+    "title": "MACHINE LEARNING",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CS 231",
+    "subject": "CS",
+    "number": "231",
+    "title": "COMPUTER ANIMATION",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CS 235",
+    "subject": "CS",
+    "number": "235",
+    "title": "DATA MINING TECHNIQUES",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CS 238",
+    "subject": "CS",
+    "number": "238",
+    "title": "ALGORITHMIC TECHNIQUES IN COMPUTATIONAL BIOLOGY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CS 249",
+    "subject": "CS",
+    "number": "249",
+    "title": "ADVANCED PROGRAM ANALYSIS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CS 250",
+    "subject": "CS",
+    "number": "250",
+    "title": "SOFTWARE SECURITY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CS 254",
+    "subject": "CS",
+    "number": "254",
+    "title": "NETWORK SECURITY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CS 256",
+    "subject": "CS",
+    "number": "256",
+    "title": "DISTRIBUTED COMPUTING IN CYBER-PHYSICAL SYSTEMS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CS 260",
+    "subject": "CS",
+    "number": "260",
+    "title": "SEMINAR IN CYBER SAFETY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "CS 265B",
+    "subject": "CS",
+    "number": "265B",
+    "title": "FOUNDATIONS OF ROBOTICS: SENSING AND NAVIGATION",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CS 287",
+    "subject": "CS",
+    "number": "287",
+    "title": "COLLOQUIUM IN COMPUTER SCIENCE",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Colloquium"
+  },
+  {
+    "fullCode": "CS 290",
+    "subject": "CS",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Individual Study"
+  },
+  {
+    "fullCode": "CS 297",
+    "subject": "CS",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "CS 298I",
+    "subject": "CS",
+    "number": "298I",
+    "title": "INDIVIDUAL INTERNSHIP",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Internship"
+  },
+  {
+    "fullCode": "CS 299",
+    "subject": "CS",
+    "number": "299",
+    "title": "RESEARCH FOR THESIS OR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "CS 302",
+    "subject": "CS",
+    "number": "302",
+    "title": "APPRENTICE TEACHING",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Activity"
+  },
+  {
     "fullCode": "CRWT 046S",
     "subject": "CRWT",
     "number": "046S",
@@ -3410,6 +5220,136 @@
     "scheduleType": "Tutorial"
   },
   {
+    "fullCode": "CWPA 230",
+    "subject": "CWPA",
+    "number": "230",
+    "title": "CREATIVE NONFICTION",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Workshop"
+  },
+  {
+    "fullCode": "CWPA 246",
+    "subject": "CWPA",
+    "number": "246",
+    "title": "WRITING THE MAP",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "CWPA 252G",
+    "subject": "CWPA",
+    "number": "252G",
+    "title": "THE BOOK PROPOSAL",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "CWPA 262",
+    "subject": "CWPA",
+    "number": "262",
+    "title": "FICTION",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Workshop"
+  },
+  {
+    "fullCode": "CWPA 264",
+    "subject": "CWPA",
+    "number": "264",
+    "title": "PLAYWRITING",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Workshop"
+  },
+  {
+    "fullCode": "CWPA 267",
+    "subject": "CWPA",
+    "number": "267",
+    "title": "WRITING FOR TELEVISION",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Workshop"
+  },
+  {
+    "fullCode": "CWPA 268",
+    "subject": "CWPA",
+    "number": "268",
+    "title": "WRITING THE HALF-HOUR TELEVISION COMEDY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Workshop"
+  },
+  {
+    "fullCode": "CWPA 270",
+    "subject": "CWPA",
+    "number": "270",
+    "title": "POETRY WORKSHOP",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Workshop"
+  },
+  {
+    "fullCode": "CWPA 290",
+    "subject": "CWPA",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "CWPA 292",
+    "subject": "CWPA",
+    "number": "292",
+    "title": "CONCURRENT ANALYTICAL STUDIES IN CREATIVE WRITING AND WRITING FOR THE PERFORMING ARTS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "CWPA 297",
+    "subject": "CWPA",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "CWPA 299",
+    "subject": "CWPA",
+    "number": "299",
+    "title": "RESEARCH FOR THE THESIS OR MANUSCRIPT",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Thesis"
+  },
+  {
+    "fullCode": "CWPA 302",
+    "subject": "CWPA",
+    "number": "302",
+    "title": "TEACHING PRACTICUM",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Consultation"
+  },
+  {
     "fullCode": "DNCE 005",
     "subject": "DNCE",
     "number": "005",
@@ -3588,6 +5528,86 @@
     "description": "",
     "prerequisites": "",
     "scheduleType": "Tutorial"
+  },
+  {
+    "fullCode": "DNCE 243",
+    "subject": "DNCE",
+    "number": "243",
+    "title": "COLLABORATING IN DANCE MAKING: MATERIALS, METHODS, AND INTERACTIONS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "DNCE 258",
+    "subject": "DNCE",
+    "number": "258",
+    "title": "CULTURAL APPROACHES TO DANCE STUDIES",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "DNCE 290",
+    "subject": "DNCE",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "DNCE 291",
+    "subject": "DNCE",
+    "number": "291",
+    "title": "INDIVIDUAL STUDY IN COORDINATED AREAS",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "DNCE 292",
+    "subject": "DNCE",
+    "number": "292",
+    "title": "CONCURRENT ANALYTICAL STUDIES IN DANCE",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "DNCE 297",
+    "subject": "DNCE",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "DNCE 301",
+    "subject": "DNCE",
+    "number": "301",
+    "title": "SEMINAR IN DANCE STUDIES PEDAGOGY AND PROFESSIONAL DEVELOPMENT",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "DNCE 302",
+    "subject": "DNCE",
+    "number": "302",
+    "title": "TEACHING PRACTICUM",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
   },
   {
     "fullCode": "UGRD 010",
@@ -3970,6 +5990,176 @@
     "scheduleType": "Seminar"
   },
   {
+    "fullCode": "ECON 200C",
+    "subject": "ECON",
+    "number": "200C",
+    "title": "MICROECONOMIC THEORY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "ECON 201C",
+    "subject": "ECON",
+    "number": "201C",
+    "title": "MACROECONOMIC THEORY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "ECON 205C",
+    "subject": "ECON",
+    "number": "205C",
+    "title": "ECONOMETRIC METHODS 3",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "ECON 243",
+    "subject": "ECON",
+    "number": "243",
+    "title": "TOPICS IN LABOR",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "ECON 248",
+    "subject": "ECON",
+    "number": "248",
+    "title": "TOPICS IN POLITICAL, COMPARATIVE, AND INSTITUTIONAL ECONOMICS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "ECON 262",
+    "subject": "ECON",
+    "number": "262",
+    "title": "INVESTMENT, PRODUCTIVITY, AND ORGANIZATIONS IN DEVELOPING COUNTRIES",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "ECON 282G",
+    "subject": "ECON",
+    "number": "282G",
+    "title": "SPECIAL TOPICS IN MACROECONOMIC THEORY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "ECON 283N",
+    "subject": "ECON",
+    "number": "283N",
+    "title": "APPLICATIONS OF GAMES AND INFORMATION ECONOMICS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "ECON 285E",
+    "subject": "ECON",
+    "number": "285E",
+    "title": "ADVANCED ECONOMETRIC METHODS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "ECON 289A",
+    "subject": "ECON",
+    "number": "289A",
+    "title": "COLLOQUIUM IN ECONOMICS",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "ECON 289B",
+    "subject": "ECON",
+    "number": "289B",
+    "title": "COLLOQUIUM IN ECONOMICS",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "ECON 290",
+    "subject": "ECON",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "ECON 291",
+    "subject": "ECON",
+    "number": "291",
+    "title": "INDIVIDUAL STUDY IN COORDINATED AREAS",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Tutorial"
+  },
+  {
+    "fullCode": "ECON 292",
+    "subject": "ECON",
+    "number": "292",
+    "title": "CONCURRENT ANALYTICAL STUDIES",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "ECON 297",
+    "subject": "ECON",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "ECON 299",
+    "subject": "ECON",
+    "number": "299",
+    "title": "RESEARCH FOR THESIS OR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Thesis"
+  },
+  {
+    "fullCode": "ECON 302",
+    "subject": "ECON",
+    "number": "302",
+    "title": "TEACHING PRACTICUM",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Practicum"
+  },
+  {
     "fullCode": "EDUC 005",
     "subject": "EDUC",
     "number": "005",
@@ -4250,6 +6440,386 @@
     "scheduleType": "Seminar"
   },
   {
+    "fullCode": "EDUC 202B",
+    "subject": "EDUC",
+    "number": "202B",
+    "title": "DEMOCRACY AND EDUCATION IN K12 CONTEXTS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "EDUC 214C",
+    "subject": "EDUC",
+    "number": "214C",
+    "title": "EXPERIMENTAL DESIGN",
+    "units": "5",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "EDUC 215",
+    "subject": "EDUC",
+    "number": "215",
+    "title": "EDUCATIONAL AND PSYCHOLOGICAL MEASUREMENT AND EVALUATION",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "EDUC 217",
+    "subject": "EDUC",
+    "number": "217",
+    "title": "SINGLE-CASE EXPERIMENTAL DESIGN",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "EDUC 221C",
+    "subject": "EDUC",
+    "number": "221C",
+    "title": "ADVANCED QUALITATIVE RESEARCH METHODOLOGIES IN EDUCATION",
+    "units": "5",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "EDUC 239",
+    "subject": "EDUC",
+    "number": "239",
+    "title": "DEVELOPMENTAL PSYCHOPATHOLOGY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "EDUC 246P",
+    "subject": "EDUC",
+    "number": "246P",
+    "title": "ADOLESCENT LITERACY INTERVENTIONS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "EDUC 248G",
+    "subject": "EDUC",
+    "number": "248G",
+    "title": "HIGHER EDUCATION GOVERNANCE",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "EDUC 248J",
+    "subject": "EDUC",
+    "number": "248J",
+    "title": "HIGHER EDUCATION POLICY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "EDUC 248K",
+    "subject": "EDUC",
+    "number": "248K",
+    "title": "DISSERTN &amp; PROPOSAL IN EDUC",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "EDUC 248M",
+    "subject": "EDUC",
+    "number": "248M",
+    "title": "THE COMMUNITY COLLEGE",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "EDUC 252",
+    "subject": "EDUC",
+    "number": "252",
+    "title": "INTRODUCTION TO APPLIED BEHAVIOR ANALYSIS",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "EDUC 255A",
+    "subject": "EDUC",
+    "number": "255A",
+    "title": "PRINCIPLES OF SOCIAL BEHAVIOR INTERVENTION",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "EDUC 264",
+    "subject": "EDUC",
+    "number": "264",
+    "title": "HISTORY AND SYSTEMS OF PSYCHOLOGY: IMPLICATIONS FOR SCHOOL PSYCHOLOGISTS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "EDUC 265C",
+    "subject": "EDUC",
+    "number": "265C",
+    "title": "BEGINNING PRACTICUM IN SCHOOL PSYCHOLOGY: LEVEL 3",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "EDUC 265F",
+    "subject": "EDUC",
+    "number": "265F",
+    "title": "INTERMEDIATE PRACTICUM IN SCHOOL PSYCHOLOGY: LEVEL 3",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "EDUC 268C",
+    "subject": "EDUC",
+    "number": "268C",
+    "title": "ADVANCED PRACTICUM IN SCHOOL PSYCHOLOGY: LEVEL 3",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "EDUC 269I",
+    "subject": "EDUC",
+    "number": "269I",
+    "title": "SPECIAL TOPIC IN EDUCATION: CRITICAL PERSPECTIVES ON AI",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "EDUC 269N",
+    "subject": "EDUC",
+    "number": "269N",
+    "title": "SPECIAL TOPIC IN EDUCATION:  CAPSTONE IN HEAP MED",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "EDUC 273B",
+    "subject": "EDUC",
+    "number": "273B",
+    "title": "CRITICAL PEDAGOGY IN K12 CONTEXTS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "EDUC 275A",
+    "subject": "EDUC",
+    "number": "275A",
+    "title": "RACE AND EDUCATIONAL INEQUITY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "EDUC 283",
+    "subject": "EDUC",
+    "number": "283",
+    "title": "ANALYZING THE PRACTICE OF TEACHING",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "EDUC 290",
+    "subject": "EDUC",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "EDUC 291",
+    "subject": "EDUC",
+    "number": "291",
+    "title": "INDIVIDUAL STUDIES IN COORDINATED AREAS",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Individual Study"
+  },
+  {
+    "fullCode": "EDUC 297",
+    "subject": "EDUC",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "EDUC 298I",
+    "subject": "EDUC",
+    "number": "298I",
+    "title": "INDIVIDUAL INTERNSHIP",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Internship"
+  },
+  {
+    "fullCode": "EDUC 299",
+    "subject": "EDUC",
+    "number": "299",
+    "title": "RESEARCH FOR THESIS OR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Thesis"
+  },
+  {
+    "fullCode": "EDUC 302",
+    "subject": "EDUC",
+    "number": "302",
+    "title": "COLLEGE TEACHING PRACTICUM",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Clinic"
+  },
+  {
+    "fullCode": "EDUC 336C",
+    "subject": "EDUC",
+    "number": "336C",
+    "title": "SUPERVISED TEACHING IN THE ELEMENTARY SCHOOL",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Field"
+  },
+  {
+    "fullCode": "EDUC 337C",
+    "subject": "EDUC",
+    "number": "337C",
+    "title": "TEACHING PERFORMANCE FOR MULTIPLE SUBJECT CANDIDATES",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Field"
+  },
+  {
+    "fullCode": "EDUC 344C",
+    "subject": "EDUC",
+    "number": "344C",
+    "title": "MULTIPLE SUBJECTS CREDENTIAL SEMINAR",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "EDUC 348C",
+    "subject": "EDUC",
+    "number": "348C",
+    "title": "SINGLE SUBJECT CREDENTIAL SEMINAR",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "EDUC 376C",
+    "subject": "EDUC",
+    "number": "376C",
+    "title": "SUPERVISED TEACHING IN THE SECONDARY SCHOOL",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Field"
+  },
+  {
+    "fullCode": "EDUC 377C",
+    "subject": "EDUC",
+    "number": "377C",
+    "title": "TEACHING PERFORMANCE FOR SINGLE SUBJECT CANDIDATES",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Field"
+  },
+  {
+    "fullCode": "EDUC 378C",
+    "subject": "EDUC",
+    "number": "378C",
+    "title": "INTERN TEACHING IN THE SECONDARY SCHOOL",
+    "units": "8",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Field"
+  },
+  {
+    "fullCode": "EDUC 380C",
+    "subject": "EDUC",
+    "number": "380C",
+    "title": "SUPERVISED TEACHING FOR EDUCATION SPECIALISTS",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Field"
+  },
+  {
+    "fullCode": "EDUC 381C",
+    "subject": "EDUC",
+    "number": "381C",
+    "title": "EDUCATION SPECIALIST SEMINAR",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "EDUC 382C",
+    "subject": "EDUC",
+    "number": "382C",
+    "title": "TEACHING PERFORMANCE FOR EDUCATION SPECIALISTS",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Field"
+  },
+  {
     "fullCode": "EE 003",
     "subject": "EE",
     "number": "003",
@@ -4480,6 +7050,186 @@
     "scheduleType": "Research"
   },
   {
+    "fullCode": "EE 203",
+    "subject": "EE",
+    "number": "203",
+    "title": "SOLID-STATE DEVICES",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "EE 224",
+    "subject": "EE",
+    "number": "224",
+    "title": "DIGITAL COMMUNICATION THEORY AND SYSTEMS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "EE 228",
+    "subject": "EE",
+    "number": "228",
+    "title": "INTRODUCTION TO DEEP LEARNING",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "EE 234",
+    "subject": "EE",
+    "number": "234",
+    "title": "SMART GRID SENSORS AND DATA DRIVEN APPLICATIONS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "EE 235",
+    "subject": "EE",
+    "number": "235",
+    "title": "LINEAR SYSTEM THEORY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "EE 242B",
+    "subject": "EE",
+    "number": "242B",
+    "title": "MACHINE LEARNING",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "EE 243",
+    "subject": "EE",
+    "number": "243",
+    "title": "ADVANCED COMPUTER VISION",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "EE 244",
+    "subject": "EE",
+    "number": "244",
+    "title": "COMPUTATIONAL LEARNING",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "EE 250",
+    "subject": "EE",
+    "number": "250",
+    "title": "INFORMATION THEORY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "EE 258",
+    "subject": "EE",
+    "number": "258",
+    "title": "DISTRIBUTED COMPUTING IN CYBER-PHYSICAL SYSTEMS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "EE 259",
+    "subject": "EE",
+    "number": "259",
+    "title": "COLLOQUIUM IN ELECTRICAL ENGINEERING",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Colloquium"
+  },
+  {
+    "fullCode": "EE 265B",
+    "subject": "EE",
+    "number": "265B",
+    "title": "FOUNDATIONS OF ROBOTICS: SENSING AND NAVIGATION",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "EE 266",
+    "subject": "EE",
+    "number": "266",
+    "title": "ADVANCED TOPICS IN CONNECTED AND AUTOMATED TRANSPORTATION SYSTEMS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "EE 269",
+    "subject": "EE",
+    "number": "269",
+    "title": "FOUNDATION MODELS AND ADVANCES IN AI",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "EE 290",
+    "subject": "EE",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Individual Study"
+  },
+  {
+    "fullCode": "EE 297",
+    "subject": "EE",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "EE 298I",
+    "subject": "EE",
+    "number": "298I",
+    "title": "INDIVIDUAL INTERNSHIP IN ELECTRICAL ENGINEERING",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Internship"
+  },
+  {
+    "fullCode": "EE 299",
+    "subject": "EE",
+    "number": "299",
+    "title": "RESEARCH FOR THE THESIS OR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
     "fullCode": "ENGR 108",
     "subject": "ENGR",
     "number": "108",
@@ -4548,6 +7298,36 @@
     "description": "",
     "prerequisites": "",
     "scheduleType": "Internship"
+  },
+  {
+    "fullCode": "ENGR 200",
+    "subject": "ENGR",
+    "number": "200",
+    "title": "ENGINEERING IN THE GLOBAL ENVIRONMENT",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "ENGR 207",
+    "subject": "ENGR",
+    "number": "207",
+    "title": "ENGINEERING LEADERSHIP AND ORGANIZATIONAL BEHAVIOR",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "ENGR 296",
+    "subject": "ENGR",
+    "number": "296",
+    "title": "PROFESSIONAL PROJECT DESIGN",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Individual Study"
   },
   {
     "fullCode": "ENGL 012S",
@@ -4850,6 +7630,126 @@
     "scheduleType": "Internship"
   },
   {
+    "fullCode": "ENGL 251",
+    "subject": "ENGL",
+    "number": "251",
+    "title": "SEMINAR IN BLACK LITERARY AND CULTURAL STUDIES",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "ENGL 272",
+    "subject": "ENGL",
+    "number": "272",
+    "title": "SEMINAR IN CRITICAL THEORY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "ENGL 282",
+    "subject": "ENGL",
+    "number": "282",
+    "title": "SEMINAR IN BIBLIOGRAPHY AND TEXTUAL CRITICISM",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "ENGL 290",
+    "subject": "ENGL",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Consultation"
+  },
+  {
+    "fullCode": "ENGL 291",
+    "subject": "ENGL",
+    "number": "291",
+    "title": "INDIVIDUAL STUDY IN COORDINATED AREAS",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Tutorial"
+  },
+  {
+    "fullCode": "ENGL 292",
+    "subject": "ENGL",
+    "number": "292",
+    "title": "CONCURRENT ANALYTICAL STUDIES",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "ENGL 297",
+    "subject": "ENGL",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "ENGL 299",
+    "subject": "ENGL",
+    "number": "299",
+    "title": "RESEARCH FOR THESIS OR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Thesis"
+  },
+  {
+    "fullCode": "ENGL 302",
+    "subject": "ENGL",
+    "number": "302",
+    "title": "TEACHING PRACTICUM",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "ENGL 303",
+    "subject": "ENGL",
+    "number": "303",
+    "title": "ADVANCED TEACHING PRACTICUM",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Practicum"
+  },
+  {
+    "fullCode": "ENGL 304",
+    "subject": "ENGL",
+    "number": "304",
+    "title": "PROFESSIONAL RESEARCH PREPARATIONS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "ENGL 410",
+    "subject": "ENGL",
+    "number": "410",
+    "title": "SEMINAR IN PROFESSIONAL DEVELOPMENT",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Workshop"
+  },
+  {
     "fullCode": "ENTM 010",
     "subject": "ENTM",
     "number": "010",
@@ -4978,6 +7878,136 @@
     "description": "",
     "prerequisites": "",
     "scheduleType": "Research"
+  },
+  {
+    "fullCode": "ENTM 203",
+    "subject": "ENTM",
+    "number": "203",
+    "title": "CORE AREAS OF ENTOMOLOGY 3: SUPRAORGANISMAL DISCIPLINES",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "ENTM 203L",
+    "subject": "ENTM",
+    "number": "203L",
+    "title": "LABORATORY EXERCISES IN DESIGN AND ANALYSIS OF ENTOMOLOGICAL EXPERIMENTS",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Laboratory"
+  },
+  {
+    "fullCode": "ENTM 250",
+    "subject": "ENTM",
+    "number": "250",
+    "title": "SEMINAR IN ENTOMOLOGY",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "ENTM 252",
+    "subject": "ENTM",
+    "number": "252",
+    "title": "SEMINAR IN INSECT BEHAVIOR",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "ENTM 260",
+    "subject": "ENTM",
+    "number": "260",
+    "title": "CIBER SEMINAR: RECENT ADVANCES IN HONEY BEE HEALTH RESEARCH",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "ENTM 261",
+    "subject": "ENTM",
+    "number": "261",
+    "title": "SEMINAR IN GENETICS, GENOMICS, AND BIOINFORMATICS",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "ENTM 289",
+    "subject": "ENTM",
+    "number": "289",
+    "title": "SPECIAL TOPICS IN NEUROSCIENCE",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "ENTM 290",
+    "subject": "ENTM",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "ENTM 291",
+    "subject": "ENTM",
+    "number": "291",
+    "title": "INDIVIDUAL STUDY IN COORDINATED AREAS",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Tutorial"
+  },
+  {
+    "fullCode": "ENTM 297",
+    "subject": "ENTM",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "ENTM 299",
+    "subject": "ENTM",
+    "number": "299",
+    "title": "RESEARCH FOR THESIS OR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "ENTM 301",
+    "subject": "ENTM",
+    "number": "301",
+    "title": "TEACHING ENTOMOLOGY AT THE COLLEGE LEVEL",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "ENTM 302",
+    "subject": "ENTM",
+    "number": "302",
+    "title": "COLLEGE TEACHING PRACTICUM",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Practicum"
   },
   {
     "fullCode": "ENVE 130",
@@ -5160,6 +8190,96 @@
     "scheduleType": "Field"
   },
   {
+    "fullCode": "ENSC 204",
+    "subject": "ENSC",
+    "number": "204",
+    "title": "FLUVIAL GEOMORPHOLOGY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "ENSC 209",
+    "subject": "ENSC",
+    "number": "209",
+    "title": "ARTIFICIAL INTELLIGENCE IN TOXICOLOGY AND ENVIRONMENTAL HEALTH",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "ENSC 265",
+    "subject": "ENSC",
+    "number": "265",
+    "title": "ETHICS AND ASTROBIOLOGY",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "ENSC 275",
+    "subject": "ENSC",
+    "number": "275",
+    "title": "RESEARCH SEMINAR IN ENVIRONMENTAL SCIENCES",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "ENSC 290",
+    "subject": "ENSC",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Consultation"
+  },
+  {
+    "fullCode": "ENSC 292",
+    "subject": "ENSC",
+    "number": "292",
+    "title": "CONCURRENT AND ADVANCED STUDIES",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Written Work"
+  },
+  {
+    "fullCode": "ENSC 297",
+    "subject": "ENSC",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "ENSC 299",
+    "subject": "ENSC",
+    "number": "299",
+    "title": "RESEARCH FOR THE THESIS OR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "ENSC 302",
+    "subject": "ENSC",
+    "number": "302",
+    "title": "TEACHING PRACTICUM",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Practicum"
+  },
+  {
     "fullCode": "ENTX 101",
     "subject": "ENTX",
     "number": "101",
@@ -5188,6 +8308,86 @@
     "description": "",
     "prerequisites": "",
     "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "ENTX 201L",
+    "subject": "ENTX",
+    "number": "201L",
+    "title": "LABORATORY ROTATION",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Laboratory"
+  },
+  {
+    "fullCode": "ENTX 202",
+    "subject": "ENTX",
+    "number": "202",
+    "title": "MECHANISMS OF TOXICITY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "ENTX 209",
+    "subject": "ENTX",
+    "number": "209",
+    "title": "ARTIFICIAL INTELLIGENCE IN TOXICOLOGY AND ENVIRONMENTAL HEALTH",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "ENTX 270",
+    "subject": "ENTX",
+    "number": "270",
+    "title": "SEMINAR IN ENVIRONMENTAL TOXICOLOGY",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "ENTX 271",
+    "subject": "ENTX",
+    "number": "271",
+    "title": "SEMINAR IN ENVIRONMENTAL TOXICOLOGY",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "ENTX 290",
+    "subject": "ENTX",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "ENTX 297",
+    "subject": "ENTX",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "ENTX 299",
+    "subject": "ENTX",
+    "number": "299",
+    "title": "RESEARCH FOR THESIS OR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
   },
   {
     "fullCode": "ETST 001",
@@ -5390,6 +8590,106 @@
     "scheduleType": "Internship"
   },
   {
+    "fullCode": "ETST 203",
+    "subject": "ETST",
+    "number": "203",
+    "title": "RESEARCH METHODS AND ARCHIVES: INDIGENOUS RESEARCH METHODOLOGIES",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "ETST 244",
+    "subject": "ETST",
+    "number": "244",
+    "title": "THE MEMOIR &amp; BIOGRAPHY AS FORM",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "ETST 254",
+    "subject": "ETST",
+    "number": "254",
+    "title": "Asian American Cultural Criticism",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "ETST 289",
+    "subject": "ETST",
+    "number": "289",
+    "title": "COLLOQUIUM IN ETHNIC STUDIES",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Colloquium"
+  },
+  {
+    "fullCode": "ETST 290",
+    "subject": "ETST",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "ETST 291",
+    "subject": "ETST",
+    "number": "291",
+    "title": "INDIVIDUAL STUDY IN COORDINATED AREAS",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Individual Study"
+  },
+  {
+    "fullCode": "ETST 292",
+    "subject": "ETST",
+    "number": "292",
+    "title": "CONCURRENT ANALYTICAL STUDIES IN ETHNIC STUDIES",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Individual Study"
+  },
+  {
+    "fullCode": "ETST 297",
+    "subject": "ETST",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "ETST 299",
+    "subject": "ETST",
+    "number": "299",
+    "title": "RESEARCH FOR THE DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "ETST 302",
+    "subject": "ETST",
+    "number": "302",
+    "title": "TEACHING PRACTICUM",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Clinic"
+  },
+  {
     "fullCode": "EUR 047",
     "subject": "EUR",
     "number": "047",
@@ -5408,6 +8708,76 @@
     "description": "",
     "prerequisites": "",
     "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "EEOB 210",
+    "subject": "EEOB",
+    "number": "210",
+    "title": "ORGANISMAL BIOLOGY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "EEOB 265",
+    "subject": "EEOB",
+    "number": "265",
+    "title": "ADVANCES IN POPULATION AND EVOLUTIONARY BIOLOGY",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "EEOB 290",
+    "subject": "EEOB",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Individual Study"
+  },
+  {
+    "fullCode": "EEOB 291",
+    "subject": "EEOB",
+    "number": "291",
+    "title": "INDIVIDUAL STUDY IN COORDINATED AREAS",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Individual Study"
+  },
+  {
+    "fullCode": "EEOB 292",
+    "subject": "EEOB",
+    "number": "292",
+    "title": "CONCURRENT ANALYTICAL STUDIES IN EVOLUTION, ECOLOGY, AND ORGANISMAL BIOLOGY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "EEOB 297",
+    "subject": "EEOB",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "EEOB 299",
+    "subject": "EEOB",
+    "number": "299",
+    "title": "RESEARCH FOR THE THESIS OR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
   },
   {
     "fullCode": "FIL 003",
@@ -5680,6 +9050,76 @@
     "scheduleType": "Seminar"
   },
   {
+    "fullCode": "GSST 292",
+    "subject": "GSST",
+    "number": "292",
+    "title": "CONCURRENT ANALYTICAL STUDIES IN GENDER AND SEXUALITY STUDIES",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "GSST 302",
+    "subject": "GSST",
+    "number": "302",
+    "title": "TEACHING PRACTICUM",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "GEN 242",
+    "subject": "GEN",
+    "number": "242",
+    "title": "DATA ANALYSIS IN GENOME BIOLOGY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "GEN 261",
+    "subject": "GEN",
+    "number": "261",
+    "title": "SEMINAR IN GENETICS, GENOMICS, AND BIOINFORMATICS",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "GEN 290",
+    "subject": "GEN",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "GEN 297",
+    "subject": "GEN",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "GEN 299",
+    "subject": "GEN",
+    "number": "299",
+    "title": "RESEARCH FOR THE DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
     "fullCode": "GNBT 110",
     "subject": "GNBT",
     "number": "110",
@@ -5900,6 +9340,136 @@
     "scheduleType": "Tutorial"
   },
   {
+    "fullCode": "GEO 201B",
+    "subject": "GEO",
+    "number": "201B",
+    "title": "PROPOSAL WRITING AND REVIEW",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "GEO 240",
+    "subject": "GEO",
+    "number": "240",
+    "title": "SEMINAR IN EARTHQUAKE PROCESSES AND GEOPHYSICS",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "GEO 250",
+    "subject": "GEO",
+    "number": "250",
+    "title": "GRADUATE SEMINAR IN GEOLOGICAL SCIENCES",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "GEO 253",
+    "subject": "GEO",
+    "number": "253",
+    "title": "ADVANCED TOPICS IN PETROLOGY AND GEOCHEMISTRY",
+    "units": "5",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "GEO 262",
+    "subject": "GEO",
+    "number": "262",
+    "title": "PRECAMBRIAN GEOLOGY",
+    "units": "5",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "GEO 264",
+    "subject": "GEO",
+    "number": "264",
+    "title": "BIOGEOCHEMICAL CYCLES THROUGH TIME",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "GEO 265",
+    "subject": "GEO",
+    "number": "265",
+    "title": "ETHICS AND ASTROBIOLOGY",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "GEO 290",
+    "subject": "GEO",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "GEO 297",
+    "subject": "GEO",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "GEO 299M",
+    "subject": "GEO",
+    "number": "299M",
+    "title": "RESEARCH FOR MASTER&#39;S THESIS",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "GEO 299P",
+    "subject": "GEO",
+    "number": "299P",
+    "title": "RESEARCH FOR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "GEO 301",
+    "subject": "GEO",
+    "number": "301",
+    "title": "TEACHING OF GEOSCIENCES AT THE COLLEGE LEVEL",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "GEO 302",
+    "subject": "GEO",
+    "number": "302",
+    "title": "TEACHING PRACTICUM",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
     "fullCode": "GER 002",
     "subject": "GER",
     "number": "002",
@@ -5998,6 +9568,46 @@
     "description": "",
     "prerequisites": "",
     "scheduleType": "Internship"
+  },
+  {
+    "fullCode": "GBST 302",
+    "subject": "GBST",
+    "number": "302",
+    "title": "TEACHING PRACTICUM",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Practicum"
+  },
+  {
+    "fullCode": "GDIV 302",
+    "subject": "GDIV",
+    "number": "302",
+    "title": "UNIVERSITY LEVEL PEDAGOGY PRACTICUM",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Practicum"
+  },
+  {
+    "fullCode": "GDIV 403",
+    "subject": "GDIV",
+    "number": "403",
+    "title": "INTERDISCIPLINARY SEMINAR:  RESEARCH AND SCHOLARSHIP ETHICS",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "GDIV 498I",
+    "subject": "GDIV",
+    "number": "498I",
+    "title": "INDIVIDUAL INTERNSHIP",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Individual Study"
   },
   {
     "fullCode": "GRK 003",
@@ -6185,6 +9795,106 @@
     "number": "199",
     "title": "SENIOR RESEARCH",
     "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "HIST 254",
+    "subject": "HIST",
+    "number": "254",
+    "title": "Early Greek Religion in its Eastern Mediterranean Context",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "HIST 262",
+    "subject": "HIST",
+    "number": "262",
+    "title": "MUSEUM STUDIES",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "HIST 287B",
+    "subject": "HIST",
+    "number": "287B",
+    "title": "RESEARCH SEMINAR IN NATURE, PLACE, AND SPACE: ENVIRONMENTAL AND SPATIAL APPROACHES TO HISTORY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "HIST 290",
+    "subject": "HIST",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "HIST 291",
+    "subject": "HIST",
+    "number": "291",
+    "title": "INDIVIDUAL STUDY IN HISTORY",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "HIST 292",
+    "subject": "HIST",
+    "number": "292",
+    "title": "CONCURRENT ANALYTICAL STUDIES",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "HIST 297",
+    "subject": "HIST",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "HIST 299",
+    "subject": "HIST",
+    "number": "299",
+    "title": "RESEARCH FOR THESIS OR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Thesis"
+  },
+  {
+    "fullCode": "HIST 302",
+    "subject": "HIST",
+    "number": "302",
+    "title": "TEACHING PRACTICUM",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "HIST 398I",
+    "subject": "HIST",
+    "number": "398I",
+    "title": "INTERNSHIP IN PUBLIC HISTORY",
+    "units": "12",
     "description": "",
     "prerequisites": "",
     "scheduleType": "Research"
@@ -6740,6 +10450,476 @@
     "scheduleType": "Activity"
   },
   {
+    "fullCode": "CWLR 200",
+    "subject": "CWLR",
+    "number": "200",
+    "title": "PROFESSIONAL FUNDAMENTALS",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Colloquium"
+  },
+  {
+    "fullCode": "CWLR 201F",
+    "subject": "CWLR",
+    "number": "201F",
+    "title": "LOW RESIDENCY SEMINAR IN LITERATURE, THEATRE, AND FILM",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "CWLR 201N",
+    "subject": "CWLR",
+    "number": "201N",
+    "title": "LOW RESIDENCY SEMINAR IN LITERATURE, THEATRE, AND FILM",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "CWLR 201P",
+    "subject": "CWLR",
+    "number": "201P",
+    "title": "LOW RESIDENCY SEMINAR IN LITERATURE, THEATRE, AND FILM",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "CWLR 201S",
+    "subject": "CWLR",
+    "number": "201S",
+    "title": "LOW RESIDENCY SEMINAR IN LITERATURE,THEATRE, AND FILM",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "CWLR 201T",
+    "subject": "CWLR",
+    "number": "201T",
+    "title": "LOW RESIDENCY SEMINAR IN LITERATURE,THEATRE, AND FILM",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "CWLR 211F",
+    "subject": "CWLR",
+    "number": "211F",
+    "title": "LOW RESIDENCY GENRE WORKSHOP",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Workshop"
+  },
+  {
+    "fullCode": "CWLR 211N",
+    "subject": "CWLR",
+    "number": "211N",
+    "title": "LOW RESIDENCY GENRE WORKSHOP",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Workshop"
+  },
+  {
+    "fullCode": "CWLR 211P",
+    "subject": "CWLR",
+    "number": "211P",
+    "title": "LOW RESIDENCY GENRE WORKSHOP",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Workshop"
+  },
+  {
+    "fullCode": "CWLR 211S",
+    "subject": "CWLR",
+    "number": "211S",
+    "title": "LOW RESIDENCY GENRE WORKSHOP",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Workshop"
+  },
+  {
+    "fullCode": "CWLR 211T",
+    "subject": "CWLR",
+    "number": "211T",
+    "title": "LOW RESIDENCY GENRE WORKSHOP",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Workshop"
+  },
+  {
+    "fullCode": "CWLR 221F",
+    "subject": "CWLR",
+    "number": "221F",
+    "title": "LOW RESIDENCY CROSS-GENRE WORKSHOP",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Workshop"
+  },
+  {
+    "fullCode": "CWLR 221N",
+    "subject": "CWLR",
+    "number": "221N",
+    "title": "LOW RESIDENCY CROSS-GENRE WORKSHOP",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Workshop"
+  },
+  {
+    "fullCode": "CWLR 221P",
+    "subject": "CWLR",
+    "number": "221P",
+    "title": "LOW RESIDENCY CROSS-GENRE WORKSHOP",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Workshop"
+  },
+  {
+    "fullCode": "CWLR 221S",
+    "subject": "CWLR",
+    "number": "221S",
+    "title": "LOW RESIDENCY CROSS-GENRE WORKSHOP",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Workshop"
+  },
+  {
+    "fullCode": "CWLR 221T",
+    "subject": "CWLR",
+    "number": "221T",
+    "title": "LOW RESIDENCY CROSS-GENRE WORKSHOP",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Workshop"
+  },
+  {
+    "fullCode": "MGT 202",
+    "subject": "MGT",
+    "number": "202",
+    "title": "FINANCIAL MANAGEMENT",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MGT 207",
+    "subject": "MGT",
+    "number": "207",
+    "title": "OPERATIONS MANAGEMENT FOR COMPETITIVE ADVANTAGE",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MGT 210",
+    "subject": "MGT",
+    "number": "210",
+    "title": "HUMAN RESOURCES MANAGEMENT",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MGT 216",
+    "subject": "MGT",
+    "number": "216",
+    "title": "MANAGERIAL DECISION MAKING",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MGT 223",
+    "subject": "MGT",
+    "number": "223",
+    "title": "DIVERSITY AND REDUCING BIAS IN ORGANIZATIONS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MGT 225",
+    "subject": "MGT",
+    "number": "225",
+    "title": "PROFESSIONAL ACCOUNTING AND AUDITING RESEARCH",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MGT 226",
+    "subject": "MGT",
+    "number": "226",
+    "title": "FRAUD AND FORENSICS AUDITING",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MGT 227",
+    "subject": "MGT",
+    "number": "227",
+    "title": "FIXED-INCOME SECURITIES AND MARKETS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MGT 232",
+    "subject": "MGT",
+    "number": "232",
+    "title": "DERIVATIVES AND ASSET PRICING",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "MGT 234",
+    "subject": "MGT",
+    "number": "234",
+    "title": "BRAND MANAGEMENT",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MGT 235",
+    "subject": "MGT",
+    "number": "235",
+    "title": "STRATEGIC MANAGEMENT",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MGT 238",
+    "subject": "MGT",
+    "number": "238",
+    "title": "MANAGEMENT SYNTHESIS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MGT 244",
+    "subject": "MGT",
+    "number": "244",
+    "title": "CORPORATE RISK MANAGEMENT",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MGT 247",
+    "subject": "MGT",
+    "number": "247",
+    "title": "MARKETING COMMUNICATIONS MANAGEMENT",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MGT 251A",
+    "subject": "MGT",
+    "number": "251A",
+    "title": "MARKETING ANALYTICS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MGT 253",
+    "subject": "MGT",
+    "number": "253",
+    "title": "DIGITAL MARKETING",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "MGT 258",
+    "subject": "MGT",
+    "number": "258",
+    "title": "LOGISTICS AND SUPPLY CHAIN MANAGEMENT",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MGT 259",
+    "subject": "MGT",
+    "number": "259",
+    "title": "DATA VISUALIZATION FOR BUSINESS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MGT 267",
+    "subject": "MGT",
+    "number": "267",
+    "title": "APPLIED BUSINESS FORECASTING",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "MGT 278B",
+    "subject": "MGT",
+    "number": "278B",
+    "title": "INFORMATION TECHNOLOGY AUDITING AND ASSURANCE",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "MGT 278C",
+    "subject": "MGT",
+    "number": "278C",
+    "title": "INTERNAL AUDITING",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "MGT 279",
+    "subject": "MGT",
+    "number": "279",
+    "title": "TECH PRODUCT MANAGEMENT",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MGT 285",
+    "subject": "MGT",
+    "number": "285",
+    "title": "FIELD COLLOQUIUM",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Colloquium"
+  },
+  {
+    "fullCode": "MGT 286B",
+    "subject": "MGT",
+    "number": "286B",
+    "title": "CAPSTONE IN BUSINESS ANALYTICS 2",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "MGT 290",
+    "subject": "MGT",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "MGT 292",
+    "subject": "MGT",
+    "number": "292",
+    "title": "CONCURRENT STUDIES IN MANAGEMENT",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "MGT 295G",
+    "subject": "MGT",
+    "number": "295G",
+    "title": "CORPORATE FINANCE",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "MGT 297",
+    "subject": "MGT",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "MGT 298I",
+    "subject": "MGT",
+    "number": "298I",
+    "title": "FIELDWORK IN MANAGEMENT",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Consultation"
+  },
+  {
+    "fullCode": "MGT 299",
+    "subject": "MGT",
+    "number": "299",
+    "title": "RESEARCH FOR THESIS OR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Tutorial"
+  },
+  {
+    "fullCode": "MGT 302",
+    "subject": "MGT",
+    "number": "302",
+    "title": "APPRENTICE TEACHING",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
     "fullCode": "MSE 004L",
     "subject": "MSE",
     "number": "004L",
@@ -6818,6 +10998,176 @@
     "description": "",
     "prerequisites": "",
     "scheduleType": "Laboratory"
+  },
+  {
+    "fullCode": "MSE 221",
+    "subject": "MSE",
+    "number": "221",
+    "title": "ELECTRON MICROSCOPY AND MICROANALYSIS",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MSE 224",
+    "subject": "MSE",
+    "number": "224",
+    "title": "ATOMISTIC MODELING OF SOLID STATE MATERIALS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MSE 225A",
+    "subject": "MSE",
+    "number": "225A",
+    "title": "SPECTROMETRY IN ORGANIC STRUCTURE ANALYSIS",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MSE 225B",
+    "subject": "MSE",
+    "number": "225B",
+    "title": "ADVANCED ANALYTICAL CHEMISTRY: OPTICAL SPECTROSCOPY",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MSE 234A",
+    "subject": "MSE",
+    "number": "234A",
+    "title": "PHYSICS OF NANOSCALE SYSTEMS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MSE 234B",
+    "subject": "MSE",
+    "number": "234B",
+    "title": "SPINTRONICS AND NANOSCALE MAGNETISM",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MSE 237C",
+    "subject": "MSE",
+    "number": "237C",
+    "title": "SOLID STATE DEVICES",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MSE 240",
+    "subject": "MSE",
+    "number": "240",
+    "title": "MATERIALS SYNTHESIS AND PROCESSING",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MSE 245C",
+    "subject": "MSE",
+    "number": "245C",
+    "title": "NANOSCIENCE AND NANOTECHNOLOGY",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MSE 245D",
+    "subject": "MSE",
+    "number": "245D",
+    "title": "INTERDISCIPLINARY OVERVIEW OF CURRENT ISSUES IN SEMICONDUCTOR PROCESSING",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MSE 250",
+    "subject": "MSE",
+    "number": "250",
+    "title": "COLLOQUIUM IN MATERIALS SCIENCE AND ENGINEERING",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Colloquium"
+  },
+  {
+    "fullCode": "MSE 251",
+    "subject": "MSE",
+    "number": "251",
+    "title": "TOPICS IN MATERIALS SCIENCE AND ENGINEERING",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "MSE 280",
+    "subject": "MSE",
+    "number": "280",
+    "title": "SPECIAL TOPICS IN BIOMATERIALS AND TISSUE ENGINEERING",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Term Paper"
+  },
+  {
+    "fullCode": "MSE 290",
+    "subject": "MSE",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Individual Study"
+  },
+  {
+    "fullCode": "MSE 297",
+    "subject": "MSE",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "MSE 298I",
+    "subject": "MSE",
+    "number": "298I",
+    "title": "INDIVIDUAL INTERNSHIP IN MATERIALS SCIENCE &amp; ENGINEERING",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Internship"
+  },
+  {
+    "fullCode": "MSE 299",
+    "subject": "MSE",
+    "number": "299",
+    "title": "RESEARCH FOR THE THESIS OR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
   },
   {
     "fullCode": "MATH 004",
@@ -7190,6 +11540,156 @@
     "scheduleType": "Tutorial"
   },
   {
+    "fullCode": "MATH 201C",
+    "subject": "MATH",
+    "number": "201C",
+    "title": "ALGEBRA",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MATH 205C",
+    "subject": "MATH",
+    "number": "205C",
+    "title": "TOPOLOGY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MATH 206C",
+    "subject": "MATH",
+    "number": "206C",
+    "title": "METHOD OF APPLIED MATHEMATICS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MATH 207C",
+    "subject": "MATH",
+    "number": "207C",
+    "title": "PARTIAL DIFFERENTIAL EQUATIONS 2",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MATH 209C",
+    "subject": "MATH",
+    "number": "209C",
+    "title": "REAL ANALYSIS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MATH 210C",
+    "subject": "MATH",
+    "number": "210C",
+    "title": "COMPLEX ANALYSIS (RIEMANN SURFACES)",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MATH 213C",
+    "subject": "MATH",
+    "number": "213C",
+    "title": "NUMERICAL METHODS FOR PDE",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MATH 224",
+    "subject": "MATH",
+    "number": "224",
+    "title": "INTRODUCTION TO HOMOLOGICAL ALGEBRA",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MATH 232B",
+    "subject": "MATH",
+    "number": "232B",
+    "title": "GEOMETRY 2 (INTRODUCTION TO DIFFERENTIAL)",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MATH 243B",
+    "subject": "MATH",
+    "number": "243B",
+    "title": "ALGEBRAIC GEOMETRY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MATH 260",
+    "subject": "MATH",
+    "number": "260",
+    "title": "ALGEBRAIC GEOMETRY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "MATH 290",
+    "subject": "MATH",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Tutorial"
+  },
+  {
+    "fullCode": "MATH 291",
+    "subject": "MATH",
+    "number": "291",
+    "title": "INDIVIDUAL STUDY IN COORDINATED AREAS",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Individual Study"
+  },
+  {
+    "fullCode": "MATH 297",
+    "subject": "MATH",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "MATH 299",
+    "subject": "MATH",
+    "number": "299",
+    "title": "RESEARCH FOR THESIS OR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Thesis"
+  },
+  {
     "fullCode": "ME 001LA",
     "subject": "ME",
     "number": "001LA",
@@ -7390,6 +11890,106 @@
     "scheduleType": "Research"
   },
   {
+    "fullCode": "ME 225",
+    "subject": "ME",
+    "number": "225",
+    "title": "DESIGN AND FABRICATION OF ROBOTS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "ME 234",
+    "subject": "ME",
+    "number": "234",
+    "title": "DATA DRIVEN MODELING AND CONTROL",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "ME 235",
+    "subject": "ME",
+    "number": "235",
+    "title": "LINEAR SYSTEM THEORY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "ME 248",
+    "subject": "ME",
+    "number": "248",
+    "title": "INTERNAL COMBUSTION ENGINES",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "ME 250",
+    "subject": "ME",
+    "number": "250",
+    "title": "SEMINAR IN MECHANICAL ENGINEERING",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "ME 267",
+    "subject": "ME",
+    "number": "267",
+    "title": "FINITE ELEMENT METHODS IN SOLID MECHANICS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "ME 290",
+    "subject": "ME",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Individual Study"
+  },
+  {
+    "fullCode": "ME 297",
+    "subject": "ME",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "ME 298I",
+    "subject": "ME",
+    "number": "298I",
+    "title": "INDIVIDUAL INTERNSHIP",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Internship"
+  },
+  {
+    "fullCode": "ME 299",
+    "subject": "ME",
+    "number": "299",
+    "title": "RESEARCH FOR THE THESIS OR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
     "fullCode": "MCS 001",
     "subject": "MCS",
     "number": "001",
@@ -7580,6 +12180,36 @@
     "scheduleType": "Activity"
   },
   {
+    "fullCode": "MCS 290",
+    "subject": "MCS",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "MCS 292",
+    "subject": "MCS",
+    "number": "292",
+    "title": "CONCURRENT ANALYTICAL STUDIES IN MEDIA AND CULTURAL STUDIES",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "MCS 302",
+    "subject": "MCS",
+    "number": "302",
+    "title": "TEACHING PRACTICUM",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Practicum"
+  },
+  {
     "fullCode": "MCBL 121",
     "subject": "MCBL",
     "number": "121",
@@ -7645,6 +12275,56 @@
     "number": "197",
     "title": "RESEARCH FOR UNDERGRADUATES",
     "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "MCBL 241",
+    "subject": "MCBL",
+    "number": "241",
+    "title": "SPECIAL TOPICS",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MCBL 250",
+    "subject": "MCBL",
+    "number": "250",
+    "title": "SEMINAR IN MICROBIOLOGY",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "MCBL 290",
+    "subject": "MCBL",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "MCBL 297",
+    "subject": "MCBL",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "MCBL 299",
+    "subject": "MCBL",
+    "number": "299",
+    "title": "RESEARCH FOR THESIS OR DISSERTATION",
+    "units": "12",
     "description": "",
     "prerequisites": "",
     "scheduleType": "Research"
@@ -8440,6 +13120,126 @@
     "scheduleType": "Tutorial"
   },
   {
+    "fullCode": "MUS 201",
+    "subject": "MUS",
+    "number": "201",
+    "title": "PROSEMINAR IN THE ANALYSIS OF WESTERN MUSIC",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "MUS 249",
+    "subject": "MUS",
+    "number": "249",
+    "title": "AUDIOVISUAL AND MULTIMEDIA COMPOSITION",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MUS 257",
+    "subject": "MUS",
+    "number": "257",
+    "title": "MUSIC AND AUDIO PRODUCTION",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MUS 263",
+    "subject": "MUS",
+    "number": "263",
+    "title": "SEMINAR IN SPECIAL TOPICS IN MUSICOLOGY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "MUS 270",
+    "subject": "MUS",
+    "number": "270",
+    "title": "SPECIAL TOPICS IN ETHNOMUSICOLOGY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "MUS 290",
+    "subject": "MUS",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "MUS 291",
+    "subject": "MUS",
+    "number": "291",
+    "title": "INDIVIDUAL STUDY IN COORDINATED AREAS",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Individual Study"
+  },
+  {
+    "fullCode": "MUS 292",
+    "subject": "MUS",
+    "number": "292",
+    "title": "CONCURRENT ANALYTICAL STUDIES IN MUSIC",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "MUS 293",
+    "subject": "MUS",
+    "number": "293",
+    "title": "COMPOSITION PRACTICUM",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Practicum"
+  },
+  {
+    "fullCode": "MUS 297",
+    "subject": "MUS",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "MUS 299",
+    "subject": "MUS",
+    "number": "299",
+    "title": "RESEARCH FOR THESIS OR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Thesis"
+  },
+  {
+    "fullCode": "MUS 302",
+    "subject": "MUS",
+    "number": "302",
+    "title": "TEACHING PRACTICUM",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Practicum"
+  },
+  {
     "fullCode": "NASC 094",
     "subject": "NASC",
     "number": "094",
@@ -8508,6 +13308,106 @@
     "description": "",
     "prerequisites": "",
     "scheduleType": "Laboratory"
+  },
+  {
+    "fullCode": "NEM 206",
+    "subject": "NEM",
+    "number": "206",
+    "title": "PHYTOPATHOGENS: NEMATODES",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "NEM 290",
+    "subject": "NEM",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "NEM 297",
+    "subject": "NEM",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "NRSC 200C",
+    "subject": "NRSC",
+    "number": "200C",
+    "title": "FUNDAMENTALS OF NEUROSCIENCE",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "NRSC 280",
+    "subject": "NRSC",
+    "number": "280",
+    "title": "NEUROMODULATION OF BEHAVIOR",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "NRSC 287",
+    "subject": "NRSC",
+    "number": "287",
+    "title": "COLLOQUIUM IN NEUROSCIENCE",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Colloquium"
+  },
+  {
+    "fullCode": "NRSC 289",
+    "subject": "NRSC",
+    "number": "289",
+    "title": "SPECIAL TOPICS IN NEUROSCIENCE",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "NRSC 290",
+    "subject": "NRSC",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Individual Study"
+  },
+  {
+    "fullCode": "NRSC 297",
+    "subject": "NRSC",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "NRSC 299",
+    "subject": "NRSC",
+    "number": "299",
+    "title": "RESEARCH FOR THE THESIS OR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
   },
   {
     "fullCode": "PCST 190",
@@ -8718,6 +13618,136 @@
     "description": "",
     "prerequisites": "",
     "scheduleType": "Internship"
+  },
+  {
+    "fullCode": "PHIL 270",
+    "subject": "PHIL",
+    "number": "270",
+    "title": "PHILOSOPHY COLLOQUIA",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Colloquium"
+  },
+  {
+    "fullCode": "PHIL 272B",
+    "subject": "PHIL",
+    "number": "272B",
+    "title": "WORKSHOP IN PHILOSOPHY",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Workshop"
+  },
+  {
+    "fullCode": "PHIL 276",
+    "subject": "PHIL",
+    "number": "276",
+    "title": "THIRD AND FOURTH YEAR RESEARCH SEMINAR",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "PHIL 280",
+    "subject": "PHIL",
+    "number": "280",
+    "title": "SEMINAR IN PHILOSOPHICAL PROBLEMS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "PHIL 281",
+    "subject": "PHIL",
+    "number": "281",
+    "title": "PHILOSOPHICAL TEXTS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "PHIL 283",
+    "subject": "PHIL",
+    "number": "283",
+    "title": "SEMINAR IN CONTEMPORARY PHILOSOPHY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "PHIL 290",
+    "subject": "PHIL",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Term Paper"
+  },
+  {
+    "fullCode": "PHIL 292",
+    "subject": "PHIL",
+    "number": "292",
+    "title": "CONCURRENT ANALYTICAL STUDIES IN PHILOSOPHY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "PHIL 297",
+    "subject": "PHIL",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "PHIL 299",
+    "subject": "PHIL",
+    "number": "299",
+    "title": "RESEARCH FOR THESIS OR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Thesis"
+  },
+  {
+    "fullCode": "PHIL 301",
+    "subject": "PHIL",
+    "number": "301",
+    "title": "DIRECTED STUDIES IN THE TEACHING OF PHILOSOPHY",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "PHIL 302",
+    "subject": "PHIL",
+    "number": "302",
+    "title": "TEACHING PRACTICUM",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Clinic"
+  },
+  {
+    "fullCode": "PHIL 400",
+    "subject": "PHIL",
+    "number": "400",
+    "title": "RESEARCH AND PROFESSIONAL DEVELOPMENT WORKSHOP",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Workshop"
   },
   {
     "fullCode": "PHYS 002A",
@@ -8970,6 +14000,186 @@
     "scheduleType": "Internship"
   },
   {
+    "fullCode": "PHYS 209A",
+    "subject": "PHYS",
+    "number": "209A",
+    "title": "QUANTUM ELECTRONICS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "PHYS 210C",
+    "subject": "PHYS",
+    "number": "210C",
+    "title": "ELECTROMAGNETIC THEORY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "PHYS 212B",
+    "subject": "PHYS",
+    "number": "212B",
+    "title": "THERMODYNAMICS AND STATISTICAL MECHANICS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "PHYS 215",
+    "subject": "PHYS",
+    "number": "215",
+    "title": "DYNAMICS AND EVOLUTION OF GALAXIES",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "PHYS 219",
+    "subject": "PHYS",
+    "number": "219",
+    "title": "COSMOLOGY AND STRUCTURE FORMATION",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "PHYS 221C",
+    "subject": "PHYS",
+    "number": "221C",
+    "title": "QUANTUM MECHANICS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "PHYS 224",
+    "subject": "PHYS",
+    "number": "224",
+    "title": "FRONTIERS OF PHYSICS AND ASTROPHYSICS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "PHYS 230A",
+    "subject": "PHYS",
+    "number": "230A",
+    "title": "ADVANCED QUANTUM MECHANICS AND QUANTUM THEORY OF FIELDS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "PHYS 234",
+    "subject": "PHYS",
+    "number": "234",
+    "title": "PHYSICS OF NANOSCALE SYSTEMS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "PHYS 235",
+    "subject": "PHYS",
+    "number": "235",
+    "title": "SPINTRONICS AND NANOSCALE MAGNETISM",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "PHYS 244",
+    "subject": "PHYS",
+    "number": "244",
+    "title": "APPLICATION OF VISUALIZATION IN DATA SCIENCE",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "PHYS 246",
+    "subject": "PHYS",
+    "number": "246",
+    "title": "BIOLOGICAL PHYSICS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "PHYS 250",
+    "subject": "PHYS",
+    "number": "250",
+    "title": "SURFACE SCIENCE",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "PHYS 289",
+    "subject": "PHYS",
+    "number": "289",
+    "title": "COLLOQUIUM IN PHYSICS",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Colloquium"
+  },
+  {
+    "fullCode": "PHYS 290",
+    "subject": "PHYS",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "PHYS 291",
+    "subject": "PHYS",
+    "number": "291",
+    "title": "INDIVIDUAL STUDY IN COORDINATED AREAS",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Individual Study"
+  },
+  {
+    "fullCode": "PHYS 297",
+    "subject": "PHYS",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "PHYS 299",
+    "subject": "PHYS",
+    "number": "299",
+    "title": "RESEARCH FOR THESIS OR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Thesis"
+  },
+  {
     "fullCode": "PLPA 123",
     "subject": "PLPA",
     "number": "123",
@@ -8998,6 +14208,86 @@
     "description": "",
     "prerequisites": "",
     "scheduleType": "Research"
+  },
+  {
+    "fullCode": "PLPA 206",
+    "subject": "PLPA",
+    "number": "206",
+    "title": "PHYTOPATHOGENS: NEMATODES",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "PLPA 241",
+    "subject": "PLPA",
+    "number": "241",
+    "title": "SPECIAL TOPICS",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "PLPA 261",
+    "subject": "PLPA",
+    "number": "261",
+    "title": "SEMINAR IN GENETICS, GENOMICS, AND BIOINFORMATICS",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "PLPA 265",
+    "subject": "PLPA",
+    "number": "265",
+    "title": "A COLLOQUIUM ON THE PRINCIPLES OF PLANT PATHOLOGY",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "PLPA 290",
+    "subject": "PLPA",
+    "number": "290",
+    "title": "RESEARCH OR STUDY ON SPECIAL TOPICS BY INDIVIDUAL GRADUATE STUDENTS",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "PLPA 291",
+    "subject": "PLPA",
+    "number": "291",
+    "title": "INDIVIDUAL STUDY IN COORDINATED AREAS",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "PLPA 297",
+    "subject": "PLPA",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "PLPA 299",
+    "subject": "PLPA",
+    "number": "299",
+    "title": "RESEARCH FOR THESIS OR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Thesis"
   },
   {
     "fullCode": "POSC 005",
@@ -9330,6 +14620,186 @@
     "scheduleType": "Research"
   },
   {
+    "fullCode": "POSC 202C",
+    "subject": "POSC",
+    "number": "202C",
+    "title": "THEORY AND METHODS OF CAUSAL INFERENCE AND CAUSAL ANALYSIS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "POSC 203",
+    "subject": "POSC",
+    "number": "203",
+    "title": "SOCIAL SCIENCE, HISTORY, AND QUALITATIVE METHODOLOGY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "POSC 210",
+    "subject": "POSC",
+    "number": "210",
+    "title": "QUALITATIVE INTERPRETIVE RESEARCH METHODS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "POSC 214",
+    "subject": "POSC",
+    "number": "214",
+    "title": "POLITICAL ECONOMY OF INTERNATIONAL TRADE",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "POSC 220",
+    "subject": "POSC",
+    "number": "220",
+    "title": "POLITICS OF RACE, IMMIGRATION, AND ETHNICITY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "POSC 230",
+    "subject": "POSC",
+    "number": "230",
+    "title": "RESEARCH COLLOQUIUM IN POLITICAL SCIENCE",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Colloquium"
+  },
+  {
+    "fullCode": "POSC 250",
+    "subject": "POSC",
+    "number": "250",
+    "title": "SEMINAR IN POLITICS AND THE LEGAL ORDER",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "POSC 262",
+    "subject": "POSC",
+    "number": "262",
+    "title": "WAR TERMINATION AND CONFLICT RESOLUTION",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "POSC 277",
+    "subject": "POSC",
+    "number": "277",
+    "title": "AFRICAN POLITICS SEMINAR",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "POSC 283",
+    "subject": "POSC",
+    "number": "283",
+    "title": "POLITICAL THINKERS IN DEPTH",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "POSC 285",
+    "subject": "POSC",
+    "number": "285",
+    "title": "PROFESSIONAL RESEARCH PAPER",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "POSC 290",
+    "subject": "POSC",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "POSC 291",
+    "subject": "POSC",
+    "number": "291",
+    "title": "INDIVIDUAL STUDY IN COORDINATED AREAS",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "POSC 292",
+    "subject": "POSC",
+    "number": "292",
+    "title": "CONCURRENT ANALYTICAL STUDIES IN POLITICAL SCIENCE",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "POSC 293",
+    "subject": "POSC",
+    "number": "293",
+    "title": "RESEARCH TOPICS IN POLITICAL SCIENCE",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "POSC 297",
+    "subject": "POSC",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "POSC 299",
+    "subject": "POSC",
+    "number": "299",
+    "title": "RESEARCH FOR THESIS OR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Thesis"
+  },
+  {
+    "fullCode": "POSC 302",
+    "subject": "POSC",
+    "number": "302",
+    "title": "COLLEGE TEACHING PRACTICUM",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Consultation"
+  },
+  {
     "fullCode": "PSYC 001",
     "subject": "PSYC",
     "number": "001",
@@ -9570,6 +15040,316 @@
     "scheduleType": "Activity"
   },
   {
+    "fullCode": "PSYC 200C",
+    "subject": "PSYC",
+    "number": "200C",
+    "title": "FUNDAMENTALS OF NEUROSCIENCE",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "PSYC 203C",
+    "subject": "PSYC",
+    "number": "203C",
+    "title": "COGNITION AND COGNITIVE NEUROSCIENCE",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "PSYC 207C",
+    "subject": "PSYC",
+    "number": "207C",
+    "title": "PROCESSES OF COGNITIVE DEVELOPMENT",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "PSYC 214",
+    "subject": "PSYC",
+    "number": "214",
+    "title": "LATENT VARIABLE ANALYSIS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "PSYC 215",
+    "subject": "PSYC",
+    "number": "215",
+    "title": "QUALITATIVE DATA ANALYTIC METHODS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "PSYC 227",
+    "subject": "PSYC",
+    "number": "227",
+    "title": "RESEARCH METHODS IN SOCIAL AND PERSONALITY PSYCHOLOGY",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "PSYC 251",
+    "subject": "PSYC",
+    "number": "251",
+    "title": "SEMINAR IN COGNITIVE NEUROSCIENCE.",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "PSYC 256",
+    "subject": "PSYC",
+    "number": "256",
+    "title": "SEMINAR IN PERCEPTION",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "PSYC 258",
+    "subject": "PSYC",
+    "number": "258",
+    "title": "SEMINAR IN DEVELOPMENTAL PSYCHOLOGY",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "PSYC 263",
+    "subject": "PSYC",
+    "number": "263",
+    "title": "SEMINAR IN BEHAVIORAL NEUROSCIENCE",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "PSYC 270",
+    "subject": "PSYC",
+    "number": "270",
+    "title": "CURRENT RESEARCH IN QUANTITATIVE PSYCHOLOGY",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "PSYC 283",
+    "subject": "PSYC",
+    "number": "283",
+    "title": "PROSEMINAR ON CURRENT RESEARCH IN COGNITIVE PSYCHOLOGY",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "PSYC 284",
+    "subject": "PSYC",
+    "number": "284",
+    "title": "PROSEMINAR ON CURRENT RESEARCH IN DEVELOPMENTAL PSYCHOLOGY",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "PSYC 285",
+    "subject": "PSYC",
+    "number": "285",
+    "title": "PROSEMINAR ON CURRENT RESEARCH IN SOCIAL/PERSONALITY PSYCHOLOGY",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "PSYC 287",
+    "subject": "PSYC",
+    "number": "287",
+    "title": "COLLOQUIUM IN NEUROSCIENCE",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Colloquium"
+  },
+  {
+    "fullCode": "PSYC 289",
+    "subject": "PSYC",
+    "number": "289",
+    "title": "SPECIAL TOPICS IN NEUROSCIENCE",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "PSYC 290",
+    "subject": "PSYC",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "PSYC 291",
+    "subject": "PSYC",
+    "number": "291",
+    "title": "INDIVIDUAL STUDY IN COORDINATED AREAS",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "PSYC 292",
+    "subject": "PSYC",
+    "number": "292",
+    "title": "CONCURRENT ANALYTICAL STUDIES",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "PSYC 296",
+    "subject": "PSYC",
+    "number": "296",
+    "title": "RESEARCH TUTORIAL",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "PSYC 297",
+    "subject": "PSYC",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "PSYC 299",
+    "subject": "PSYC",
+    "number": "299",
+    "title": "RESEARCH FOR THESIS OR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Thesis"
+  },
+  {
+    "fullCode": "PSYC 302",
+    "subject": "PSYC",
+    "number": "302",
+    "title": "TEACHING PSYCHOLOGY AT THE COLLEGE LEVEL AS INSTRUCTOR OF RECORD",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Practicum"
+  },
+  {
+    "fullCode": "PSYC 409B",
+    "subject": "PSYC",
+    "number": "409B",
+    "title": "PROFESSIONAL DEVELOPMENT",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "PBHL 202B",
+    "subject": "PBHL",
+    "number": "202B",
+    "title": "COMMUNITY HEALTH THEORY AND PRACTICE 2",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "PBHL 206",
+    "subject": "PBHL",
+    "number": "206",
+    "title": "HEALTH POLICY AND ADMINISTRATION",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "PBHL 240",
+    "subject": "PBHL",
+    "number": "240",
+    "title": "POLICY TO PROMOTE PUBLIC HEALTH",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "PBHL 289A",
+    "subject": "PBHL",
+    "number": "289A",
+    "title": "INTEGRATIVE LEARNING EXPERIENCE: THESIS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Written Work"
+  },
+  {
+    "fullCode": "PBHL 289B",
+    "subject": "PBHL",
+    "number": "289B",
+    "title": "INTEGRATIVE LEARNING EXPERIENCE: CAPSTONE",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Written Work"
+  },
+  {
+    "fullCode": "PBHL 298I",
+    "subject": "PBHL",
+    "number": "298I",
+    "title": "APPLIED PUBLIC HEALTH PRACTICE EXPERIENCE (PRACTICUM)",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Written Work"
+  },
+  {
+    "fullCode": "PBHL 299",
+    "subject": "PBHL",
+    "number": "299",
+    "title": "RESEARCH FOR THESIS OR CAPSTONE",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
     "fullCode": "PBPL 001",
     "subject": "PBPL",
     "number": "001",
@@ -9700,6 +15480,86 @@
     "scheduleType": "Internship"
   },
   {
+    "fullCode": "PBPL 200",
+    "subject": "PBPL",
+    "number": "200",
+    "title": "INTRODUCTION TO POLICY ANALYSIS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "PBPL 202",
+    "subject": "PBPL",
+    "number": "202",
+    "title": "POLICY INSTITUTIONS AND PROCESSES",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "PBPL 220",
+    "subject": "PBPL",
+    "number": "220",
+    "title": "QUANTITATIVE METHODS FOR PUBLIC POLICY 2",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "PBPL 222",
+    "subject": "PBPL",
+    "number": "222",
+    "title": "ETHICS, PROFESSIONALISM, AND THE NORMATIVE BASES OF PUBLIC POLICIES",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "PBPL 255",
+    "subject": "PBPL",
+    "number": "255",
+    "title": "MAPPING FOR THE COMMON GOOD",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "PBPL 280",
+    "subject": "PBPL",
+    "number": "280",
+    "title": "LITIGATION POLICY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "PBPL 289B",
+    "subject": "PBPL",
+    "number": "289B",
+    "title": "CAPSTONE RESEARCH PROJECT",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "PBPL 298I",
+    "subject": "PBPL",
+    "number": "298I",
+    "title": "INDIVIDUAL INTERNSHIP",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Internship"
+  },
+  {
     "fullCode": "RLST 010",
     "subject": "RLST",
     "number": "010",
@@ -9780,6 +15640,106 @@
     "scheduleType": "Individual Study"
   },
   {
+    "fullCode": "RLST 220",
+    "subject": "RLST",
+    "number": "220",
+    "title": "ADVANCED TOPICS IN METHOD AND THEORY IN THE STUDY OF RELIGION",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "RLST 254",
+    "subject": "RLST",
+    "number": "254",
+    "title": "QUEER AND TRANSGENDER STUDIES IN RELIGION",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "RLST 261",
+    "subject": "RLST",
+    "number": "261",
+    "title": "PROBLEMS IN THE STUDY OF BUDDHISM",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "RLST 290",
+    "subject": "RLST",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "5",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "RLST 291",
+    "subject": "RLST",
+    "number": "291",
+    "title": "INDIVIDUAL STUDY IN COORDINATED AREAS",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Individual Study"
+  },
+  {
+    "fullCode": "RLST 292",
+    "subject": "RLST",
+    "number": "292",
+    "title": "CONCURRENT STUDIES IN RELIGIOUS STUDIES",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "RLST 297",
+    "subject": "RLST",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "RLST 299",
+    "subject": "RLST",
+    "number": "299",
+    "title": "RESEARCH FOR THE DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "RLST 302",
+    "subject": "RLST",
+    "number": "302",
+    "title": "TEACHING PRACTICUM",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Practicum"
+  },
+  {
+    "fullCode": "RLST 401",
+    "subject": "RLST",
+    "number": "401",
+    "title": "COLLOQUIUM IN RELIGIOUS STUDIES",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Colloquium"
+  },
+  {
     "fullCode": "RUSN 003",
     "subject": "RUSN",
     "number": "003",
@@ -9798,6 +15758,256 @@
     "description": "",
     "prerequisites": "",
     "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MDCL 234",
+    "subject": "MDCL",
+    "number": "234",
+    "title": "MUSCULOSKELETAL MEDICINE",
+    "units": "8",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MDCL 235",
+    "subject": "MDCL",
+    "number": "235",
+    "title": "CLINICAL NEUROSCIENCES 1",
+    "units": "9",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MDCL 239",
+    "subject": "MDCL",
+    "number": "239",
+    "title": "CLINICAL NEUROSCIENCES 2",
+    "units": "10",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MDCL 240",
+    "subject": "MDCL",
+    "number": "240",
+    "title": "INTEGRATIVE HUMAN BIOLOGY &amp; DISEASE",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Discussion"
+  },
+  {
+    "fullCode": "MDCL 241",
+    "subject": "MDCL",
+    "number": "241",
+    "title": "INTERNAL MEDICINE",
+    "units": "10",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Clinic"
+  },
+  {
+    "fullCode": "MDCL 241B",
+    "subject": "MDCL",
+    "number": "241B",
+    "title": "INTERNAL MEDICINE II",
+    "units": "5",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Clinic"
+  },
+  {
+    "fullCode": "MDCL 242",
+    "subject": "MDCL",
+    "number": "242",
+    "title": "SURGERY",
+    "units": "10",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Clinic"
+  },
+  {
+    "fullCode": "MDCL 242B",
+    "subject": "MDCL",
+    "number": "242B",
+    "title": "SURGERY II",
+    "units": "5",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Clinic"
+  },
+  {
+    "fullCode": "MDCL 243",
+    "subject": "MDCL",
+    "number": "243",
+    "title": "PEDIATRICS",
+    "units": "8",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Clinic"
+  },
+  {
+    "fullCode": "MDCL 244",
+    "subject": "MDCL",
+    "number": "244",
+    "title": "OBSTETRICS/GYNECOLOGY",
+    "units": "8",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Clinic"
+  },
+  {
+    "fullCode": "MDCL 244B",
+    "subject": "MDCL",
+    "number": "244B",
+    "title": "OBSTETRICS/GYNECOLOGY II",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Clinic"
+  },
+  {
+    "fullCode": "MDCL 245",
+    "subject": "MDCL",
+    "number": "245",
+    "title": "FAMILY MEDICINE",
+    "units": "5",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Clinic"
+  },
+  {
+    "fullCode": "MDCL 246",
+    "subject": "MDCL",
+    "number": "246",
+    "title": "PSYCHIATRY",
+    "units": "5",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Clinic"
+  },
+  {
+    "fullCode": "MDCL 247",
+    "subject": "MDCL",
+    "number": "247",
+    "title": "EMERGENCY MEDICINE",
+    "units": "2.5",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Clinic"
+  },
+  {
+    "fullCode": "MDCL 248B",
+    "subject": "MDCL",
+    "number": "248B",
+    "title": "LONGITUDINAL AMBULATORY CARE EXPERIENCE II",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Clinic"
+  },
+  {
+    "fullCode": "MDCL 248D",
+    "subject": "MDCL",
+    "number": "248D",
+    "title": "LONGITUDINAL AMBULATORY CARE EXPERIENCE IV",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Clinic"
+  },
+  {
+    "fullCode": "MDCL 249",
+    "subject": "MDCL",
+    "number": "249",
+    "title": "NEUROLOGY",
+    "units": "2.5",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Clinic"
+  },
+  {
+    "fullCode": "MDCL 250",
+    "subject": "MDCL",
+    "number": "250",
+    "title": "FAMILY MEDICINE",
+    "units": "8",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Clinic"
+  },
+  {
+    "fullCode": "MDCL 251",
+    "subject": "MDCL",
+    "number": "251",
+    "title": "RADIOLOGY",
+    "units": "8",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Clinic"
+  },
+  {
+    "fullCode": "MDCL 252",
+    "subject": "MDCL",
+    "number": "252",
+    "title": "CRITICAL CARE",
+    "units": "8",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Clinic"
+  },
+  {
+    "fullCode": "MDCL 253",
+    "subject": "MDCL",
+    "number": "253",
+    "title": "TRANSITION TO RESIDENCY",
+    "units": "8",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Clinic"
+  },
+  {
+    "fullCode": "MDCL 254",
+    "subject": "MDCL",
+    "number": "254",
+    "title": "FOURTH YEAR CLINICAL ELECTIVE",
+    "units": "10",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Clinic"
+  },
+  {
+    "fullCode": "MDCL 289",
+    "subject": "MDCL",
+    "number": "289",
+    "title": "NUTRITION IN MEDICINE",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MDCL 290",
+    "subject": "MDCL",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MDCL 293",
+    "subject": "MDCL",
+    "number": "293",
+    "title": "THIRD YEAR CLINICAL ELECTIVES",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Clinic"
   },
   {
     "fullCode": "SEHE 001",
@@ -10190,6 +16400,46 @@
     "scheduleType": "Internship"
   },
   {
+    "fullCode": "SOC 290",
+    "subject": "SOC",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "SOC 291",
+    "subject": "SOC",
+    "number": "291",
+    "title": "INDIVIDUAL STUDY IN COORDINATED AREAS",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Individual Study"
+  },
+  {
+    "fullCode": "SOC 297",
+    "subject": "SOC",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "SOC 299",
+    "subject": "SOC",
+    "number": "299",
+    "title": "RESEARCH FOR THESIS OR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Thesis"
+  },
+  {
     "fullCode": "SEAS 154",
     "subject": "SEAS",
     "number": "154",
@@ -10218,6 +16468,46 @@
     "description": "",
     "prerequisites": "",
     "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "SEAS 290",
+    "subject": "SEAS",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Individual Study"
+  },
+  {
+    "fullCode": "SEAS 292",
+    "subject": "SEAS",
+    "number": "292",
+    "title": "CONCURRENT ANALYTICAL STUDIES IN SOUTHEAST ASIAN STUDIES",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Individual Study"
+  },
+  {
+    "fullCode": "SEAS 297",
+    "subject": "SEAS",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "SEAS 299",
+    "subject": "SEAS",
+    "number": "299",
+    "title": "RESEARCH FOR THE THESIS",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Thesis"
   },
   {
     "fullCode": "SPN 001",
@@ -10400,6 +16690,86 @@
     "scheduleType": "Research"
   },
   {
+    "fullCode": "SPN 203",
+    "subject": "SPN",
+    "number": "203",
+    "title": "PROBLEMS IN SPANISH LINGUISTICS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "SPN 207",
+    "subject": "SPN",
+    "number": "207",
+    "title": "HISTORY OF THE SPANISH LANGUAGE",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "SPN 257",
+    "subject": "SPN",
+    "number": "257",
+    "title": "SEMINAR IN HISPANIC CIVILIZATION",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "SPN 270Y",
+    "subject": "SPN",
+    "number": "270Y",
+    "title": "LATIN AMERICAN LITERATURE",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "SPN 290",
+    "subject": "SPN",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "SPN 291",
+    "subject": "SPN",
+    "number": "291",
+    "title": "INDIVIDUAL STUDIES IN COORDINATED AREAS",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "SPN 292",
+    "subject": "SPN",
+    "number": "292",
+    "title": "CONCURRENT ANALYTICAL STUDIES",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "SPN 299",
+    "subject": "SPN",
+    "number": "299",
+    "title": "RESEARCH FOR THESIS OR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Thesis"
+  },
+  {
     "fullCode": "SFCS 123",
     "subject": "SFCS",
     "number": "123",
@@ -10558,6 +16928,136 @@
     "description": "",
     "prerequisites": "",
     "scheduleType": "Internship"
+  },
+  {
+    "fullCode": "STAT 201C",
+    "subject": "STAT",
+    "number": "201C",
+    "title": "THEORY OF PROBABILITY AND STATISTICS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "STAT 202C",
+    "subject": "STAT",
+    "number": "202C",
+    "title": "REGRESSION, ANOVA, AND DESIGN",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "STAT 208",
+    "subject": "STAT",
+    "number": "208",
+    "title": "STATISTICAL DATA MINING METHODS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "STAT 209",
+    "subject": "STAT",
+    "number": "209",
+    "title": "SOFTWARE TOOLS FOR BIG DATA ANALYSIS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "STAT 218",
+    "subject": "STAT",
+    "number": "218",
+    "title": "SURVIVAL ANALYSIS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "STAT 251",
+    "subject": "STAT",
+    "number": "251",
+    "title": "STATISTICS COLLOQUIUM",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Colloquium"
+  },
+  {
+    "fullCode": "STAT 290",
+    "subject": "STAT",
+    "number": "290",
+    "title": "DIRECTED STUDIES",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "STAT 291",
+    "subject": "STAT",
+    "number": "291",
+    "title": "INDIVIDUAL STUDIES IN COORDINATED AREAS",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "STAT 292",
+    "subject": "STAT",
+    "number": "292",
+    "title": "CONCURRENT ANALYTICAL STUDIES",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "STAT 297",
+    "subject": "STAT",
+    "number": "297",
+    "title": "DIRECTED RESEARCH",
+    "units": "6",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "STAT 298I",
+    "subject": "STAT",
+    "number": "298I",
+    "title": "INDIVIDUAL INTERNSHIP IN STATISTICS",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "STAT 299",
+    "subject": "STAT",
+    "number": "299",
+    "title": "RESEARCH FOR THESIS OR DISSERTATION",
+    "units": "12",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Research"
+  },
+  {
+    "fullCode": "STAT 302",
+    "subject": "STAT",
+    "number": "302",
+    "title": "COLLEGE TEACHING PRACTICUM",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Clinic"
   },
   {
     "fullCode": "TFDP 010",
@@ -10978,6 +17478,16 @@
     "description": "",
     "prerequisites": "",
     "scheduleType": "Workshop"
+  },
+  {
+    "fullCode": "WRIT 302",
+    "subject": "WRIT",
+    "number": "302",
+    "title": "TEACHING PRACTICUM",
+    "units": "2",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
   },
   {
     "fullCode": "URST 146",

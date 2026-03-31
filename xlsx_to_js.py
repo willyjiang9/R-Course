@@ -24,7 +24,7 @@ except ImportError:
 # ── Config ────────────────────────────────────────────────────────
 XLSX_FILE   = "ucr_all_terms.xlsx"   # path to your scraped xlsx
 OUTPUT_FILE = "src/data/allCourses.json"
-SHEET_NAME  = "Spring 2026"        # use the most current term sheet
+SHEET_NAME  = "ALL COURSES"        # use the most current term sheet
                                     # or set to None to use first sheet
 # ─────────────────────────────────────────────────────────────────
 
@@ -74,13 +74,7 @@ def load_courses(xlsx_path, sheet_name=None):
         seen.add(full_code)
 
         # Skip graduate courses (number >= 200)
-        try:
-            num_int = int(''.join(filter(str.isdigit, number)))
-            if num_int >= 200:
-                continue
-        except ValueError:
-            pass
-
+    
         courses.append({
             "fullCode":     full_code,
             "subject":      subject,

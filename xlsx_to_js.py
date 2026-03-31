@@ -20,21 +20,23 @@ SKIP_SHEETS = {"All Courses", "Summary"}
 def load_courses(xlsx_path):
     print(f"Loading {xlsx_path}...")
     wb = openpyxl.load_workbook(xlsx_path, read_only=True, data_only=True)
-
-    print(f"Sheets found: {wb.sheetnames}")
+    print(f"Sheets: {wb.sheetnames}")
 
     headers = None
     all_rows = []
 
     for sheet_name in wb.sheetnames:
         if sheet_name in SKIP_SHEETS:
+            print(f"  Skipping: {sheet_name}")
             continue
         ws = wb[sheet_name]
         rows = list(ws.iter_rows(values_only=True))
         if not rows:
             continue
+        # Use headers from first valid sheet
         if headers is None:
             headers = [str(h).strip() if h else "" for h in rows[0]]
+            print(f"  Headers: {headers}")
         all_rows.extend(rows[1:])
         print(f"  {sheet_name}: {len(rows)-1} rows")
 
@@ -42,8 +44,7 @@ def load_courses(xlsx_path):
         print("No data found!")
         return []
 
-    print(f"Total rows across all terms: {len(all_rows)}")
-    print(f"Columns: {headers}")
+    print(f"\nTotal rows across all terms: {len(all_rows)}")
 
     col = {h: i for i, h in enumerate(headers)}
 
@@ -60,12 +61,12 @@ def load_courses(xlsx_path):
     for row in all_rows:
         subject = get(row, "Subject Code")
         number  = get(row, "Course Number")
-        if not subject or not number:
+        if not subject or not number or subject == "Subject Code":
             continue
 
         full_code = get(row, "Full Code") or f"{subject} {number}"
+        full_code = full_code.strip()
 
-        # Skip duplicates — keep first occurrence (most recent term)
         if full_code in seen:
             continue
         seen.add(full_code)
@@ -91,13 +92,17 @@ def main():
         return
 
     courses = load_courses(XLSX_FILE)
-    print(f"\nUnique courses found: {len(courses)}")
+    print(f"\n✅ Unique courses found: {len(courses)}")
+
+    # Show ENVE courses as a sanity check
+    enve = [c['fullCode'] for c in courses if c['subject'] == 'ENVE']
+    print(f"ENVE courses ({len(enve)}): {enve}")
 
     os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
     with open(OUTPUT_FILE, "w") as f:
         json.dump(courses, f, indent=2)
 
-    print(f"✅ Written to {OUTPUT_FILE}")
+    print(f"\n✅ Written to {OUTPUT_FILE}")
 
 
 if __name__ == "__main__":

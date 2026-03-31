@@ -22,8 +22,7 @@ const SUBJECT_TO_COLLEGE = {
   "PLNT":"Natural Sciences","ENVS":"Natural Sciences","GEO":"Natural Sciences",
   "EEOB":"Natural Sciences","BPSC":"Natural Sciences","NEMA":"Natural Sciences",
   "PLPA":"Natural Sciences","SOILS":"Natural Sciences","BIOL":"Natural Sciences",
-  "APPM":"Natural Sciences","NASC":"Natural Sciences",
-
+  "APPM":"Natural Sciences","NASC":"Natural Sciences","BCH":"Natural Sciences","AST":"Natural Sciences","BCHM":"Natural Sciences","AHS":"Humanities & Arts","KINE":"Natural Sciences","EXSC":"Natural Sciences",
   // Business (SoBus)
   "BUS":"Business","MGT":"Business","ACCT":"Business","FIN":"Business",
   "MKTG":"Business","OB":"Business","IS":"Business","SCM":"Business",
@@ -36,6 +35,7 @@ const SUBJECT_TO_COLLEGE = {
   "GSST":"Social Sciences","ETST":"Social Sciences","CHIC":"Social Sciences",
   "AAS":"Social Sciences","INTL":"Social Sciences","WMST":"Social Sciences",
   "SOCI":"Social Sciences",
+  "GLBL":"Social Sciences","AFAM":"Social Sciences","CRES":"Social Sciences","SWRK":"Social Sciences","CRJU":"Social Sciences",
 
   // Humanities & Arts (CHASS)
   "ENGL":"Humanities & Arts","PHIL":"Humanities & Arts","HIST":"Humanities & Arts",
@@ -97,8 +97,10 @@ export default function App() {
   const filtered = useMemo(() => {
     let list = COURSES
 
-    if (selectedCollege) {
-      list = list.filter(c => getCollege(c.subject) === selectedCollege)
+    if (search.trim()) {
+  // search always looks across ALL courses, ignoring sidebar selection
+    } else if (selectedDept) {
+      list = list.filter(c => c.subject === selectedDept)
     }
 
     if (search.trim()) {

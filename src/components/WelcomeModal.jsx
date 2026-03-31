@@ -83,7 +83,7 @@ export default function WelcomeModal() {
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
               {[
-                { icon: '🔍', text: 'Browse all 4,700+ UCR undergraduate courses' },
+                { icon: '🔍', text: 'Browse all 4,700+ UCR courses and filter by units' },
                 { icon: '⭐', text: 'See real difficulty ratings from past students' },
                 { icon: '💬', text: 'Leave honest reviews to help future Highlanders' },
                 { icon: '📣', text: 'Share with friends to grow the community' },

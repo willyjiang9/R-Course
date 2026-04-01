@@ -8,6 +8,22 @@ import { getReviews, getCourseStats, submitReview } from '../firebase.js'
 const WORKLOAD_COLOR = { Light: 'var(--easy)', Medium: 'var(--medium)', Heavy: 'var(--hard)' }
 const WORKLOAD_BG    = { Light: 'var(--easy-bg)', Medium: 'var(--medium-bg)', Heavy: 'var(--hard-bg)' }
 
+function parseDate(review) {
+  // Firestore timestamp
+  if (review.createdAt?.toDate) {
+    return review.createdAt.toDate().toLocaleDateString('en-US', { month: 'short', year: 'numeric' })
+  }
+  // String date from imported spreadsheet (e.g. "2023-10-06 00:00:00" or "10/6/2023")
+  const raw = review.createdAt || review.date || ''
+  if (raw && typeof raw === 'string' && raw.trim() !== '') {
+    const d = new Date(raw)
+    if (!isNaN(d.getTime())) {
+      return d.toLocaleDateString('en-US', { month: 'short', year: 'numeric' })
+    }
+  }
+  return 'Recent'
+}
+
 function StatBox({ label, value, sub }) {
   return (
     <div style={{
@@ -16,7 +32,7 @@ function StatBox({ label, value, sub }) {
       border: '1px solid var(--border)',
       borderRadius: 10, padding: '12px 8px', textAlign: 'center',
     }}>
-      <div style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: 20, color: 'var(--ucr-blue)' }}>{value}</div>
+      <div style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 800, fontSize: 20, color: 'var(--ucr-blue)' }}>{value}</div>
       <div style={{ fontSize: 10, color: 'var(--text-muted)', marginTop: 2, lineHeight: 1.3 }}>{label}</div>
       {sub && <div style={{ fontSize: 10, color: 'var(--text-muted)' }}>{sub}</div>}
     </div>
@@ -27,9 +43,7 @@ function ReviewItem({ review }) {
   const [expanded, setExpanded] = useState(false)
   const long = review.text && review.text.length > 180
   const shown = expanded || !long ? review.text : review.text.slice(0, 180) + '...'
-  const date = review.createdAt?.toDate
-    ? review.createdAt.toDate().toLocaleDateString('en-US', { month: 'short', year: 'numeric' })
-    : 'Recent'
+  const date = parseDate(review)
 
   return (
     <div style={{ background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: 10, padding: '12px', display: 'flex', flexDirection: 'column', gap: 8 }}>
@@ -132,18 +146,15 @@ export default function CourseModal({ course, onClose, onNewStats }) {
         }}
       />
 
-      {/* X button — always fixed to screen, never scrolls away */}
+      {/* X button — always fixed to screen */}
       <button
         onTouchEnd={e => { e.stopPropagation(); e.preventDefault(); onClose() }}
         onClick={e => { e.stopPropagation(); onClose() }}
         style={{
-          position: 'fixed',
-          top: 14, right: 14,
-          zIndex: 203,
+          position: 'fixed', top: 14, right: 14, zIndex: 203,
           background: 'var(--ucr-blue)',
           border: '2px solid rgba(255,255,255,0.4)',
-          borderRadius: 99,
-          width: 44, height: 44,
+          borderRadius: 99, width: 44, height: 44,
           display: 'flex', alignItems: 'center', justifyContent: 'center',
           color: '#fff', cursor: 'pointer',
           touchAction: 'manipulation',
@@ -155,18 +166,12 @@ export default function CourseModal({ course, onClose, onNewStats }) {
       </button>
 
       {/* Modal */}
-      <div style={{
-        position: 'fixed', inset: 0, zIndex: 201,
-        display: 'flex', alignItems: 'flex-end',
-        pointerEvents: 'none',
-      }}>
+      <div style={{ position: 'fixed', inset: 0, zIndex: 201, display: 'flex', alignItems: 'flex-end', pointerEvents: 'none' }}>
         <style>{`
           @media (min-width: 769px) {
             .modal-sheet {
               position: absolute !important;
-              top: 50% !important;
-              left: 50% !important;
-              bottom: auto !important;
+              top: 50% !important; left: 50% !important; bottom: auto !important;
               transform: translate(-50%, -50%) !important;
               width: min(680px, calc(100vw - 32px)) !important;
               max-height: calc(100vh - 48px) !important;
@@ -180,45 +185,32 @@ export default function CourseModal({ course, onClose, onNewStats }) {
           onTouchEnd={e => e.stopPropagation()}
           onClick={e => e.stopPropagation()}
           style={{
-            pointerEvents: 'auto',
-            width: '100%',
-            maxHeight: '94vh',
-            background: 'var(--surface)',
-            borderRadius: '20px 20px 0 0',
+            pointerEvents: 'auto', width: '100%', maxHeight: '94vh',
+            background: 'var(--surface)', borderRadius: '20px 20px 0 0',
             boxShadow: '0 -8px 40px rgba(0,0,0,0.2)',
-            display: 'flex', flexDirection: 'column',
-            overflow: 'hidden',
+            display: 'flex', flexDirection: 'column', overflow: 'hidden',
           }}
         >
           {/* Header */}
-          <div style={{
-            flexShrink: 0,
-            background: 'linear-gradient(135deg, var(--ucr-blue) 0%, #002a73 100%)',
-            color: '#fff',
-          }}>
+          <div style={{ flexShrink: 0, background: 'linear-gradient(135deg, var(--ucr-blue) 0%, #002a73 100%)', color: '#fff' }}>
             <div style={{ paddingTop: 10, display: 'flex', justifyContent: 'center' }}>
               <div style={{ width: 36, height: 4, background: 'rgba(255,255,255,0.3)', borderRadius: 99 }} />
             </div>
             <div style={{ padding: '12px 60px 16px 16px' }}>
-              <div style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: 11, color: 'rgba(241,171,0,0.9)', letterSpacing: '0.06em', marginBottom: 4 }}>
+              <div style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: 11, color: 'rgba(241,171,0,0.9)', letterSpacing: '0.06em', marginBottom: 4 }}>
                 {course.fullCode}
               </div>
-              <h2 style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: 17, lineHeight: 1.25, wordBreak: 'break-word' }}>
+              <h2 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: 17, lineHeight: 1.3, wordBreak: 'break-word', letterSpacing: '-0.01em' }}>
                 {course.title}
               </h2>
-              <div style={{ marginTop: 4, fontSize: 12, color: 'rgba(255,255,255,0.7)' }}>
+              <div style={{ marginTop: 4, fontSize: 12, color: 'rgba(255,255,255,0.7)', fontFamily: "'DM Sans', sans-serif" }}>
                 {course.units} units · {course.scheduleType || 'Lecture'}
               </div>
             </div>
           </div>
 
           {/* Scrollable body */}
-          <div style={{
-            overflowY: 'auto', flex: 1,
-            padding: '16px',
-            display: 'flex', flexDirection: 'column', gap: 16,
-            WebkitOverflowScrolling: 'touch',
-          }}>
+          <div style={{ overflowY: 'auto', flex: 1, padding: '16px', display: 'flex', flexDirection: 'column', gap: 16, WebkitOverflowScrolling: 'touch' }}>
             {course.prerequisites && course.prerequisites !== 'None' && (
               <div style={{ fontSize: 12, color: 'var(--text-secondary)', background: 'var(--surface-2)', border: '1px solid var(--border)', borderRadius: 8, padding: '9px 12px', borderLeft: '3px solid var(--ucr-blue)' }}>
                 <span style={{ fontWeight: 700, color: 'var(--text-primary)' }}>Prerequisites: </span>{course.prerequisites}

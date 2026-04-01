@@ -18,7 +18,6 @@
   --shadow-lg: 0 12px 40px rgba(0,0,0,0.14), 0 4px 12px rgba(0,0,0,0.06);
   --font-display: 'Syne', sans-serif;
   --font-body: 'DM Sans', sans-serif;
-
   --easy: #16a34a;
   --easy-bg: #dcfce7;
   --medium: #d97706;
@@ -29,15 +28,31 @@
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
+html {
+  /* Prevent text size adjustment on rotation */
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
   font-family: var(--font-body);
   background: var(--bg);
   color: var(--text-primary);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  /* Smooth scrolling on iOS */
+  -webkit-overflow-scrolling: touch;
 }
 
-button { cursor: pointer; font-family: inherit; border: none; background: none; }
+button {
+  cursor: pointer;
+  font-family: inherit;
+  border: none;
+  background: none;
+  /* Remove tap highlight on mobile */
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
 input, textarea, select { font-family: inherit; }
 a { text-decoration: none; color: inherit; }
 
@@ -61,3 +76,30 @@ a { text-decoration: none; color: inherit; }
 .fade-up   { animation: fadeUp 0.4s ease both; }
 .fade-in   { animation: fadeIn 0.3s ease both; }
 .slide-in  { animation: slideIn 0.3s ease both; }
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  /* Disable hover animations on mobile for performance */
+  * { transition: none !important; }
+
+  /* But keep opacity transitions for modals */
+  .fade-up, .fade-in, .slide-in {
+    animation-duration: 0.2s !important;
+  }
+
+  /* Larger tap targets */
+  button {
+    min-height: 44px;
+  }
+
+  /* Prevent card hover lift on mobile */
+  button:hover {
+    transform: none !important;
+    box-shadow: none !important;
+  }
+
+  /* Better touch scrolling */
+  main {
+    -webkit-overflow-scrolling: touch;
+  }
+}

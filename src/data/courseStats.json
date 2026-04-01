@@ -1,0 +1,4928 @@
+{
+  "AHS 007": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "AHS 008": {
+    "reviewCount": 2,
+    "avgDifficulty": 2.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "AHS 010S": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "AHS 017A": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "AHS 017B": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "AHS 021": {
+    "reviewCount": 2,
+    "avgDifficulty": 2.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "AHS 023": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "AHS 025": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "AHS 028": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.17,
+    "avgProfRating": 3.0,
+    "recommendPct": 67
+  },
+  "AHS 112": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "AHS 165": {
+    "reviewCount": 1,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "AHS 182": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ANTH 001": {
+    "reviewCount": 32,
+    "avgDifficulty": 2.59,
+    "avgProfRating": 3.0,
+    "recommendPct": 81
+  },
+  "ANTH 002": {
+    "reviewCount": 13,
+    "avgDifficulty": 3.23,
+    "avgProfRating": 3.0,
+    "recommendPct": 38
+  },
+  "ANTH 003": {
+    "reviewCount": 5,
+    "avgDifficulty": 3.3,
+    "avgProfRating": 3.0,
+    "recommendPct": 60
+  },
+  "ANTH 005": {
+    "reviewCount": 12,
+    "avgDifficulty": 3.58,
+    "avgProfRating": 3.0,
+    "recommendPct": 42
+  },
+  "ANTH 007S": {
+    "reviewCount": 4,
+    "avgDifficulty": 2.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ANTH 020": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ANTH 020S": {
+    "reviewCount": 2,
+    "avgDifficulty": 2.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ANTH 100": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ANTH 104": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ANTH 115R": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.67,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "ANTH 115S": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ANTH 118": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ANTH 120": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ANTH 123": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ANTH 127S": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ANTH 132": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ANTH 140G": {
+    "reviewCount": 2,
+    "avgDifficulty": 2.75,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "ANTH 153": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ANTH 155": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ANTH 165G": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ARC 005": {
+    "reviewCount": 1,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ARC 072": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ART 001": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ART 002": {
+    "reviewCount": 2,
+    "avgDifficulty": 2.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "ART 003": {
+    "reviewCount": 2,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ART 005": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.67,
+    "avgProfRating": 3.0,
+    "recommendPct": 67
+  },
+  "ART 006": {
+    "reviewCount": 2,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ART 032": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ART 115": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "AST 022": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BCH 010": {
+    "reviewCount": 3,
+    "avgDifficulty": 1.33,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BCH 015": {
+    "reviewCount": 3,
+    "avgDifficulty": 2.67,
+    "avgProfRating": 3.0,
+    "recommendPct": 67
+  },
+  "BCH 095": {
+    "reviewCount": 2,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BCH 096": {
+    "reviewCount": 1,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BCH 100": {
+    "reviewCount": 13,
+    "avgDifficulty": 3.96,
+    "avgProfRating": 3.0,
+    "recommendPct": 38
+  },
+  "BCH 100A": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BCH 110A": {
+    "reviewCount": 4,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BCH 110B": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.75,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BCH 110C": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BIEN 001": {
+    "reviewCount": 2,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BIEN 010": {
+    "reviewCount": 2,
+    "avgDifficulty": 1.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BIEN 101": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BIEN 105": {
+    "reviewCount": 3,
+    "avgDifficulty": 4.67,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BIEN 110": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BIEN 111": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BIEN 120": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BIEN 125": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BIEN 130": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "BIEN 135": {
+    "reviewCount": 2,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BIEN 138": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BIEN 140A": {
+    "reviewCount": 4,
+    "avgDifficulty": 1.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BIEN 140B": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BIEN 142": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BIEN 155": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BIEN 167": {
+    "reviewCount": 2,
+    "avgDifficulty": 1.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BIEN 175A": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.75,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BIEN 175B": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BIEN 190": {
+    "reviewCount": 1,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BIEN 234": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BIOL 002": {
+    "reviewCount": 9,
+    "avgDifficulty": 2.67,
+    "avgProfRating": 3.0,
+    "recommendPct": 89
+  },
+  "BIOL 003": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "BIOL 005A": {
+    "reviewCount": 33,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 36
+  },
+  "BIOL 005B": {
+    "reviewCount": 31,
+    "avgDifficulty": 4.1,
+    "avgProfRating": 3.0,
+    "recommendPct": 19
+  },
+  "BIOL 005C": {
+    "reviewCount": 15,
+    "avgDifficulty": 3.9,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "BIOL 020": {
+    "reviewCount": 14,
+    "avgDifficulty": 3.61,
+    "avgProfRating": 3.0,
+    "recommendPct": 36
+  },
+  "BIOL 030": {
+    "reviewCount": 7,
+    "avgDifficulty": 3.57,
+    "avgProfRating": 3.0,
+    "recommendPct": 43
+  },
+  "BIOL 040": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BIOL 05LA": {
+    "reviewCount": 9,
+    "avgDifficulty": 3.67,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "BIOL 05LB": {
+    "reviewCount": 4,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 25
+  },
+  "BIOL 102": {
+    "reviewCount": 7,
+    "avgDifficulty": 3.79,
+    "avgProfRating": 3.0,
+    "recommendPct": 14
+  },
+  "BIOL 105": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BIOL 107A": {
+    "reviewCount": 5,
+    "avgDifficulty": 3.7,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BIOL 108": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BIOL 115": {
+    "reviewCount": 3,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BIOL 116": {
+    "reviewCount": 6,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "BIOL 119": {
+    "reviewCount": 3,
+    "avgDifficulty": 4.17,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "BIOL 121": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.33,
+    "avgProfRating": 3.0,
+    "recommendPct": 67
+  },
+  "BIOL 121L": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BIOL 127": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BIOL 128": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BIOL 155": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BIOL 157": {
+    "reviewCount": 3,
+    "avgDifficulty": 4.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BIOL 161A": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BIOL 162": {
+    "reviewCount": 3,
+    "avgDifficulty": 2.33,
+    "avgProfRating": 3.0,
+    "recommendPct": 67
+  },
+  "BIOL 163": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.33,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "BIOL 171A": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.75,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BIOL 171B": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "BIOL 174": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BIOL 176": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BIOL 178": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BLKS 001": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BPSC 011": {
+    "reviewCount": 2,
+    "avgDifficulty": 1.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BPSC 021": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BPSC 104": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BPSC 132": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BPSC 143": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BPSC 150": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BSWT 001": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BSWT 002": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BSWT 003": {
+    "reviewCount": 6,
+    "avgDifficulty": 4.17,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BUS 010": {
+    "reviewCount": 16,
+    "avgDifficulty": 3.38,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "BUS 020": {
+    "reviewCount": 19,
+    "avgDifficulty": 3.92,
+    "avgProfRating": 3.0,
+    "recommendPct": 16
+  },
+  "BUS 100W": {
+    "reviewCount": 7,
+    "avgDifficulty": 3.64,
+    "avgProfRating": 3.0,
+    "recommendPct": 43
+  },
+  "BUS 101": {
+    "reviewCount": 9,
+    "avgDifficulty": 3.06,
+    "avgProfRating": 3.0,
+    "recommendPct": 56
+  },
+  "BUS 102": {
+    "reviewCount": 6,
+    "avgDifficulty": 3.42,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "BUS 103": {
+    "reviewCount": 7,
+    "avgDifficulty": 3.79,
+    "avgProfRating": 3.0,
+    "recommendPct": 43
+  },
+  "BUS 104": {
+    "reviewCount": 7,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 14
+  },
+  "BUS 105": {
+    "reviewCount": 5,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 40
+  },
+  "BUS 106": {
+    "reviewCount": 5,
+    "avgDifficulty": 4.2,
+    "avgProfRating": 3.0,
+    "recommendPct": 40
+  },
+  "BUS 107": {
+    "reviewCount": 3,
+    "avgDifficulty": 2.83,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "BUS 108": {
+    "reviewCount": 5,
+    "avgDifficulty": 3.3,
+    "avgProfRating": 3.0,
+    "recommendPct": 20
+  },
+  "BUS 109": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BUS 110": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BUS 111": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BUS 112": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "BUS 113": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BUS 114": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BUS 117": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BUS 118": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BUS 121": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BUS 123": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BUS 124": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BUS 125": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.75,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BUS 126": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.75,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BUS 127": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BUS 128": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BUS 130": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BUS 134": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BUS 136": {
+    "reviewCount": 3,
+    "avgDifficulty": 4.17,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BUS 143": {
+    "reviewCount": 4,
+    "avgDifficulty": 3.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 75
+  },
+  "BUS 145": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.75,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BUS 146": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BUS 149": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BUS 152": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "BUS 154": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BUS 155": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BUS 157": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BUS 165A": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BUS 168A": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BUS 168B": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BUS 171": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "BUS 172": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BUS 173": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.67,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "BUS 174": {
+    "reviewCount": 2,
+    "avgDifficulty": 2.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BUS 175": {
+    "reviewCount": 1,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "BUS 179": {
+    "reviewCount": 2,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "CAH 001": {
+    "reviewCount": 1,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "CBNS 101": {
+    "reviewCount": 6,
+    "avgDifficulty": 3.42,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "CBNS 106": {
+    "reviewCount": 6,
+    "avgDifficulty": 3.75,
+    "avgProfRating": 3.0,
+    "recommendPct": 17
+  },
+  "CBNS 116": {
+    "reviewCount": 3,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CBNS 120": {
+    "reviewCount": 4,
+    "avgDifficulty": 3.88,
+    "avgProfRating": 3.0,
+    "recommendPct": 25
+  },
+  "CBNS 120L": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "CBNS 121": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "CBNS 124": {
+    "reviewCount": 4,
+    "avgDifficulty": 3.38,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "CBNS 125": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CBNS 128": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CBNS 150": {
+    "reviewCount": 2,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CBNS 165": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "CEE 010": {
+    "reviewCount": 3,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "CEE 135": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "CEE 158": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "CHEM 001A": {
+    "reviewCount": 63,
+    "avgDifficulty": 3.9,
+    "avgProfRating": 3.0,
+    "recommendPct": 22
+  },
+  "CHEM 001B": {
+    "reviewCount": 26,
+    "avgDifficulty": 3.83,
+    "avgProfRating": 3.0,
+    "recommendPct": 42
+  },
+  "CHEM 001C": {
+    "reviewCount": 28,
+    "avgDifficulty": 3.64,
+    "avgProfRating": 3.0,
+    "recommendPct": 36
+  },
+  "CHEM 005": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "CHEM 008A": {
+    "reviewCount": 29,
+    "avgDifficulty": 3.93,
+    "avgProfRating": 3.0,
+    "recommendPct": 14
+  },
+  "CHEM 008B": {
+    "reviewCount": 21,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 19
+  },
+  "CHEM 008C": {
+    "reviewCount": 11,
+    "avgDifficulty": 3.73,
+    "avgProfRating": 3.0,
+    "recommendPct": 27
+  },
+  "CHEM 01LA": {
+    "reviewCount": 14,
+    "avgDifficulty": 3.07,
+    "avgProfRating": 3.0,
+    "recommendPct": 57
+  },
+  "CHEM 01LB": {
+    "reviewCount": 6,
+    "avgDifficulty": 3.17,
+    "avgProfRating": 3.0,
+    "recommendPct": 67
+  },
+  "CHEM 01LC": {
+    "reviewCount": 8,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 12
+  },
+  "CHEM 08LA": {
+    "reviewCount": 7,
+    "avgDifficulty": 3.64,
+    "avgProfRating": 3.0,
+    "recommendPct": 29
+  },
+  "CHEM 08LB": {
+    "reviewCount": 5,
+    "avgDifficulty": 3.7,
+    "avgProfRating": 3.0,
+    "recommendPct": 40
+  },
+  "CHEM 08LC": {
+    "reviewCount": 5,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 20
+  },
+  "CHEM 109": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CHEM 110A": {
+    "reviewCount": 5,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CHEM 110B": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "CHEM 111": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "CHEM 125W": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "CHEM 150A": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CHE 100": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.67,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "CHE 105": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CHE 110B": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CHE 114": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "CHE 120": {
+    "reviewCount": 3,
+    "avgDifficulty": 4.17,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CHE 130": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "CHE 135": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CHFY 007": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CHN 004": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CHN 020A": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CHN 020B": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.75,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "CHN 030": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CHN 046": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "CHN 101A": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CHN 132": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "CLA 010A": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CLA 010B": {
+    "reviewCount": 11,
+    "avgDifficulty": 3.73,
+    "avgProfRating": 3.0,
+    "recommendPct": 45
+  },
+  "CLA 010C": {
+    "reviewCount": 5,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 20
+  },
+  "CLA 012C": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "CLA 017": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CLA 020": {
+    "reviewCount": 1,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "CLA 030": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CLA 040": {
+    "reviewCount": 5,
+    "avgDifficulty": 3.3,
+    "avgProfRating": 3.0,
+    "recommendPct": 60
+  },
+  "CLA 112": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CPLT 002": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CPLT 017A": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CPLT 017C": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "CPLT 023": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CPLT 025": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "CPLT 040": {
+    "reviewCount": 1,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "CPLT 062": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "CPLT 070": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CPLT 110": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "CRWT 045": {
+    "reviewCount": 3,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 67
+  },
+  "CRWT 046S": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CRWT 047S": {
+    "reviewCount": 2,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "CRWT 056": {
+    "reviewCount": 16,
+    "avgDifficulty": 2.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 88
+  },
+  "CRWT 057C": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CS 005": {
+    "reviewCount": 11,
+    "avgDifficulty": 2.73,
+    "avgProfRating": 3.0,
+    "recommendPct": 64
+  },
+  "CS 006": {
+    "reviewCount": 11,
+    "avgDifficulty": 3.23,
+    "avgProfRating": 3.0,
+    "recommendPct": 55
+  },
+  "CS 008": {
+    "reviewCount": 27,
+    "avgDifficulty": 2.31,
+    "avgProfRating": 3.0,
+    "recommendPct": 85
+  },
+  "CS 009A": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "CS 009B": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CS 009C": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "CS 010A": {
+    "reviewCount": 30,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 63
+  },
+  "CS 010B": {
+    "reviewCount": 27,
+    "avgDifficulty": 3.69,
+    "avgProfRating": 3.0,
+    "recommendPct": 22
+  },
+  "CS 010C": {
+    "reviewCount": 29,
+    "avgDifficulty": 4.16,
+    "avgProfRating": 3.0,
+    "recommendPct": 10
+  },
+  "CS 010V": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "CS 013": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "CS 061": {
+    "reviewCount": 35,
+    "avgDifficulty": 3.8,
+    "avgProfRating": 3.0,
+    "recommendPct": 26
+  },
+  "CS 100": {
+    "reviewCount": 28,
+    "avgDifficulty": 3.95,
+    "avgProfRating": 3.0,
+    "recommendPct": 21
+  },
+  "CS 105": {
+    "reviewCount": 10,
+    "avgDifficulty": 3.55,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "CS 108": {
+    "reviewCount": 2,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "CS 110": {
+    "reviewCount": 5,
+    "avgDifficulty": 4.1,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CS 111": {
+    "reviewCount": 49,
+    "avgDifficulty": 4.08,
+    "avgProfRating": 3.0,
+    "recommendPct": 8
+  },
+  "CS 122A": {
+    "reviewCount": 3,
+    "avgDifficulty": 4.33,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CS 130": {
+    "reviewCount": 12,
+    "avgDifficulty": 4.17,
+    "avgProfRating": 3.0,
+    "recommendPct": 8
+  },
+  "CS 131": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.33,
+    "avgProfRating": 3.0,
+    "recommendPct": 67
+  },
+  "CS 135": {
+    "reviewCount": 6,
+    "avgDifficulty": 3.75,
+    "avgProfRating": 3.0,
+    "recommendPct": 17
+  },
+  "CS 141": {
+    "reviewCount": 40,
+    "avgDifficulty": 4.14,
+    "avgProfRating": 3.0,
+    "recommendPct": 5
+  },
+  "CS 142": {
+    "reviewCount": 4,
+    "avgDifficulty": 3.88,
+    "avgProfRating": 3.0,
+    "recommendPct": 25
+  },
+  "CS 144": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "CS 147": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "CS 150": {
+    "reviewCount": 18,
+    "avgDifficulty": 3.69,
+    "avgProfRating": 3.0,
+    "recommendPct": 28
+  },
+  "CS 152": {
+    "reviewCount": 13,
+    "avgDifficulty": 3.77,
+    "avgProfRating": 3.0,
+    "recommendPct": 8
+  },
+  "CS 153": {
+    "reviewCount": 21,
+    "avgDifficulty": 3.98,
+    "avgProfRating": 3.0,
+    "recommendPct": 29
+  },
+  "CS 160": {
+    "reviewCount": 3,
+    "avgDifficulty": 2.33,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "CS 161": {
+    "reviewCount": 15,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 13
+  },
+  "CS 161L": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "CS 164": {
+    "reviewCount": 6,
+    "avgDifficulty": 4.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 17
+  },
+  "CS 165": {
+    "reviewCount": 5,
+    "avgDifficulty": 4.8,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CS 166": {
+    "reviewCount": 9,
+    "avgDifficulty": 4.17,
+    "avgProfRating": 3.0,
+    "recommendPct": 22
+  },
+  "CS 167": {
+    "reviewCount": 4,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "CS 168": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.75,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CS 170": {
+    "reviewCount": 13,
+    "avgDifficulty": 3.92,
+    "avgProfRating": 3.0,
+    "recommendPct": 38
+  },
+  "CS 171": {
+    "reviewCount": 15,
+    "avgDifficulty": 4.83,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CS 172": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.67,
+    "avgProfRating": 3.0,
+    "recommendPct": 67
+  },
+  "CS 173": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CS 175": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.67,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "CS 179E": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.75,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CS 179F": {
+    "reviewCount": 4,
+    "avgDifficulty": 3.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "CS 179G": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "CS 179J": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "CS 179M": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "CS 179N": {
+    "reviewCount": 3,
+    "avgDifficulty": 2.67,
+    "avgProfRating": 3.0,
+    "recommendPct": 67
+  },
+  "CS 180": {
+    "reviewCount": 8,
+    "avgDifficulty": 3.56,
+    "avgProfRating": 3.0,
+    "recommendPct": 38
+  },
+  "CS 181": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CS 182": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "CS 183": {
+    "reviewCount": 4,
+    "avgDifficulty": 3.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 75
+  },
+  "CS 201": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.33,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "CS 202": {
+    "reviewCount": 4,
+    "avgDifficulty": 3.62,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CS 203": {
+    "reviewCount": 4,
+    "avgDifficulty": 4.38,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CS 205": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "CS 206": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CS 210": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CS 211": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CS 215": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CS 217": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CS 218": {
+    "reviewCount": 3,
+    "avgDifficulty": 4.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CS 226": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CS 229": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CS 235": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CS 236": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CS 240": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "CS 242": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "CS 247": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CS 251": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "CS 253": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "DNCE 005": {
+    "reviewCount": 17,
+    "avgDifficulty": 2.29,
+    "avgProfRating": 3.0,
+    "recommendPct": 82
+  },
+  "DNCE 007": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.33,
+    "avgProfRating": 3.0,
+    "recommendPct": 67
+  },
+  "DNCE 007W": {
+    "reviewCount": 2,
+    "avgDifficulty": 2.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "DNCE 012": {
+    "reviewCount": 1,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "DNCE 065A": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ECON 002": {
+    "reviewCount": 26,
+    "avgDifficulty": 3.27,
+    "avgProfRating": 3.0,
+    "recommendPct": 58
+  },
+  "ECON 003": {
+    "reviewCount": 31,
+    "avgDifficulty": 3.18,
+    "avgProfRating": 3.0,
+    "recommendPct": 55
+  },
+  "ECON 003H": {
+    "reviewCount": 1,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ECON 006": {
+    "reviewCount": 3,
+    "avgDifficulty": 4.67,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ECON 101": {
+    "reviewCount": 6,
+    "avgDifficulty": 3.75,
+    "avgProfRating": 3.0,
+    "recommendPct": 17
+  },
+  "ECON 102": {
+    "reviewCount": 4,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 75
+  },
+  "ECON 103": {
+    "reviewCount": 6,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "ECON 104A": {
+    "reviewCount": 6,
+    "avgDifficulty": 3.75,
+    "avgProfRating": 3.0,
+    "recommendPct": 17
+  },
+  "ECON 104B": {
+    "reviewCount": 3,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ECON 105A": {
+    "reviewCount": 4,
+    "avgDifficulty": 3.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 75
+  },
+  "ECON 105B": {
+    "reviewCount": 4,
+    "avgDifficulty": 3.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "ECON 106": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ECON 107": {
+    "reviewCount": 4,
+    "avgDifficulty": 4.12,
+    "avgProfRating": 3.0,
+    "recommendPct": 25
+  },
+  "ECON 108": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ECON 109": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ECON 124A": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ECON 129": {
+    "reviewCount": 2,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ECON 130": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "ECON 135": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "ECON 138": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ECON 143": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ECON 152": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ECON 160": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ECON 162": {
+    "reviewCount": 3,
+    "avgDifficulty": 4.17,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ECON 163": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ECON 171": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "ECON 178": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ECON 181": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "EDUC 005": {
+    "reviewCount": 4,
+    "avgDifficulty": 1.75,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "EDUC 010": {
+    "reviewCount": 6,
+    "avgDifficulty": 2.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 67
+  },
+  "EDUC 023": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "EDUC 032A": {
+    "reviewCount": 1,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "EDUC 040": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "EDUC 042": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "EDUC 043": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "EDUC 049": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "EDUC 050": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "EDUC 051": {
+    "reviewCount": 1,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "EDUC 061": {
+    "reviewCount": 4,
+    "avgDifficulty": 2.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 75
+  },
+  "EDUC 104": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "EDUC 105": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "EDUC 122": {
+    "reviewCount": 1,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "EDUC 123": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "EDUC 150": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "EDUC 152": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "EDUC 154": {
+    "reviewCount": 2,
+    "avgDifficulty": 2.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "EDUC 162": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "EDUC 181": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "EDUC 184": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "EE 001A": {
+    "reviewCount": 10,
+    "avgDifficulty": 4.05,
+    "avgProfRating": 3.0,
+    "recommendPct": 10
+  },
+  "EE 001B": {
+    "reviewCount": 10,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 20
+  },
+  "EE 003": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "EE 005": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "EE 010": {
+    "reviewCount": 3,
+    "avgDifficulty": 2.33,
+    "avgProfRating": 3.0,
+    "recommendPct": 67
+  },
+  "EE 016": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "EE 020": {
+    "reviewCount": 12,
+    "avgDifficulty": 3.71,
+    "avgProfRating": 3.0,
+    "recommendPct": 17
+  },
+  "EE 020B": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.67,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "EE 030A": {
+    "reviewCount": 4,
+    "avgDifficulty": 3.62,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "EE 030B": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "EE 100A": {
+    "reviewCount": 5,
+    "avgDifficulty": 4.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "EE 100B": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "EE 105": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.83,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "EE 106": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "EE 110A": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "EE 110B": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "EE 111": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "EE 114": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "EE 115": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "EE 116": {
+    "reviewCount": 3,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "EE 120A": {
+    "reviewCount": 23,
+    "avgDifficulty": 3.43,
+    "avgProfRating": 3.0,
+    "recommendPct": 43
+  },
+  "EE 120B": {
+    "reviewCount": 22,
+    "avgDifficulty": 3.93,
+    "avgProfRating": 3.0,
+    "recommendPct": 14
+  },
+  "EE 123": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "EE 128": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "EE 132": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "EE 138": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "EE 139": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "EE 141": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "EE 144": {
+    "reviewCount": 5,
+    "avgDifficulty": 4.4,
+    "avgProfRating": 3.0,
+    "recommendPct": 20
+  },
+  "EE 146": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.75,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "EE 252": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "EE 255": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "EE 283A": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "EE 284": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ENGL 001A": {
+    "reviewCount": 64,
+    "avgDifficulty": 3.69,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "ENGL 001B": {
+    "reviewCount": 80,
+    "avgDifficulty": 3.53,
+    "avgProfRating": 3.0,
+    "recommendPct": 46
+  },
+  "ENGL 001C": {
+    "reviewCount": 28,
+    "avgDifficulty": 3.64,
+    "avgProfRating": 3.0,
+    "recommendPct": 36
+  },
+  "ENGL 004": {
+    "reviewCount": 27,
+    "avgDifficulty": 3.61,
+    "avgProfRating": 3.0,
+    "recommendPct": 37
+  },
+  "ENGL 008": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ENGL 012A": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ENGL 012B": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ENGL 012I": {
+    "reviewCount": 2,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ENGL 012R": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ENGL 012S": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ENGL 017": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ENGL 01PA": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ENGL 01PL": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ENGL 020A": {
+    "reviewCount": 6,
+    "avgDifficulty": 2.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 67
+  },
+  "ENGL 020B": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ENGL 020C": {
+    "reviewCount": 7,
+    "avgDifficulty": 2.36,
+    "avgProfRating": 3.0,
+    "recommendPct": 86
+  },
+  "ENGL 102W": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.67,
+    "avgProfRating": 3.0,
+    "recommendPct": 67
+  },
+  "ENGL 128X": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ENGL 141": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ENGL 179A": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ENGR 001": {
+    "reviewCount": 8,
+    "avgDifficulty": 1.12,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ENGR 101": {
+    "reviewCount": 2,
+    "avgDifficulty": 2.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ENGR 118": {
+    "reviewCount": 5,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 40
+  },
+  "ENGR 160": {
+    "reviewCount": 1,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ENGR 171": {
+    "reviewCount": 2,
+    "avgDifficulty": 2.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "ENGR 180W": {
+    "reviewCount": 18,
+    "avgDifficulty": 3.17,
+    "avgProfRating": 3.0,
+    "recommendPct": 67
+  },
+  "ENSC 001": {
+    "reviewCount": 9,
+    "avgDifficulty": 2.11,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ENSC 002": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.67,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "ENSC 006": {
+    "reviewCount": 5,
+    "avgDifficulty": 3.7,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ENSC 100": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ENSC 105": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ENSC 110": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ENSC 120": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.67,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "ENTM 010": {
+    "reviewCount": 8,
+    "avgDifficulty": 3.44,
+    "avgProfRating": 3.0,
+    "recommendPct": 25
+  },
+  "ENTM 020": {
+    "reviewCount": 2,
+    "avgDifficulty": 2.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "ENTM 060W": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ENTM 100": {
+    "reviewCount": 2,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ENTM 126": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ETST 001": {
+    "reviewCount": 10,
+    "avgDifficulty": 2.35,
+    "avgProfRating": 3.0,
+    "recommendPct": 70
+  },
+  "ETST 002": {
+    "reviewCount": 14,
+    "avgDifficulty": 3.21,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "ETST 003": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 67
+  },
+  "ETST 005": {
+    "reviewCount": 6,
+    "avgDifficulty": 2.67,
+    "avgProfRating": 3.0,
+    "recommendPct": 67
+  },
+  "ETST 007": {
+    "reviewCount": 5,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ETST 011": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ETST 012": {
+    "reviewCount": 3,
+    "avgDifficulty": 2.67,
+    "avgProfRating": 3.0,
+    "recommendPct": 67
+  },
+  "ETST 012H": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ETST 014": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ETST 098": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ETST 102": {
+    "reviewCount": 1,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ETST 106": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ETST 131": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ETST 136": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ETST 189": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "FREN 002": {
+    "reviewCount": 2,
+    "avgDifficulty": 2.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "FREN 003": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "FREN 004": {
+    "reviewCount": 2,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "FREN 15A": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "GBST 001": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "GEO 001": {
+    "reviewCount": 5,
+    "avgDifficulty": 3.9,
+    "avgProfRating": 3.0,
+    "recommendPct": 20
+  },
+  "GEO 002": {
+    "reviewCount": 4,
+    "avgDifficulty": 3.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 75
+  },
+  "GEO 003": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "GEO 004": {
+    "reviewCount": 9,
+    "avgDifficulty": 3.33,
+    "avgProfRating": 3.0,
+    "recommendPct": 56
+  },
+  "GEO 005": {
+    "reviewCount": 4,
+    "avgDifficulty": 2.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "GEO 006": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "GEO 008": {
+    "reviewCount": 9,
+    "avgDifficulty": 3.61,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "GEO 009": {
+    "reviewCount": 9,
+    "avgDifficulty": 3.67,
+    "avgProfRating": 3.0,
+    "recommendPct": 44
+  },
+  "GEO 011": {
+    "reviewCount": 4,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 25
+  },
+  "GEO 012": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "GEO 013": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "GEO 080": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "GER 045": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "GRK 001": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "GSST 001": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.83,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "GSST 013S": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "GSST 016": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "GSST 01S": {
+    "reviewCount": 9,
+    "avgDifficulty": 2.89,
+    "avgProfRating": 3.0,
+    "recommendPct": 56
+  },
+  "GSST 021": {
+    "reviewCount": 2,
+    "avgDifficulty": 2.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "GSST 137": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "GSST 145": {
+    "reviewCount": 1,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "GSST 185": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "HASS 001": {
+    "reviewCount": 2,
+    "avgDifficulty": 1.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "HISA 113": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "HISA 117A": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "HISA 117B": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "HISA 119": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.67,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "HISA 162": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "HISA 165": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "HISE 111": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "HISE 146": {
+    "reviewCount": 1,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "HISE 176": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "HIST 001": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "HIST 010": {
+    "reviewCount": 23,
+    "avgDifficulty": 3.24,
+    "avgProfRating": 3.0,
+    "recommendPct": 39
+  },
+  "HIST 010H": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "HIST 015": {
+    "reviewCount": 22,
+    "avgDifficulty": 3.73,
+    "avgProfRating": 3.0,
+    "recommendPct": 32
+  },
+  "HIST 017A": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "HIST 017B": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "HIST 020": {
+    "reviewCount": 22,
+    "avgDifficulty": 2.82,
+    "avgProfRating": 3.0,
+    "recommendPct": 64
+  },
+  "HIST 020V": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "HIST 020W": {
+    "reviewCount": 6,
+    "avgDifficulty": 3.75,
+    "avgProfRating": 3.0,
+    "recommendPct": 17
+  },
+  "HIST 030": {
+    "reviewCount": 4,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "HIST 035": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "HIST 036": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "HIST 039": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "HIST 089": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "HIST 099W": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "HIST 106": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "HIST 107": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "HIST 108": {
+    "reviewCount": 11,
+    "avgDifficulty": 2.91,
+    "avgProfRating": 3.0,
+    "recommendPct": 73
+  },
+  "HIST 109": {
+    "reviewCount": 5,
+    "avgDifficulty": 3.4,
+    "avgProfRating": 3.0,
+    "recommendPct": 40
+  },
+  "HNPG 001B": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "HNPG 002W": {
+    "reviewCount": 3,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "HNPG 016": {
+    "reviewCount": 5,
+    "avgDifficulty": 4.2,
+    "avgProfRating": 3.0,
+    "recommendPct": 20
+  },
+  "HNPG 017": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "HNPG 018": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.33,
+    "avgProfRating": 3.0,
+    "recommendPct": 67
+  },
+  "ITAL 004": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ITAL 042": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ITAL 158": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "JPN 001": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.33,
+    "avgProfRating": 3.0,
+    "recommendPct": 67
+  },
+  "JPN 022": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "JPN 056": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "JPN 152K": {
+    "reviewCount": 1,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "KOR 001": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "KOR 020B": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "LABR 001": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "LATN 001": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "LBST 001": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "LBST 191": {
+    "reviewCount": 1,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "LING 020": {
+    "reviewCount": 11,
+    "avgDifficulty": 3.32,
+    "avgProfRating": 3.0,
+    "recommendPct": 45
+  },
+  "LING 021": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "LING 163": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "LNST 001": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "LWSO 100": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "MATH 004": {
+    "reviewCount": 17,
+    "avgDifficulty": 3.82,
+    "avgProfRating": 3.0,
+    "recommendPct": 24
+  },
+  "MATH 005": {
+    "reviewCount": 16,
+    "avgDifficulty": 3.66,
+    "avgProfRating": 3.0,
+    "recommendPct": 19
+  },
+  "MATH 005A": {
+    "reviewCount": 5,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 40
+  },
+  "MATH 006A": {
+    "reviewCount": 12,
+    "avgDifficulty": 3.92,
+    "avgProfRating": 3.0,
+    "recommendPct": 25
+  },
+  "MATH 006B": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.83,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "MATH 007A": {
+    "reviewCount": 13,
+    "avgDifficulty": 3.65,
+    "avgProfRating": 3.0,
+    "recommendPct": 38
+  },
+  "MATH 007B": {
+    "reviewCount": 16,
+    "avgDifficulty": 3.38,
+    "avgProfRating": 3.0,
+    "recommendPct": 62
+  },
+  "MATH 009A": {
+    "reviewCount": 27,
+    "avgDifficulty": 3.83,
+    "avgProfRating": 3.0,
+    "recommendPct": 22
+  },
+  "MATH 009B": {
+    "reviewCount": 28,
+    "avgDifficulty": 3.55,
+    "avgProfRating": 3.0,
+    "recommendPct": 36
+  },
+  "MATH 009C": {
+    "reviewCount": 27,
+    "avgDifficulty": 3.59,
+    "avgProfRating": 3.0,
+    "recommendPct": 37
+  },
+  "MATH 010A": {
+    "reviewCount": 33,
+    "avgDifficulty": 3.71,
+    "avgProfRating": 3.0,
+    "recommendPct": 42
+  },
+  "MATH 010B": {
+    "reviewCount": 10,
+    "avgDifficulty": 3.6,
+    "avgProfRating": 3.0,
+    "recommendPct": 20
+  },
+  "MATH 011": {
+    "reviewCount": 22,
+    "avgDifficulty": 3.57,
+    "avgProfRating": 3.0,
+    "recommendPct": 36
+  },
+  "MATH 022": {
+    "reviewCount": 18,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 11
+  },
+  "MATH 031": {
+    "reviewCount": 23,
+    "avgDifficulty": 3.02,
+    "avgProfRating": 3.0,
+    "recommendPct": 61
+  },
+  "MATH 036": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "MATH 045": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "MATH 046": {
+    "reviewCount": 18,
+    "avgDifficulty": 3.42,
+    "avgProfRating": 3.0,
+    "recommendPct": 56
+  },
+  "MATH 120": {
+    "reviewCount": 5,
+    "avgDifficulty": 4.1,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "MATH 121": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.83,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "MATH 126": {
+    "reviewCount": 3,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "MATH 131": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.83,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "MATH 132": {
+    "reviewCount": 4,
+    "avgDifficulty": 4.62,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "MATH 133": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.67,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "MATH 135A": {
+    "reviewCount": 8,
+    "avgDifficulty": 3.75,
+    "avgProfRating": 3.0,
+    "recommendPct": 25
+  },
+  "MATH 135B": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "MATH 136": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "MATH 144": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "MATH 145B": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "MATH 146A": {
+    "reviewCount": 5,
+    "avgDifficulty": 3.4,
+    "avgProfRating": 3.0,
+    "recommendPct": 40
+  },
+  "MATH 146C": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "MATH 147": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "MATH 148": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "MATH 149A": {
+    "reviewCount": 3,
+    "avgDifficulty": 4.33,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "MATH 151A": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "MATH 153": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "MATH 165A": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.75,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "MATH 165B": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "MATH 168": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "MATH 171": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "MCBL 121": {
+    "reviewCount": 3,
+    "avgDifficulty": 4.17,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "MCBL 121L": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "MCBL 123": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "MCBL 125": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "MCBL 126": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "MCBL 133": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "MCBL 139": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "MCS 001": {
+    "reviewCount": 7,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 86
+  },
+  "MCS 005": {
+    "reviewCount": 6,
+    "avgDifficulty": 2.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 67
+  },
+  "MCS 009": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "MCS 010": {
+    "reviewCount": 2,
+    "avgDifficulty": 2.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "MCS 015": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "MCS 020": {
+    "reviewCount": 5,
+    "avgDifficulty": 1.2,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "MCS 047": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "MCS 154": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "MCS 157": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ME 002": {
+    "reviewCount": 9,
+    "avgDifficulty": 4.39,
+    "avgProfRating": 3.0,
+    "recommendPct": 11
+  },
+  "ME 009": {
+    "reviewCount": 4,
+    "avgDifficulty": 4.62,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ME 010": {
+    "reviewCount": 5,
+    "avgDifficulty": 3.6,
+    "avgProfRating": 3.0,
+    "recommendPct": 20
+  },
+  "ME 018A": {
+    "reviewCount": 6,
+    "avgDifficulty": 4.08,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ME 018B": {
+    "reviewCount": 7,
+    "avgDifficulty": 4.21,
+    "avgProfRating": 3.0,
+    "recommendPct": 14
+  },
+  "ME 100A": {
+    "reviewCount": 3,
+    "avgDifficulty": 2.83,
+    "avgProfRating": 3.0,
+    "recommendPct": 67
+  },
+  "ME 103": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ME 110": {
+    "reviewCount": 5,
+    "avgDifficulty": 4.2,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ME 113": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.83,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ME 114": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.17,
+    "avgProfRating": 3.0,
+    "recommendPct": 67
+  },
+  "ME 118": {
+    "reviewCount": 4,
+    "avgDifficulty": 4.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ME 120": {
+    "reviewCount": 6,
+    "avgDifficulty": 4.08,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "ME 135": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ME 156": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "ME 170A": {
+    "reviewCount": 2,
+    "avgDifficulty": 2.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "ME 180": {
+    "reviewCount": 2,
+    "avgDifficulty": 2.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "MGT 200": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 4.0,
+    "recommendPct": 100
+  },
+  "MGT 201": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "MGT 203": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 2.0,
+    "recommendPct": 100
+  },
+  "MGT 205": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "MGT 209": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "MGT 231": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "MGT 252": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "MSE 160": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "MUS 001": {
+    "reviewCount": 2,
+    "avgDifficulty": 1.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "MUS 002": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "MUS 005": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "MUS 006": {
+    "reviewCount": 6,
+    "avgDifficulty": 3.67,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "MUS 008": {
+    "reviewCount": 4,
+    "avgDifficulty": 3.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 75
+  },
+  "MUS 010": {
+    "reviewCount": 1,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "MUS 012": {
+    "reviewCount": 1,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "MUS 014": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "MUS 016": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "MUS 017": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "MUS 018": {
+    "reviewCount": 3,
+    "avgDifficulty": 2.33,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "MUS 020": {
+    "reviewCount": 1,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "MUS 030A": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "MUS 080E": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "MUS 080R": {
+    "reviewCount": 1,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "MUS 165": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "NASC 092": {
+    "reviewCount": 1,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "NASC 093": {
+    "reviewCount": 2,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "NASC 198": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "PBPL 001": {
+    "reviewCount": 16,
+    "avgDifficulty": 3.47,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "PBPL 002": {
+    "reviewCount": 5,
+    "avgDifficulty": 4.2,
+    "avgProfRating": 3.0,
+    "recommendPct": 40
+  },
+  "PBPL 004": {
+    "reviewCount": 7,
+    "avgDifficulty": 2.57,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "PBPL 101": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "PBPL 103": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "PBPL 132": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "PBPL 155S": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "PBPL 185": {
+    "reviewCount": 2,
+    "avgDifficulty": 2.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "PBPL 191": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "PBPL 198I": {
+    "reviewCount": 1,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "PHIL 001": {
+    "reviewCount": 12,
+    "avgDifficulty": 2.92,
+    "avgProfRating": 3.0,
+    "recommendPct": 67
+  },
+  "PHIL 002": {
+    "reviewCount": 6,
+    "avgDifficulty": 3.58,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "PHIL 003": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "PHIL 003W": {
+    "reviewCount": 5,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 40
+  },
+  "PHIL 004": {
+    "reviewCount": 6,
+    "avgDifficulty": 3.67,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "PHIL 005": {
+    "reviewCount": 7,
+    "avgDifficulty": 4.07,
+    "avgProfRating": 3.0,
+    "recommendPct": 14
+  },
+  "PHIL 007": {
+    "reviewCount": 7,
+    "avgDifficulty": 3.57,
+    "avgProfRating": 3.0,
+    "recommendPct": 43
+  },
+  "PHIL 008": {
+    "reviewCount": 12,
+    "avgDifficulty": 3.46,
+    "avgProfRating": 3.0,
+    "recommendPct": 42
+  },
+  "PHIL 009": {
+    "reviewCount": 4,
+    "avgDifficulty": 3.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 75
+  },
+  "PHIL 010": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "PHIL 030E": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "PHIL 030I": {
+    "reviewCount": 4,
+    "avgDifficulty": 4.38,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "PHIL 100": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "PHIL 101": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "PHIL 113": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "PHIL 124": {
+    "reviewCount": 7,
+    "avgDifficulty": 3.86,
+    "avgProfRating": 3.0,
+    "recommendPct": 29
+  },
+  "PHIL 151": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "PHIL 167": {
+    "reviewCount": 1,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "PHYS 002A": {
+    "reviewCount": 18,
+    "avgDifficulty": 3.86,
+    "avgProfRating": 3.0,
+    "recommendPct": 11
+  },
+  "PHYS 002B": {
+    "reviewCount": 10,
+    "avgDifficulty": 3.85,
+    "avgProfRating": 3.0,
+    "recommendPct": 30
+  },
+  "PHYS 002C": {
+    "reviewCount": 6,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "PHYS 006": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.67,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "PHYS 007": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "PHYS 008": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "PHYS 010": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "PHYS 018": {
+    "reviewCount": 6,
+    "avgDifficulty": 3.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 67
+  },
+  "PHYS 020": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.33,
+    "avgProfRating": 3.0,
+    "recommendPct": 67
+  },
+  "PHYS 02LA": {
+    "reviewCount": 6,
+    "avgDifficulty": 4.33,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "PHYS 02LB": {
+    "reviewCount": 3,
+    "avgDifficulty": 2.83,
+    "avgProfRating": 3.0,
+    "recommendPct": 67
+  },
+  "PHYS 02LC": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "PHYS 037": {
+    "reviewCount": 6,
+    "avgDifficulty": 2.92,
+    "avgProfRating": 3.0,
+    "recommendPct": 67
+  },
+  "PHYS 039": {
+    "reviewCount": 1,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "PHYS 040A": {
+    "reviewCount": 21,
+    "avgDifficulty": 3.81,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "PHYS 040B": {
+    "reviewCount": 21,
+    "avgDifficulty": 3.71,
+    "avgProfRating": 3.0,
+    "recommendPct": 29
+  },
+  "PHYS 040C": {
+    "reviewCount": 20,
+    "avgDifficulty": 3.98,
+    "avgProfRating": 3.0,
+    "recommendPct": 25
+  },
+  "PHYS 041A": {
+    "reviewCount": 4,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 25
+  },
+  "PHYS 041B": {
+    "reviewCount": 3,
+    "avgDifficulty": 4.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "PHYS 041C": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "PHYS 111": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "PHYS 130A": {
+    "reviewCount": 5,
+    "avgDifficulty": 3.6,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "PHYS 130B": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "PHYS 132": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "PHYS 135A": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "PHYS 135B": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "PHYS 156A": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "PHYS 177": {
+    "reviewCount": 2,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "PLPA 010": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.75,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "PLPA 120": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "POSC 005W": {
+    "reviewCount": 9,
+    "avgDifficulty": 3.56,
+    "avgProfRating": 3.0,
+    "recommendPct": 44
+  },
+  "POSC 007": {
+    "reviewCount": 4,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 25
+  },
+  "POSC 007W": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "POSC 010": {
+    "reviewCount": 10,
+    "avgDifficulty": 2.8,
+    "avgProfRating": 3.0,
+    "recommendPct": 80
+  },
+  "POSC 015": {
+    "reviewCount": 8,
+    "avgDifficulty": 3.38,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "POSC 017": {
+    "reviewCount": 10,
+    "avgDifficulty": 4.05,
+    "avgProfRating": 3.0,
+    "recommendPct": 20
+  },
+  "POSC 020": {
+    "reviewCount": 17,
+    "avgDifficulty": 3.79,
+    "avgProfRating": 3.0,
+    "recommendPct": 18
+  },
+  "POSC 101": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "POSC 106S": {
+    "reviewCount": 1,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "POSC 110": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "POSC 111": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "POSC 113": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "POSC 114S": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "POSC 124S": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "POSC 125": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "POSC 126": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "POSC 126S": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "POSC 128": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "POSC 129": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "POSC 134S": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "POSC 137": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "POSC 137S": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "POSC 138S": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "POSC 143S": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "POSC 144S": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "POSC 146": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "POSC 148S": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "POSC 151": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "POSC 153": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "POSC 154": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "POSC 155S": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "POSC 157S": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "POSC 160S": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "POSC 161": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "POSC 163": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "POSC 165S": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "POSC 166": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "POSC 167": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "POSC 168": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "POSC 182": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "POSC 182G": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "POSC 198G": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "POSC 201": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "POSC 254": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "PSYC 001": {
+    "reviewCount": 31,
+    "avgDifficulty": 2.65,
+    "avgProfRating": 3.0,
+    "recommendPct": 74
+  },
+  "PSYC 002": {
+    "reviewCount": 23,
+    "avgDifficulty": 2.91,
+    "avgProfRating": 3.0,
+    "recommendPct": 70
+  },
+  "PSYC 011": {
+    "reviewCount": 11,
+    "avgDifficulty": 3.86,
+    "avgProfRating": 3.0,
+    "recommendPct": 27
+  },
+  "PSYC 012": {
+    "reviewCount": 13,
+    "avgDifficulty": 3.65,
+    "avgProfRating": 3.0,
+    "recommendPct": 38
+  },
+  "PSYC 013": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "PSYC 037": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "PSYC 049": {
+    "reviewCount": 4,
+    "avgDifficulty": 2.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 75
+  },
+  "PSYC 110": {
+    "reviewCount": 9,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 44
+  },
+  "PSYC 115": {
+    "reviewCount": 3,
+    "avgDifficulty": 2.83,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "PSYC 128": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "PSYC 132": {
+    "reviewCount": 5,
+    "avgDifficulty": 3.8,
+    "avgProfRating": 3.0,
+    "recommendPct": 20
+  },
+  "PSYC 133": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "PSYC 134": {
+    "reviewCount": 5,
+    "avgDifficulty": 3.6,
+    "avgProfRating": 3.0,
+    "recommendPct": 60
+  },
+  "PSYC 139": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "PSYC 140": {
+    "reviewCount": 5,
+    "avgDifficulty": 2.4,
+    "avgProfRating": 3.0,
+    "recommendPct": 80
+  },
+  "PSYC 142": {
+    "reviewCount": 4,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "PSYC 150": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.33,
+    "avgProfRating": 3.0,
+    "recommendPct": 67
+  },
+  "PSYC 152": {
+    "reviewCount": 3,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "PSYC 153": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.75,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "PSYC 160": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "PSYC 161": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "PSYC 168": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "PSYC 175": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "PSYC 178": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "PSYC 179": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "PSYC 182E": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "PSYC 182N": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "PSYC 189": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.17,
+    "avgProfRating": 3.0,
+    "recommendPct": 67
+  },
+  "RLST 001": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "RLST 002": {
+    "reviewCount": 6,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 83
+  },
+  "RLST 005": {
+    "reviewCount": 4,
+    "avgDifficulty": 3.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 75
+  },
+  "RLST 006": {
+    "reviewCount": 2,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "RLST 007": {
+    "reviewCount": 4,
+    "avgDifficulty": 2.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 75
+  },
+  "RLST 012": {
+    "reviewCount": 7,
+    "avgDifficulty": 2.14,
+    "avgProfRating": 3.0,
+    "recommendPct": 86
+  },
+  "RLST 012H": {
+    "reviewCount": 3,
+    "avgDifficulty": 4.83,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "RLST 014": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "RLST 015": {
+    "reviewCount": 4,
+    "avgDifficulty": 3.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 25
+  },
+  "RLST 044": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "RLST 113": {
+    "reviewCount": 1,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "SEHE 106": {
+    "reviewCount": 1,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "SOC 001": {
+    "reviewCount": 29,
+    "avgDifficulty": 3.45,
+    "avgProfRating": 3.0,
+    "recommendPct": 41
+  },
+  "SOC 002": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "SOC 002F": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "SOC 002M": {
+    "reviewCount": 1,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "SOC 002R": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "SOC 003": {
+    "reviewCount": 3,
+    "avgDifficulty": 2.83,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "SOC 004": {
+    "reviewCount": 7,
+    "avgDifficulty": 4.21,
+    "avgProfRating": 3.0,
+    "recommendPct": 29
+  },
+  "SOC 005": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.75,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "SOC 010": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.83,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "SOC 020": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "SOC 030": {
+    "reviewCount": 1,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "SOC 122": {
+    "reviewCount": 2,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "SOC 137": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "SOC 140": {
+    "reviewCount": 2,
+    "avgDifficulty": 2.25,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "SOC 142": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "SOC 150": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "SOC 151": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "SOC 167": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "SOC 183H": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "SPN 001": {
+    "reviewCount": 3,
+    "avgDifficulty": 4.17,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "SPN 002": {
+    "reviewCount": 5,
+    "avgDifficulty": 3.8,
+    "avgProfRating": 3.0,
+    "recommendPct": 20
+  },
+  "SPN 003": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "SPN 004": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.67,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "SPN 109A": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "SPN 109B": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "STAT 004": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "STAT 008": {
+    "reviewCount": 4,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 25
+  },
+  "STAT 040": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "STAT 048": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.75,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "STAT 100A": {
+    "reviewCount": 7,
+    "avgDifficulty": 3.71,
+    "avgProfRating": 3.0,
+    "recommendPct": 43
+  },
+  "STAT 100B": {
+    "reviewCount": 6,
+    "avgDifficulty": 3.17,
+    "avgProfRating": 3.0,
+    "recommendPct": 33
+  },
+  "STAT 107": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "STAT 110": {
+    "reviewCount": 4,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "STAT 130": {
+    "reviewCount": 5,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 60
+  },
+  "STAT 140": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "STAT 146": {
+    "reviewCount": 3,
+    "avgDifficulty": 4.33,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "STAT 147": {
+    "reviewCount": 8,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 38
+  },
+  "STAT 155": {
+    "reviewCount": 22,
+    "avgDifficulty": 3.86,
+    "avgProfRating": 3.0,
+    "recommendPct": 36
+  },
+  "STAT 156A": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "STAT 157": {
+    "reviewCount": 3,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "STAT 160A": {
+    "reviewCount": 7,
+    "avgDifficulty": 3.93,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "STAT 160B": {
+    "reviewCount": 4,
+    "avgDifficulty": 4.12,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "STAT 160C": {
+    "reviewCount": 4,
+    "avgDifficulty": 4.62,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "STAT 167": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "STAT 169": {
+    "reviewCount": 3,
+    "avgDifficulty": 3.83,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "STAT 170": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "STAT 170A": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "STAT 170B": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "STAT 171": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.75,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "STAT 183": {
+    "reviewCount": 2,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 50
+  },
+  "TFDP 010": {
+    "reviewCount": 4,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "TFDP 021": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "TFDP 022": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "TFDP 050S": {
+    "reviewCount": 4,
+    "avgDifficulty": 2.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "TFDP 052": {
+    "reviewCount": 2,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "TFDP 066": {
+    "reviewCount": 2,
+    "avgDifficulty": 1.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "TFDP 099": {
+    "reviewCount": 1,
+    "avgDifficulty": 1.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 100
+  },
+  "VNM 001": {
+    "reviewCount": 1,
+    "avgDifficulty": 5.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "VNM 002": {
+    "reviewCount": 1,
+    "avgDifficulty": 3.5,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  },
+  "VNM 003": {
+    "reviewCount": 1,
+    "avgDifficulty": 4.0,
+    "avgProfRating": 3.0,
+    "recommendPct": 0
+  }
+}

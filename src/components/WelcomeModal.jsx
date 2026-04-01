@@ -12,11 +12,7 @@ export default function WelcomeModal() {
     }
   }, [])
 
-  const close = useCallback((e) => {
-    if (e) {
-      e.stopPropagation()
-      e.preventDefault()
-    }
+  const close = useCallback(() => {
     sessionStorage.setItem('rcourses_welcome', 'true')
     setVisible(false)
   }, [])
@@ -25,15 +21,17 @@ export default function WelcomeModal() {
 
   return (
     <>
-      {/* Backdrop — clicking closes modal */}
+      {/* Backdrop */}
       <div
-        onTouchEnd={close}
-        onClick={close}
+        onTouchStart={e => { e.stopPropagation(); e.preventDefault() }}
+        onTouchEnd={e => { e.stopPropagation(); e.preventDefault(); close() }}
+        onClick={e => { e.stopPropagation(); close() }}
         style={{
           position: 'fixed', inset: 0, zIndex: 300,
           background: 'rgba(15,17,23,0.65)',
           backdropFilter: 'blur(4px)',
           WebkitBackdropFilter: 'blur(4px)',
+          touchAction: 'none',
         }}
       />
 
@@ -47,8 +45,9 @@ export default function WelcomeModal() {
         }}
       >
         <div
-          onClick={e => e.stopPropagation()}
+          onTouchStart={e => e.stopPropagation()}
           onTouchEnd={e => e.stopPropagation()}
+          onClick={e => e.stopPropagation()}
           style={{
             pointerEvents: 'auto',
             width: '100%',
@@ -70,17 +69,17 @@ export default function WelcomeModal() {
             flexShrink: 0,
           }}>
             <button
-              onTouchEnd={(e) => { e.stopPropagation(); close(e) }}
-              onClick={(e) => { e.stopPropagation(); close(e) }}
+              onTouchEnd={e => { e.stopPropagation(); e.preventDefault(); close() }}
+              onClick={e => { e.stopPropagation(); close() }}
               style={{
                 position: 'absolute', top: 14, right: 14,
                 background: 'rgba(255,255,255,0.2)',
-                border: 'none',
-                borderRadius: 99,
+                border: 'none', borderRadius: 99,
                 width: 36, height: 36,
                 display: 'flex', alignItems: 'center', justifyContent: 'center',
                 color: '#fff', cursor: 'pointer',
                 WebkitTapHighlightColor: 'transparent',
+                touchAction: 'manipulation',
               }}
             >
               <X size={16} />
@@ -139,11 +138,10 @@ export default function WelcomeModal() {
             {/* Buttons */}
             <div style={{ display: 'flex', gap: 10, paddingTop: 4 }}>
               <button
-                onTouchEnd={(e) => { e.stopPropagation(); close(e) }}
-                onClick={(e) => { e.stopPropagation(); close(e) }}
+                onTouchEnd={e => { e.stopPropagation(); e.preventDefault(); close() }}
+                onClick={e => { e.stopPropagation(); close() }}
                 style={{
-                  flex: 2,
-                  padding: '14px 0',
+                  flex: 2, padding: '14px 0',
                   borderRadius: 12,
                   background: '#003DA5', color: '#fff',
                   border: 'none',
@@ -157,19 +155,19 @@ export default function WelcomeModal() {
                 Let's Go! 🚀
               </button>
               <button
-                onTouchEnd={(e) => {
+                onTouchEnd={e => {
                   e.stopPropagation()
+                  e.preventDefault()
                   navigator.clipboard?.writeText('https://rcourses.org')
                   alert('Link copied! Share it with your friends 🎉')
                 }}
-                onClick={(e) => {
+                onClick={e => {
                   e.stopPropagation()
                   navigator.clipboard?.writeText('https://rcourses.org')
                   alert('Link copied! Share it with your friends 🎉')
                 }}
                 style={{
-                  flex: 1,
-                  padding: '14px 0',
+                  flex: 1, padding: '14px 0',
                   borderRadius: 12,
                   background: '#f4f5f7', color: '#374151',
                   border: '1.5px solid #e2e5ea',

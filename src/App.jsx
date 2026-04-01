@@ -1,5 +1,5 @@
 // src/App.jsx
-import React, { useState, useMemo, useCallback } from 'react'
+import React, { useState, useMemo, useCallback, useRef, useEffect } from 'react'
 import Navbar from './components/Navbar.jsx'
 import DeptSidebar from './components/DeptSidebar.jsx'
 import CourseCard from './components/CourseCard.jsx'
@@ -45,19 +45,13 @@ const SUBJECT_TO_COLLEGE = {
   "UNIV":"Humanities & Arts",
 }
 
-const COLLEGES = ["Engineering", "Natural Sciences", "Business", "Social Sciences", "Humanities & Arts", "Other"]
+const COLLEGES = ["Engineering","Natural Sciences","Business","Social Sciences","Humanities & Arts","Other"]
 const COLLEGE_ICONS = {
-  "Engineering":       "⚙️",
-  "Natural Sciences":  "🔬",
-  "Business":          "📊",
-  "Social Sciences":   "🌍",
-  "Humanities & Arts": "🎨",
-  "Other":             "📚",
+  "Engineering":"⚙️","Natural Sciences":"🔬","Business":"📊",
+  "Social Sciences":"🌍","Humanities & Arts":"🎨","Other":"📚",
 }
 
-function getCollege(subject) {
-  return SUBJECT_TO_COLLEGE[subject] || "Other"
-}
+function getCollege(s) { return SUBJECT_TO_COLLEGE[s] || "Other" }
 
 const COLLEGE_COUNTS = COURSES.reduce((acc, c) => {
   const col = getCollege(c.subject)
@@ -66,12 +60,11 @@ const COLLEGE_COUNTS = COURSES.reduce((acc, c) => {
 }, {})
 
 const DEPT_LIST = COLLEGES.map(name => ({
-  code: name,
-  name: `${COLLEGE_ICONS[name]} ${name}`,
-  isCollege: true,
+  code: name, name: `${COLLEGE_ICONS[name]} ${name}`, isCollege: true,
 }))
 
 const REVIEWED_COUNT = Object.keys(BUNDLED_STATS).length
+const PAGE_SIZE = 50 // load 50 cards at a time
 
 export default function App() {
   const [search, setSearch]                   = useState('')
@@ -81,6 +74,8 @@ export default function App() {
   const [sortBy, setSortBy]                   = useState('code')
   const [sidebarOpen, setSidebarOpen]         = useState(false)
   const [liveStats, setLiveStats]             = useState({})
+  const [visibleCount, setVisibleCount]       = useState(PAGE_SIZE)
+  const loaderRef = useRef(null)
 
   const statsMap = useMemo(() => ({ ...BUNDLED_STATS, ...liveStats }), [liveStats])
 
@@ -111,14 +106,10 @@ export default function App() {
     list = [...list].sort((a, b) => {
       if (sortBy === 'title') return a.title.localeCompare(b.title)
       if (sortBy === 'difficulty') {
-        const da = statsMap[a.fullCode]?.avgDifficulty ?? 99
-        const db = statsMap[b.fullCode]?.avgDifficulty ?? 99
-        return da - db
+        return (statsMap[a.fullCode]?.avgDifficulty ?? 99) - (statsMap[b.fullCode]?.avgDifficulty ?? 99)
       }
       if (sortBy === 'rating') {
-        const ra = statsMap[a.fullCode]?.avgProfRating ?? 0
-        const rb = statsMap[b.fullCode]?.avgProfRating ?? 0
-        return rb - ra
+        return (statsMap[b.fullCode]?.avgProfRating ?? 0) - (statsMap[a.fullCode]?.avgProfRating ?? 0)
       }
       return a.fullCode.localeCompare(b.fullCode)
     })
@@ -126,10 +117,29 @@ export default function App() {
     return list
   }, [search, selectedCollege, sortBy, statsMap, unitsFilter])
 
+  // Reset visible count when filter changes
+  useEffect(() => {
+    setVisibleCount(PAGE_SIZE)
+  }, [search, selectedCollege, sortBy, unitsFilter])
+
+  // Infinite scroll — load more as user scrolls down
+  useEffect(() => {
+    const observer = new IntersectionObserver(entries => {
+      if (entries[0].isIntersecting) {
+        setVisibleCount(prev => Math.min(prev + PAGE_SIZE, filtered.length))
+      }
+    }, { threshold: 0.1 })
+
+    if (loaderRef.current) observer.observe(loaderRef.current)
+    return () => observer.disconnect()
+  }, [filtered.length])
+
+  const visibleCourses = filtered.slice(0, visibleCount)
+
   const handleCollegeSelect = useCallback(code => {
     setSelectedCollege(code)
     setSearch('')
-    setSidebarOpen(false) // close sidebar on mobile after selection
+    setSidebarOpen(false)
   }, [])
 
   function handleNewStats(courseCode, newStats) {
@@ -146,57 +156,66 @@ export default function App() {
         @media (max-width: 768px) {
           .desktop-sidebar { display: none !important; }
           .mobile-menu-btn { display: flex !important; }
-          .filter-bar { flex-direction: column !important; align-items: flex-start !important; }
           .course-grid { grid-template-columns: 1fr !important; }
-          .main-content { padding: 16px 16px 80px !important; }
+          .main-pad { padding: 16px 12px 100px !important; }
+          .filter-row { flex-direction: column !important; align-items: flex-start !important; }
         }
         @media (min-width: 769px) {
           .mobile-menu-btn { display: none !important; }
-          .mobile-sidebar-overlay { display: none !important; }
+          .mobile-overlay { display: none !important; }
         }
+        * { -webkit-tap-highlight-color: transparent; }
+        button { touch-action: manipulation; }
       `}</style>
 
       <Navbar search={search} onSearch={setSearch} courseCount={COURSES.length} />
 
-      {/* Mobile menu button */}
+      {/* Floating mobile menu button */}
       <button
         className="mobile-menu-btn"
+        onTouchEnd={e => { e.preventDefault(); setSidebarOpen(true) }}
         onClick={() => setSidebarOpen(true)}
         style={{
           display: 'none',
-          position: 'fixed', bottom: 24, right: 24, zIndex: 150,
+          position: 'fixed', bottom: 24, right: 20, zIndex: 150,
           background: 'var(--ucr-blue)', color: '#fff',
           border: 'none', borderRadius: 99,
           padding: '14px 20px',
           alignItems: 'center', gap: 8,
           fontSize: 14, fontWeight: 700,
-          boxShadow: '0 4px 20px rgba(0,61,165,0.4)',
+          boxShadow: '0 4px 20px rgba(0,61,165,0.45)',
           cursor: 'pointer',
         }}
       >
         <Menu size={18} /> Browse Major
       </button>
 
-      {/* Mobile sidebar overlay */}
+      {/* Mobile sidebar */}
       {sidebarOpen && (
         <div
-          className="mobile-sidebar-overlay"
+          className="mobile-overlay"
+          onTouchEnd={e => { if (e.target === e.currentTarget) { e.preventDefault(); setSidebarOpen(false) } }}
+          onClick={e => { if (e.target === e.currentTarget) setSidebarOpen(false) }}
           style={{
             position: 'fixed', inset: 0, zIndex: 200,
             background: 'rgba(0,0,0,0.5)',
-            backdropFilter: 'blur(4px)',
+            touchAction: 'none',
           }}
         >
           <div style={{
             position: 'absolute', left: 0, top: 0, bottom: 0,
             width: 280, background: 'var(--surface)',
-            overflowY: 'auto',
+            overflowY: 'auto', WebkitOverflowScrolling: 'touch',
             boxShadow: '4px 0 20px rgba(0,0,0,0.15)',
           }}>
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '16px 16px 8px' }}>
               <span style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 16 }}>Browse by Major</span>
-              <button onClick={() => setSidebarOpen(false)} style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 4 }}>
-                <X size={20} color="var(--text-muted)" />
+              <button
+                onTouchEnd={e => { e.preventDefault(); setSidebarOpen(false) }}
+                onClick={() => setSidebarOpen(false)}
+                style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 8, margin: -8 }}
+              >
+                <X size={22} color="var(--text-muted)" />
               </button>
             </div>
             <DeptSidebar
@@ -210,7 +229,6 @@ export default function App() {
       )}
 
       <div style={{ display: 'flex', paddingTop: 60 }}>
-        {/* Desktop sidebar */}
         <div className="desktop-sidebar">
           <DeptSidebar
             departments={DEPT_LIST}
@@ -220,8 +238,8 @@ export default function App() {
           />
         </div>
 
-        <main className="main-content" style={{ flex: 1, padding: '28px 28px 60px', minWidth: 0 }}>
-          <div className="filter-bar" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 20, flexWrap: 'wrap', gap: 12 }}>
+        <main className="main-pad" style={{ flex: 1, padding: '28px 28px 60px', minWidth: 0 }}>
+          <div className="filter-row" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 20, flexWrap: 'wrap', gap: 12 }}>
             <div>
               <h1 style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: 22, color: 'var(--text-primary)' }}>{sectionTitle}</h1>
               <p style={{ fontSize: 13, color: 'var(--text-muted)', marginTop: 2 }}>
@@ -229,21 +247,20 @@ export default function App() {
               </p>
             </div>
 
-            <div style={{ display: 'flex', alignItems: 'center', gap: 12, flexWrap: 'wrap' }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 10, flexWrap: 'wrap' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
                 <span style={{ fontSize: 13, color: 'var(--text-muted)' }}>Units:</span>
                 <div style={{ display: 'flex', background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: 'var(--radius-sm)', overflow: 'hidden' }}>
-                  {['All', '1', '2', '3', '4', '5+'].map(u => (
-                    <button key={u} onClick={() => setUnitsFilter(u)} style={{ padding: '8px 10px', fontSize: 12, fontWeight: unitsFilter===u?700:400, color: unitsFilter===u?'var(--ucr-blue)':'var(--text-secondary)', background: unitsFilter===u?'var(--ucr-blue-light)':'transparent', border: 'none', cursor: 'pointer', transition: 'all 0.15s' }}>{u}</button>
+                  {['All','1','2','3','4','5+'].map(u => (
+                    <button key={u} onClick={() => setUnitsFilter(u)} style={{ padding: '8px 10px', fontSize: 12, fontWeight: unitsFilter===u?700:400, color: unitsFilter===u?'var(--ucr-blue)':'var(--text-secondary)', background: unitsFilter===u?'var(--ucr-blue-light)':'transparent', border: 'none', cursor: 'pointer' }}>{u}</button>
                   ))}
                 </div>
               </div>
-
-              <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
                 <span style={{ fontSize: 13, color: 'var(--text-muted)' }}>Sort:</span>
                 <div style={{ display: 'flex', background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: 'var(--radius-sm)', overflow: 'hidden' }}>
                   {[{v:'code',label:'Code'},{v:'title',label:'Title'},{v:'difficulty',label:'Easiest'},{v:'rating',label:'Top Rated'}].map(({v,label}) => (
-                    <button key={v} onClick={() => setSortBy(v)} style={{ padding: '8px 12px', fontSize: 12, fontWeight: sortBy===v?700:400, color: sortBy===v?'var(--ucr-blue)':'var(--text-secondary)', background: sortBy===v?'var(--ucr-blue-light)':'transparent', border: 'none', cursor: 'pointer', transition: 'all 0.15s' }}>{label}</button>
+                    <button key={v} onClick={() => setSortBy(v)} style={{ padding: '8px 10px', fontSize: 12, fontWeight: sortBy===v?700:400, color: sortBy===v?'var(--ucr-blue)':'var(--text-secondary)', background: sortBy===v?'var(--ucr-blue-light)':'transparent', border: 'none', cursor: 'pointer' }}>{label}</button>
                   ))}
                 </div>
               </div>
@@ -257,17 +274,25 @@ export default function App() {
               <div style={{ fontSize: 14 }}>Try a different search, department, or units filter</div>
             </div>
           ) : (
-            <div className="course-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: 16 }}>
-              {filtered.map((course, i) => (
-                <div key={course.fullCode} style={{ animationDelay: `${Math.min(i*30,300)}ms` }}>
+            <>
+              <div className="course-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: 16 }}>
+                {visibleCourses.map(course => (
                   <CourseCard
+                    key={course.fullCode}
                     course={course}
                     stats={statsMap[course.fullCode]}
                     onClick={() => setSelectedCourse(course)}
                   />
+                ))}
+              </div>
+
+              {/* Infinite scroll loader */}
+              {visibleCount < filtered.length && (
+                <div ref={loaderRef} style={{ textAlign: 'center', padding: '24px 0', color: 'var(--text-muted)', fontSize: 13 }}>
+                  Loading more courses...
                 </div>
-              ))}
-            </div>
+              )}
+            </>
           )}
         </main>
       </div>

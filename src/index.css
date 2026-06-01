@@ -13,9 +13,9 @@
   --text-muted: #9aa0ad;
   --radius: 14px;
   --radius-sm: 8px;
-  --shadow-sm: 0 1px 3px rgba(0,0,0,0.07), 0 1px 2px rgba(0,0,0,0.04);
-  --shadow: 0 4px 16px rgba(0,0,0,0.08), 0 1px 4px rgba(0,0,0,0.04);
-  --shadow-lg: 0 12px 40px rgba(0,0,0,0.14), 0 4px 12px rgba(0,0,0,0.06);
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.07);
+  --shadow: 0 4px 16px rgba(0,0,0,0.08);
+  --shadow-lg: 0 12px 40px rgba(0,0,0,0.14);
   --font-display: 'Syne', sans-serif;
   --font-body: 'DM Sans', sans-serif;
   --easy: #16a34a;
@@ -26,11 +26,15 @@
   --hard-bg: #fee2e2;
 }
 
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 html {
-  /* Prevent text size adjustment on rotation */
   -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
@@ -39,8 +43,19 @@ body {
   color: var(--text-primary);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
-  /* Smooth scrolling on iOS */
-  -webkit-overflow-scrolling: touch;
+  -moz-osx-font-smoothing: grayscale;
+  /* Prevent font stretching */
+  font-stretch: normal;
+  font-style: normal;
+}
+
+/* Fix Syne display font â€” prevent stretch */
+.font-display, h1, h2, h3, h4,
+[style*="font-display"],
+[style*="Syne"] {
+  font-stretch: normal !important;
+  letter-spacing: -0.02em;
+  font-variant-numeric: normal;
 }
 
 button {
@@ -48,58 +63,44 @@ button {
   font-family: inherit;
   border: none;
   background: none;
-  /* Remove tap highlight on mobile */
+  font-stretch: normal;
   -webkit-tap-highlight-color: transparent;
   touch-action: manipulation;
 }
 
-input, textarea, select { font-family: inherit; }
+input, textarea, select {
+  font-family: inherit;
+  font-stretch: normal;
+}
+
 a { text-decoration: none; color: inherit; }
 
 ::-webkit-scrollbar { width: 6px; height: 6px; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: #cbd0da; border-radius: 99px; }
 
-/* Animations */
 @keyframes fadeUp {
-  from { opacity: 0; transform: translateY(16px); }
+  from { opacity: 0; transform: translateY(12px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 @keyframes fadeIn {
   from { opacity: 0; }
   to   { opacity: 1; }
 }
-@keyframes slideIn {
-  from { opacity: 0; transform: translateX(-12px); }
-  to   { opacity: 1; transform: translateX(0); }
-}
-.fade-up   { animation: fadeUp 0.4s ease both; }
-.fade-in   { animation: fadeIn 0.3s ease both; }
-.slide-in  { animation: slideIn 0.3s ease both; }
 
-/* Mobile optimizations */
+.fade-up  { animation: fadeUp 0.35s ease both; }
+.fade-in  { animation: fadeIn 0.25s ease both; }
+
+/* Mobile */
 @media (max-width: 768px) {
-  /* Disable hover animations on mobile for performance */
-  * { transition: none !important; }
+  /* Disable expensive transitions on mobile */
+  * { transition: none !important; animation-duration: 0.15s !important; }
 
-  /* But keep opacity transitions for modals */
-  .fade-up, .fade-in, .slide-in {
-    animation-duration: 0.2s !important;
-  }
+  button { min-height: 44px; }
 
-  /* Larger tap targets */
-  button {
-    min-height: 44px;
-  }
-
-  /* Prevent card hover lift on mobile */
-  button:hover {
-    transform: none !important;
-    box-shadow: none !important;
-  }
-
-  /* Better touch scrolling */
-  main {
-    -webkit-overflow-scrolling: touch;
+  /* Prevent any font stretching on mobile */
+  * {
+    font-stretch: normal !important;
+    -webkit-font-smoothing: antialiased;
   }
 }

@@ -86,6 +86,7 @@ export default function App() {
       const q = search.toLowerCase()
       list = list.filter(c =>
         c.fullCode.toLowerCase().includes(q) ||
+        c.fullCode.toLowerCase().replace(/\s+/g, '').includes(q) ||
         c.title.toLowerCase().includes(q) ||
         (c.description || '').toLowerCase().includes(q) ||
         (c.prerequisites || '').toLowerCase().includes(q)
@@ -241,7 +242,7 @@ export default function App() {
         <main className="main-pad" style={{ flex: 1, padding: '28px 28px 60px', minWidth: 0 }}>
           <div className="filter-row" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 20, flexWrap: 'wrap', gap: 12 }}>
             <div>
-              <h1 style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: 22, color: 'var(--text-primary)' }}>{sectionTitle}</h1>
+              <h1 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: 20, letterSpacing: '-0.01em', color: 'var(--text-primary)' }}>{sectionTitle}</h1>
               <p style={{ fontSize: 13, color: 'var(--text-muted)', marginTop: 2 }}>
                 {filtered.length} course{filtered.length !== 1 ? 's' : ''} · {REVIEWED_COUNT} reviewed
               </p>

@@ -7,6 +7,7 @@ import CourseModal from './components/CourseModal.jsx'
 import WelcomeModal from './components/WelcomeModal.jsx'
 import COURSES from './data/allCourses.json'
 import BUNDLED_STATS from './data/courseStats.json'
+import { trackEvent } from './firebase.js'
 import { Menu, X } from 'lucide-react'
 
 const SUBJECT_TO_COLLEGE = {
@@ -34,6 +35,9 @@ const SUBJECT_TO_COLLEGE = {
   "CRES":"Social Sciences","SWRK":"Social Sciences","CRJU":"Social Sciences",
   "GEOB":"Social Sciences",
   "ENGL":"Humanities & Arts","PHIL":"Humanities & Arts","ART":"Humanities & Arts",
+  "CLA":"Humanities & Arts","CPLT":"Humanities & Arts","JPN":"Humanities & Arts",
+  "RLST":"Humanities & Arts","HISE":"Social Sciences","HISA":"Social Sciences",
+  "LABR":"Social Sciences",
   "MUS":"Humanities & Arts","THEA":"Humanities & Arts","DANCE":"Humanities & Arts",
   "FREN":"Humanities & Arts","SPAN":"Humanities & Arts","GERM":"Humanities & Arts",
   "JAPN":"Humanities & Arts","ITAL":"Humanities & Arts","CLAS":"Humanities & Arts",
@@ -136,6 +140,15 @@ export default function App() {
   }, [filtered.length])
 
   const visibleCourses = filtered.slice(0, visibleCount)
+
+  useEffect(() => {
+    if (!selectedCourse) return
+    trackEvent('view_item', {
+      item_id: selectedCourse.fullCode,
+      item_name: selectedCourse.title,
+      item_category: selectedCourse.subject,
+    })
+  }, [selectedCourse])
 
   const handleCollegeSelect = useCallback(code => {
     setSelectedCollege(code)

@@ -29,6 +29,12 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig)
 export const db = getFirestore(app)
 
+export function trackEvent(name, params) {
+  if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+    window.gtag('event', name, params)
+  }
+}
+
 // ── Reviews ───────────────────────────────────────────────────────
 
 export async function submitReview(courseCode, review) {
@@ -64,6 +70,8 @@ export async function submitReview(courseCode, review) {
       recommendCount:  increment(review.wouldRecommend ? 1 : 0),
     })
   }
+
+  trackEvent('submit_review', { course_code: courseCode })
 }
 
 export async function getReviews(courseCode) {

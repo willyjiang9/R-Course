@@ -6,15 +6,34 @@ export default function WelcomeModal() {
   const [visible, setVisible] = useState(false)
 
   useEffect(() => {
-    const seen = sessionStorage.getItem('rcourses_welcome')
+    const seen = sessionStorage.getItem('rcourses_welcome_20261007')
     if (!seen) {
       setTimeout(() => setVisible(true), 800)
     }
   }, [])
 
   const close = useCallback(() => {
-    sessionStorage.setItem('rcourses_welcome', 'true')
+    sessionStorage.setItem('rcourses_welcome_20261007', 'true')
     setVisible(false)
+  }, [])
+
+  const share = useCallback(async () => {
+    const url = 'https://rcourses.org'
+    const text = "Check out R'Courses — real UCR student reviews to help you pick classes: "
+    try {
+      if (navigator.share) {
+        await navigator.share({ title: "R'Courses", text, url })
+        return
+      }
+    } catch {
+      /* user cancelled or share failed; fall through to copy */
+    }
+    try {
+      await navigator.clipboard.writeText(url)
+      alert('Link copied! Send it to a friend or your group chat 🎉')
+    } catch {
+      alert(`Share this link: ${url}`)
+    }
   }, [])
 
   if (!visible) return null
@@ -90,10 +109,10 @@ export default function WelcomeModal() {
               fontWeight: 800, fontSize: 22,
               color: '#fff', lineHeight: 1.2, marginBottom: 6,
             }}>
-              Welcome to R'Courses!
+              Hey Highlander — welcome!
             </h2>
             <p style={{ fontSize: 13, color: 'rgba(255,255,255,0.8)', lineHeight: 1.5 }}>
-              The UCR student-built course review platform.
+              R'Courses is built by UCR students, for UCR students.
             </p>
           </div>
 
@@ -106,15 +125,18 @@ export default function WelcomeModal() {
             WebkitOverflowScrolling: 'touch',
           }}>
             <p style={{ fontSize: 14, color: '#5a6273', lineHeight: 1.65 }}>
-              We just got a big upgrade! 🚀 We've added thousands more UCR courses and imported hundreds of real student reviews so you can start getting useful insights right away.
+              Glad you're here. Whether you're building next quarter's schedule or just wondering how hard a class really is, this is the place.
+            </p>
+            <p style={{ fontSize: 14, color: '#5a6273', lineHeight: 1.65 }}>
+              We just refreshed the database with new classes and new student reviews. Know someone else shopping for classes? Send them the site — R'Courses only gets better when more Highlanders use it, review, and share.
             </p>
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
               {[
-                { icon: '🔍', text: 'Browse 4,700+ UCR courses and filter by units' },
-                { icon: '⭐', text: 'See real difficulty ratings from past students' },
-                { icon: '💬', text: 'Leave honest reviews to help future Highlanders' },
-                { icon: '📣', text: 'Share with friends to grow the community' },
+                { icon: '🔍', text: 'Browse 4,800+ UCR courses and filter by units' },
+                { icon: '⭐', text: 'See 3,600+ real difficulty ratings from past students' },
+                { icon: '💬', text: 'Leave a review for a class you took — it helps the next Highlander' },
+                { icon: '📣', text: 'Share rcourses.org with a friend or your group chat' },
               ].map(({ icon, text }) => (
                 <div key={text} style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
                   <span style={{ fontSize: 18, flexShrink: 0 }}>{icon}</span>
@@ -132,7 +154,7 @@ export default function WelcomeModal() {
               color: '#92580a',
               lineHeight: 1.55,
             }}>
-              🙏 We now have real student reviews already loaded — but the more you add, the better it gets!
+              Updated on 10/07/2026. Drop a review, then share the link so more Highlanders can plan with real info.
             </div>
 
             {/* Buttons */}
@@ -152,19 +174,17 @@ export default function WelcomeModal() {
                   touchAction: 'manipulation',
                 }}
               >
-                Let's Go! 🚀
+                Let's go
               </button>
               <button
                 onTouchEnd={e => {
                   e.stopPropagation()
                   e.preventDefault()
-                  navigator.clipboard?.writeText('https://rcourses.org')
-                  alert('Link copied! Share it with your friends 🎉')
+                  share()
                 }}
                 onClick={e => {
                   e.stopPropagation()
-                  navigator.clipboard?.writeText('https://rcourses.org')
-                  alert('Link copied! Share it with your friends 🎉')
+                  share()
                 }}
                 style={{
                   flex: 1, padding: '14px 0',
@@ -178,7 +198,7 @@ export default function WelcomeModal() {
                   touchAction: 'manipulation',
                 }}
               >
-                Share 📣
+                Share it
               </button>
             </div>
           </div>

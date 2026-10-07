@@ -47828,5 +47828,525 @@
     "description": "",
     "prerequisites": "",
     "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "ANTH 020",
+    "subject": "ANTH",
+    "number": "020",
+    "title": "CULTURE, HEALTH, AND HEALING",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "ARC 005",
+    "subject": "ARC",
+    "number": "005",
+    "title": "ELEMENTARY ALGEBRA WORKSHOP",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Workshop"
+  },
+  {
+    "fullCode": "BCH 100A",
+    "subject": "BCH",
+    "number": "100A",
+    "title": "INTRODUCTORY BIOCHEMISTRY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "BIOL 05LB",
+    "subject": "BIOL",
+    "number": "05LB",
+    "title": "INTRODUCTION TO ORGANISMAL BIOLOGY LABORATORY",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Laboratory"
+  },
+  {
+    "fullCode": "CHE 135",
+    "subject": "CHE",
+    "number": "135",
+    "title": "BIOENGINEERING MATERIALS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CLA 010A",
+    "subject": "CLA",
+    "number": "010A",
+    "title": "ANCIENT CIVILIZATION: EARLY GREECE AND THE MEDITERRANEAN",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CLA 012C",
+    "subject": "CLA",
+    "number": "012C",
+    "title": "CLASSICAL MYTHOLOGY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CLA 112",
+    "subject": "CLA",
+    "number": "112",
+    "title": "MYTHOLOGY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CPLT 002",
+    "subject": "CPLT",
+    "number": "002",
+    "title": "READING WORLD LITERATURE",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CPLT 017A",
+    "subject": "CPLT",
+    "number": "017A",
+    "title": "MASTERWORKS OF WORLD LITERATURE",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CS 010V",
+    "subject": "CS",
+    "number": "010V",
+    "title": "INTRODUCTION TO COMPUTER SCIENCE FOR SCIENCE, MATHEMATICS, AND ENGINEERING I",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "CS 013",
+    "subject": "CS",
+    "number": "013",
+    "title": "INTRODUCTORY COMPUTER SCIENCE FOR ENGINEERING MAJORS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "ECON 124A",
+    "subject": "ECON",
+    "number": "124A",
+    "title": "WORLD ECONOMIC HISTORY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "EDUC 040",
+    "subject": "EDUC",
+    "number": "040",
+    "title": "EDUCATION, SOCIETY AND CULTURE",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "EDUC 049",
+    "subject": "EDUC",
+    "number": "049",
+    "title": "INTRODUCTION TO EDUCATION",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "EE 001A",
+    "subject": "EE",
+    "number": "001A",
+    "title": "ENGINEERING CIRCUIT ANALYSIS I",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "EE 001B",
+    "subject": "EE",
+    "number": "001B",
+    "title": "ENGINEERING CIRCUIT ANALYSIS II",
+    "units": "3",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "EE 020",
+    "subject": "EE",
+    "number": "020",
+    "title": "LINEAR METHODS FOR ENGINEERING ANALYSIS AND DESIGN USING MATLAB",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "EE 284",
+    "subject": "EE",
+    "number": "284",
+    "title": "INTRO TO ENGINEERING OPTIMIZATION TECHNIQUES",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "ENGL 008",
+    "subject": "ENGL",
+    "number": "008",
+    "title": "ORAL COMMUNICATION",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "ENGL 01PL",
+    "subject": "ENGL",
+    "number": "01PL",
+    "title": "BEGINNING COMPOSITION",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "ENGR 001",
+    "subject": "ENGR",
+    "number": "001",
+    "title": "INTRODUCTION TO ENGINEERING",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Activity"
+  },
+  {
+    "fullCode": "ENGR 101",
+    "subject": "ENGR",
+    "number": "101",
+    "title": "PROFESSIONAL DEVELOPMENT AND MENTORING",
+    "units": "1",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Activity"
+  },
+  {
+    "fullCode": "HISE 176",
+    "subject": "HISE",
+    "number": "176",
+    "title": "SERBIA, BOSNIA, AND KOSOVO: THE CONTEMPORARY CRISIS AND ITS HISTORICAL ROOTS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "HIST 089",
+    "subject": "HIST",
+    "number": "089",
+    "title": "MAPS: A HISTORY OF CARTOGRAPHY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "HNPG 001B",
+    "subject": "HNPG",
+    "number": "001B",
+    "title": "MOTIVATION OF A UNIVERSITY HONORS STUDENT",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "JPN 152K",
+    "subject": "JPN",
+    "number": "152K",
+    "title": "TOPICS IN JAPANESE LITERATURE AND CULTURE",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "LABR 002",
+    "subject": "LABR",
+    "number": "002",
+    "title": "LABOR ORGANIZING: THEORY AND PRACTICE",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MATH 036",
+    "subject": "MATH",
+    "number": "036",
+    "title": "INTRODUCTION TO MATHEMATICAL THINKING",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MATH 148",
+    "subject": "MATH",
+    "number": "148",
+    "title": "INTRODUCTION TO CHAOTIC AND COMPLEX DYNAMICAL SYSTEMS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MUS 002",
+    "subject": "MUS",
+    "number": "002",
+    "title": "INTRODUCTION TO WESTERN MUSIC",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "MUS 005",
+    "subject": "MUS",
+    "number": "005",
+    "title": "WOMEN IN MUSIC",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "PBPL 155S",
+    "subject": "PBPL",
+    "number": "155S",
+    "title": "WOMEN'S LABOR AND THE ECONOMY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Seminar"
+  },
+  {
+    "fullCode": "PHIL 113",
+    "subject": "PHIL",
+    "number": "113",
+    "title": "GOD",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "POSC 146",
+    "subject": "POSC",
+    "number": "146",
+    "title": "MASS MEDIA AND PUBLIC OPINION",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "POSC 182",
+    "subject": "POSC",
+    "number": "182",
+    "title": "POLITICS AND ECONOMIC POLICY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "PSYC 037",
+    "subject": "PSYC",
+    "number": "037",
+    "title": "INDUSTRIAL AND ORGANIZATIONAL PSYCHOLOGY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "PSYC 133",
+    "subject": "PSYC",
+    "number": "133",
+    "title": "HUMAN FACTORS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "PSYC 179",
+    "subject": "PSYC",
+    "number": "179",
+    "title": "HEALTH AND BEHAVIOR CHANGE",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "RLST 001",
+    "subject": "RLST",
+    "number": "001",
+    "title": "SEX, SIN, AND SCRIPTURE",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "SOC 002",
+    "subject": "SOC",
+    "number": "002",
+    "title": "SOCIAL PROBLEMS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "SOC 002F",
+    "subject": "SOC",
+    "number": "002F",
+    "title": "THE CITY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "SOC 020",
+    "subject": "SOC",
+    "number": "020",
+    "title": "AMERICAN SOCIETY",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "SOC 137",
+    "subject": "SOC",
+    "number": "137",
+    "title": "POPULATION",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "SOC 154",
+    "subject": "SOC",
+    "number": "154",
+    "title": "SPORT AND GENDER",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "STAT 040",
+    "subject": "STAT",
+    "number": "040",
+    "title": "ELEMENTS OF DATA SCIENCE",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "STAT 048",
+    "subject": "STAT",
+    "number": "048",
+    "title": "STATISTICS FOR BUSINESS",
+    "units": "5",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "STAT 100A",
+    "subject": "STAT",
+    "number": "100A",
+    "title": "INTRODUCTION TO STATISTICS",
+    "units": "5",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "STAT 100B",
+    "subject": "STAT",
+    "number": "100B",
+    "title": "INTRODUCTION TO STATISTICS",
+    "units": "5",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "STAT 147",
+    "subject": "STAT",
+    "number": "147",
+    "title": "INTRODUCTION TO STATISTICAL COMPUTING",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "STAT 170A",
+    "subject": "STAT",
+    "number": "170A",
+    "title": "REGRESSION ANALYSIS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
+  },
+  {
+    "fullCode": "STAT 170B",
+    "subject": "STAT",
+    "number": "170B",
+    "title": "DESIGN OF EXPERIMENTS",
+    "units": "4",
+    "description": "",
+    "prerequisites": "",
+    "scheduleType": "Lecture"
   }
 ]

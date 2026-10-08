@@ -120,11 +120,6 @@ export default function CourseModal({ course, onClose, onNewStats }) {
     await submitReview(course.fullCode, form)
     setShowForm(false)
     setSubmitted(true)
-    await load()
-    if (onNewStats) {
-      const fresh = await getCourseStats(course.fullCode)
-      if (fresh) onNewStats(course.fullCode, fresh)
-    }
   }
 
   const diffLabel = stats ? (stats.avgDifficulty <= 2 ? 'Easy' : stats.avgDifficulty <= 3.5 ? 'Moderate' : 'Hard') : null
@@ -255,7 +250,7 @@ export default function CourseModal({ course, onClose, onNewStats }) {
 
               {submitted && !showForm && (
                 <div style={{ fontSize: 13, color: 'var(--easy)', background: 'var(--easy-bg)', borderRadius: 8, padding: '10px 12px', marginBottom: 10, fontWeight: 500 }}>
-                  ✅ Thanks for your review!
+                  Thanks — your review was submitted. It will show up after a quick check.
                 </div>
               )}
 

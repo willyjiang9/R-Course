@@ -37,20 +37,11 @@ export function trackEvent(name, params) {
 
 // ── Reviews ───────────────────────────────────────────────────────
 
-export async function submitReview(courseCode, review) {
-  await addDoc(collection(db, 'reviews'), {
-    courseCode,
-    difficulty:      review.difficulty,
-    professorRating: review.professorRating,
-    workload:        review.workload,
-    wouldRecommend:  review.wouldRecommend,
-    gradeReceived:   review.gradeReceived,
-    termTaken:       review.termTaken || '',
-    professor:       review.professor,
-    text:            review.text,
-    createdAt:       serverTimestamp(),
-  })
+function isPublicReview(review) {
+  return review.status !== 'pending' && review.status !== 'rejected'
+}
 
+async function applyReviewToStats(courseCode, review) {
   const statsRef = doc(db, 'courseStats', courseCode.replace(/\s+/g, '_'))
   const statsSnap = await getDoc(statsRef)
 
@@ -70,6 +61,23 @@ export async function submitReview(courseCode, review) {
       recommendCount:  increment(review.wouldRecommend ? 1 : 0),
     })
   }
+}
+
+export async function submitReview(courseCode, review) {
+  await addDoc(collection(db, 'reviews'), {
+    courseCode,
+    difficulty:      review.difficulty,
+    professorRating: review.professorRating,
+    workload:        review.workload,
+    wouldRecommend:  review.wouldRecommend,
+    gradeReceived:   review.gradeReceived,
+    termTaken:       review.termTaken || '',
+    professor:       review.professor,
+    text:            review.text,
+    source:          'web',
+    status:          'pending',
+    createdAt:       serverTimestamp(),
+  })
 
   trackEvent('submit_review', { course_code: courseCode })
 }
@@ -81,7 +89,39 @@ export async function getReviews(courseCode) {
     orderBy('createdAt', 'desc')
   )
   const snap = await getDocs(q)
-  return snap.docs.map(d => ({ id: d.id, ...d.data() }))
+  return snap.docs
+    .map(d => ({ id: d.id, ...d.data() }))
+    .filter(isPublicReview)
+}
+
+export async function getPendingReviews() {
+  const q = query(
+    collection(db, 'reviews'),
+    where('status', '==', 'pending')
+  )
+  const snap = await getDocs(q)
+  const reviews = snap.docs.map(d => ({ id: d.id, ...d.data() }))
+  reviews.sort((a, b) => {
+    const at = a.createdAt?.toMillis ? a.createdAt.toMillis() : 0
+    const bt = b.createdAt?.toMillis ? b.createdAt.toMillis() : 0
+    return bt - at
+  })
+  return reviews
+}
+
+export async function approveReview(review) {
+  await updateDoc(doc(db, 'reviews', review.id), {
+    status: 'approved',
+    approvedAt: serverTimestamp(),
+  })
+  await applyReviewToStats(review.courseCode, review)
+}
+
+export async function rejectReview(reviewId) {
+  await updateDoc(doc(db, 'reviews', reviewId), {
+    status: 'rejected',
+    rejectedAt: serverTimestamp(),
+  })
 }
 
 export async function getCourseStats(courseCode) {

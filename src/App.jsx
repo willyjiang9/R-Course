@@ -1,5 +1,5 @@
 // src/App.jsx
-import React, { useState, useMemo, useCallback, useRef, useEffect } from 'react'
+import React, { useState, useMemo, useCallback, useRef, useEffect, useDeferredValue, startTransition } from 'react'
 import Navbar from './components/Navbar.jsx'
 import DeptSidebar from './components/DeptSidebar.jsx'
 import CourseCard from './components/CourseCard.jsx'
@@ -8,7 +8,8 @@ import WelcomeModal from './components/WelcomeModal.jsx'
 import COURSES from './data/allCourses.json'
 import BUNDLED_STATS from './data/courseStats.json'
 import { trackEvent } from './firebase.js'
-import { Menu, X } from 'lucide-react'
+import { X } from 'lucide-react'
+import { formatCount } from './lib/format.js'
 
 const SUBJECT_TO_COLLEGE = {
   "CS":"Engineering","CSE":"Engineering","EE":"Engineering","ENGR":"Engineering",
@@ -50,10 +51,6 @@ const SUBJECT_TO_COLLEGE = {
 }
 
 const COLLEGES = ["Engineering","Natural Sciences","Business","Social Sciences","Humanities & Arts","Other"]
-const COLLEGE_ICONS = {
-  "Engineering":"⚙️","Natural Sciences":"🔬","Business":"📊",
-  "Social Sciences":"🌍","Humanities & Arts":"🎨","Other":"📚",
-}
 
 function getCollege(s) { return SUBJECT_TO_COLLEGE[s] || "Other" }
 
@@ -64,7 +61,7 @@ const COLLEGE_COUNTS = COURSES.reduce((acc, c) => {
 }, {})
 
 const DEPT_LIST = COLLEGES.map(name => ({
-  code: name, name: `${COLLEGE_ICONS[name]} ${name}`, isCollege: true,
+  code: name, name, isCollege: true,
 }))
 
 const REVIEWED_COUNT = Object.keys(BUNDLED_STATS).length
@@ -72,12 +69,13 @@ const PAGE_SIZE = 50 // load 50 cards at a time
 
 export default function App() {
   const [search, setSearch]                   = useState('')
+  const deferredSearch = useDeferredValue(search)
   const [selectedCollege, setSelectedCollege] = useState(null)
   const [selectedCourse, setSelectedCourse]   = useState(null)
   const [unitsFilter, setUnitsFilter]         = useState('All')
   const [sortBy, setSortBy]                   = useState('code')
   const [sidebarOpen, setSidebarOpen]         = useState(false)
-  const [liveStats, setLiveStats]             = useState({})
+  const [liveStats]                           = useState({})
   const [visibleCount, setVisibleCount]       = useState(PAGE_SIZE)
   const loaderRef = useRef(null)
 
@@ -86,8 +84,8 @@ export default function App() {
   const filtered = useMemo(() => {
     let list = COURSES
 
-    if (search.trim()) {
-      const q = search.toLowerCase()
+    if (deferredSearch.trim()) {
+      const q = deferredSearch.toLowerCase()
       list = list.filter(c =>
         c.fullCode.toLowerCase().includes(q) ||
         c.fullCode.toLowerCase().replace(/\s+/g, '').includes(q) ||
@@ -95,7 +93,8 @@ export default function App() {
         (c.description || '').toLowerCase().includes(q) ||
         (c.prerequisites || '').toLowerCase().includes(q)
       )
-    } else if (selectedCollege) {
+    }
+    if (selectedCollege) {
       list = list.filter(c => getCollege(c.subject) === selectedCollege)
     }
 
@@ -120,12 +119,12 @@ export default function App() {
     })
 
     return list
-  }, [search, selectedCollege, sortBy, statsMap, unitsFilter])
+  }, [deferredSearch, selectedCollege, sortBy, statsMap, unitsFilter])
 
   // Reset visible count when filter changes
   useEffect(() => {
     setVisibleCount(PAGE_SIZE)
-  }, [search, selectedCollege, sortBy, unitsFilter])
+  }, [deferredSearch, selectedCollege, sortBy, unitsFilter])
 
   // Infinite scroll — load more as user scrolls down
   useEffect(() => {
@@ -151,88 +150,38 @@ export default function App() {
   }, [selectedCourse])
 
   const handleCollegeSelect = useCallback(code => {
-    setSelectedCollege(code)
-    setSearch('')
-    setSidebarOpen(false)
+    startTransition(() => {
+      setSelectedCollege(code)
+      setSearch('')
+      setSidebarOpen(false)
+    })
   }, [])
 
-  function handleNewStats(courseCode, newStats) {
-    setLiveStats(prev => ({ ...prev, [courseCode]: newStats }))
-  }
-
-  const sectionTitle = selectedCollege
-    ? `${COLLEGE_ICONS[selectedCollege]} ${selectedCollege}`
-    : search ? `Results for "${search}"` : 'All Courses'
+  const sectionTitle = deferredSearch.trim()
+    ? `Results for “${deferredSearch.trim()}”`
+    : selectedCollege || 'All courses'
 
   return (
-    <div style={{ minHeight: '100vh', background: 'var(--bg)' }}>
-      <style>{`
-        @media (max-width: 768px) {
-          .desktop-sidebar { display: none !important; }
-          .mobile-menu-btn { display: flex !important; }
-          .course-grid { grid-template-columns: 1fr !important; }
-          .main-pad { padding: 16px 12px 100px !important; }
-          .filter-row { flex-direction: column !important; align-items: flex-start !important; }
-        }
-        @media (min-width: 769px) {
-          .mobile-menu-btn { display: none !important; }
-          .mobile-overlay { display: none !important; }
-        }
-        * { -webkit-tap-highlight-color: transparent; }
-        button { touch-action: manipulation; }
-      `}</style>
+    <div>
+      <Navbar
+        search={search}
+        onSearch={setSearch}
+        courseCount={COURSES.length}
+        onOpenColleges={() => setSidebarOpen(true)}
+        collegesOpen={sidebarOpen}
+      />
 
-      <Navbar search={search} onSearch={setSearch} courseCount={COURSES.length} />
-
-      {/* Floating mobile menu button */}
-      <button
-        className="mobile-menu-btn"
-        onTouchEnd={e => { e.preventDefault(); setSidebarOpen(true) }}
-        onClick={() => setSidebarOpen(true)}
-        style={{
-          display: 'none',
-          position: 'fixed', bottom: 24, right: 20, zIndex: 150,
-          background: 'var(--ucr-blue)', color: '#fff',
-          border: 'none', borderRadius: 99,
-          padding: '14px 20px',
-          alignItems: 'center', gap: 8,
-          fontSize: 14, fontWeight: 700,
-          boxShadow: '0 4px 20px rgba(0,61,165,0.45)',
-          cursor: 'pointer',
-        }}
-      >
-        <Menu size={18} /> Browse Major
-      </button>
-
-      {/* Mobile sidebar */}
-      {sidebarOpen && (
-        <div
-          className="mobile-overlay"
-          onTouchEnd={e => { if (e.target === e.currentTarget) { e.preventDefault(); setSidebarOpen(false) } }}
-          onClick={e => { if (e.target === e.currentTarget) setSidebarOpen(false) }}
-          style={{
-            position: 'fixed', inset: 0, zIndex: 200,
-            background: 'rgba(0,0,0,0.5)',
-            touchAction: 'none',
-          }}
-        >
-          <div style={{
-            position: 'absolute', left: 0, top: 0, bottom: 0,
-            width: 280, background: 'var(--surface)',
-            overflowY: 'auto', WebkitOverflowScrolling: 'touch',
-            boxShadow: '4px 0 20px rgba(0,0,0,0.15)',
-          }}>
-            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '16px 16px 8px' }}>
-              <span style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 16 }}>Browse by Major</span>
-              <button
-                onTouchEnd={e => { e.preventDefault(); setSidebarOpen(false) }}
-                onClick={() => setSidebarOpen(false)}
-                style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 8, margin: -8 }}
-              >
-                <X size={22} color="var(--text-muted)" />
+      {sidebarOpen ? (
+        <div className="drawer-backdrop mobile-only" onClick={e => { if (e.target === e.currentTarget) setSidebarOpen(false) }}>
+          <div className="drawer" role="dialog" aria-label="Colleges">
+            <div className="drawer-head">
+              <span>Colleges</span>
+              <button type="button" className="welcome-close" aria-label="Close college list" onClick={() => setSidebarOpen(false)}>
+                <X size={18} aria-hidden="true" />
               </button>
             </div>
             <DeptSidebar
+              embedded
               departments={DEPT_LIST}
               selected={selectedCollege}
               onSelect={handleCollegeSelect}
@@ -240,10 +189,10 @@ export default function App() {
             />
           </div>
         </div>
-      )}
+      ) : null}
 
-      <div style={{ display: 'flex', paddingTop: 60 }}>
-        <div className="desktop-sidebar">
+      <div className="shell">
+        <div className="desktop-only">
           <DeptSidebar
             departments={DEPT_LIST}
             selected={selectedCollege}
@@ -252,29 +201,49 @@ export default function App() {
           />
         </div>
 
-        <main className="main-pad" style={{ flex: 1, padding: '28px 28px 60px', minWidth: 0 }}>
-          <div className="filter-row" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 20, flexWrap: 'wrap', gap: 12 }}>
+        <main id="main" className="main">
+          <div className="page-head">
             <div>
-              <h1 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: 20, letterSpacing: '-0.01em', color: 'var(--text-primary)' }}>{sectionTitle}</h1>
-              <p style={{ fontSize: 13, color: 'var(--text-muted)', marginTop: 2 }}>
-                {filtered.length} course{filtered.length !== 1 ? 's' : ''} · {REVIEWED_COUNT} reviewed
+              <div className="page-kicker">UCR undergraduate catalog</div>
+              <h1 className="page-title">{sectionTitle}</h1>
+              <p className="page-sub">
+                {formatCount(filtered.length)} course{filtered.length === 1 ? '' : 's'} · {formatCount(REVIEWED_COUNT)} with reviews
               </p>
             </div>
 
-            <div style={{ display: 'flex', alignItems: 'center', gap: 10, flexWrap: 'wrap' }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-                <span style={{ fontSize: 13, color: 'var(--text-muted)' }}>Units:</span>
-                <div style={{ display: 'flex', background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: 'var(--radius-sm)', overflow: 'hidden' }}>
+            <div className="toolbar">
+              <div className="seg">
+                <div className="seg-label">Units</div>
+                <div className="seg-group" role="group" aria-label="Filter by units">
                   {['All','1','2','3','4','5+'].map(u => (
-                    <button key={u} onClick={() => setUnitsFilter(u)} style={{ padding: '8px 10px', fontSize: 12, fontWeight: unitsFilter===u?700:400, color: unitsFilter===u?'var(--ucr-blue)':'var(--text-secondary)', background: unitsFilter===u?'var(--ucr-blue-light)':'transparent', border: 'none', cursor: 'pointer' }}>{u}</button>
+                    <button
+                      key={u}
+                      type="button"
+                      className={unitsFilter === u ? 'is-on' : undefined}
+                      onClick={() => startTransition(() => setUnitsFilter(u))}
+                    >
+                      {u}
+                    </button>
                   ))}
                 </div>
               </div>
-              <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-                <span style={{ fontSize: 13, color: 'var(--text-muted)' }}>Sort:</span>
-                <div style={{ display: 'flex', background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: 'var(--radius-sm)', overflow: 'hidden' }}>
-                  {[{v:'code',label:'Code'},{v:'title',label:'Title'},{v:'difficulty',label:'Easiest'},{v:'rating',label:'Top Rated'}].map(({v,label}) => (
-                    <button key={v} onClick={() => setSortBy(v)} style={{ padding: '8px 10px', fontSize: 12, fontWeight: sortBy===v?700:400, color: sortBy===v?'var(--ucr-blue)':'var(--text-secondary)', background: sortBy===v?'var(--ucr-blue-light)':'transparent', border: 'none', cursor: 'pointer' }}>{label}</button>
+              <div className="seg">
+                <div className="seg-label">Sort</div>
+                <div className="seg-group" role="group" aria-label="Sort courses">
+                  {[
+                    { v: 'code', label: 'Code' },
+                    { v: 'title', label: 'Title' },
+                    { v: 'difficulty', label: 'Easiest' },
+                    { v: 'rating', label: 'Top rated' },
+                  ].map(({ v, label }) => (
+                    <button
+                      key={v}
+                      type="button"
+                      className={sortBy === v ? 'is-on' : undefined}
+                      onClick={() => startTransition(() => setSortBy(v))}
+                    >
+                      {label}
+                    </button>
                   ))}
                 </div>
               </div>
@@ -282,14 +251,13 @@ export default function App() {
           </div>
 
           {filtered.length === 0 ? (
-            <div style={{ textAlign: 'center', padding: '60px 0', color: 'var(--text-muted)' }}>
-              <div style={{ fontSize: 40, marginBottom: 12 }}>🔍</div>
-              <div style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 18, marginBottom: 6 }}>No courses found</div>
-              <div style={{ fontSize: 14 }}>Try a different search, department, or units filter</div>
+            <div className="empty">
+              <h2>No courses match</h2>
+              <p>Change the search, college, or units filter.</p>
             </div>
           ) : (
             <>
-              <div className="course-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: 16 }}>
+              <div className="course-grid">
                 {visibleCourses.map(course => (
                   <CourseCard
                     key={course.fullCode}
@@ -299,25 +267,20 @@ export default function App() {
                   />
                 ))}
               </div>
-
-              {/* Infinite scroll loader */}
-              {visibleCount < filtered.length && (
-                <div ref={loaderRef} style={{ textAlign: 'center', padding: '24px 0', color: 'var(--text-muted)', fontSize: 13 }}>
-                  Loading more courses...
-                </div>
-              )}
+              {visibleCount < filtered.length ? (
+                <div ref={loaderRef} className="more">Loading more…</div>
+              ) : null}
             </>
           )}
         </main>
       </div>
 
-      {selectedCourse && (
+      {selectedCourse ? (
         <CourseModal
           course={selectedCourse}
           onClose={() => setSelectedCourse(null)}
-          onNewStats={handleNewStats}
         />
-      )}
+      ) : null}
       <WelcomeModal />
     </div>
   )

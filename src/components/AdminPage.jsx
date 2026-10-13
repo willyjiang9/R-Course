@@ -23,85 +23,46 @@ function parseDate(review) {
 
 function ReviewCard({ review, busy, onApprove, onReject }) {
   return (
-    <div style={{
-      background: '#fff',
-      border: '1px solid var(--border)',
-      borderRadius: 16,
-      padding: 18,
-      display: 'flex',
-      flexDirection: 'column',
-      gap: 12,
-    }}>
-      <div style={{ display: 'flex', justifyContent: 'space-between', gap: 12, flexWrap: 'wrap' }}>
+    <article className="review">
+      <div className="review-top">
         <div>
-          <div style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: 16, color: 'var(--ucr-blue)' }}>
-            {review.courseCode}
-          </div>
-          <div style={{ fontSize: 12, color: 'var(--text-muted)', marginTop: 2 }}>
+          <div className="course-code">{review.courseCode}</div>
+          <div className="muted" style={{ marginTop: 4 }}>
             {parseDate(review)}
             {review.termTaken ? ` · ${review.termTaken}` : ''}
             {review.professor ? ` · ${review.professor}` : ''}
             {review.gradeReceived ? ` · Grade ${review.gradeReceived}` : ''}
           </div>
         </div>
-        <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', alignItems: 'center' }}>
-          {review.workload && (
-            <span style={{ fontSize: 12, fontWeight: 600, background: 'var(--bg)', borderRadius: 6, padding: '3px 8px' }}>
-              {review.workload} workload
+        <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+          {review.workload ? <span className="muted">{review.workload} workload</span> : null}
+          {review.wouldRecommend != null ? (
+            <span className={review.wouldRecommend ? 'reco easy' : 'reco hard'}>
+              {review.wouldRecommend ? 'Recommends' : 'Does not recommend'}
             </span>
-          )}
-          {review.wouldRecommend != null && (
-            <span style={{ fontSize: 12, fontWeight: 600, color: review.wouldRecommend ? 'var(--easy)' : 'var(--hard)' }}>
-              {review.wouldRecommend ? 'Recommends' : "Doesn't recommend"}
-            </span>
-          )}
+          ) : null}
         </div>
       </div>
-
       <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap' }}>
         <div>
-          <div style={{ fontSize: 11, color: 'var(--text-muted)', marginBottom: 4 }}>Difficulty</div>
-          <StarDisplay value={review.difficulty} size={14} color="#dc2626" />
+          <div className="muted">Difficulty</div>
+          <StarDisplay value={review.difficulty} size={14} color="#9b3a32" />
         </div>
         <div>
-          <div style={{ fontSize: 11, color: 'var(--text-muted)', marginBottom: 4 }}>Professor</div>
+          <div className="muted">Professor</div>
           <StarDisplay value={review.professorRating} size={14} />
         </div>
       </div>
-
-      {review.text && (
-        <p style={{ fontSize: 14, color: 'var(--text-secondary)', lineHeight: 1.6, whiteSpace: 'pre-wrap' }}>
-          {review.text}
-        </p>
-      )}
-
-      <div style={{ display: 'flex', gap: 8, paddingTop: 4 }}>
-        <button
-          disabled={busy}
-          onClick={() => onApprove(review)}
-          style={{
-            flex: 1, minHeight: 44, borderRadius: 10, border: 'none',
-            background: busy ? 'var(--border)' : '#16a34a', color: '#fff',
-            fontWeight: 700, fontSize: 14, display: 'flex', alignItems: 'center',
-            justifyContent: 'center', gap: 6, cursor: busy ? 'not-allowed' : 'pointer',
-          }}
-        >
-          <Check size={16} /> Approve
+      {review.text ? <p className="review-text" style={{ whiteSpace: 'pre-wrap' }}>{review.text}</p> : null}
+      <div className="form-actions">
+        <button type="button" className="btn-primary" style={{ flex: 1, background: busy ? 'var(--line)' : 'var(--easy)' }} disabled={busy} onClick={() => onApprove(review)}>
+          <Check size={16} aria-hidden="true" /> Approve
         </button>
-        <button
-          disabled={busy}
-          onClick={() => onReject(review)}
-          style={{
-            flex: 1, minHeight: 44, borderRadius: 10, border: '1.5px solid #fecaca',
-            background: '#fff', color: '#dc2626',
-            fontWeight: 700, fontSize: 14, display: 'flex', alignItems: 'center',
-            justifyContent: 'center', gap: 6, cursor: busy ? 'not-allowed' : 'pointer',
-          }}
-        >
-          <X size={16} /> Reject
+        <button type="button" className="btn-ghost" style={{ flex: 1, color: 'var(--hard)' }} disabled={busy} onClick={() => onReject(review)}>
+          <X size={16} aria-hidden="true" /> Reject
         </button>
       </div>
-    </div>
+    </article>
   )
 }
 
@@ -176,106 +137,57 @@ export default function AdminPage() {
   }
 
   return (
-    <div style={{ minHeight: '100vh', background: 'var(--bg)' }}>
-      <header style={{
-        background: '#003DA5', color: '#fff',
-        padding: '14px 20px',
-        display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12,
-      }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 8, fontWeight: 700 }}>
-          <Shield size={18} />
-          R'Courses Admin
+    <div>
+      <header className="admin-header">
+        <div style={{ display: 'flex', alignItems: 'center', gap: 8, fontWeight: 600 }}>
+          <Shield size={16} aria-hidden="true" />
+          R'Courses admin
         </div>
-        {authed && (
-          <button
-            onClick={logout}
-            style={{ color: '#fff', display: 'flex', alignItems: 'center', gap: 6, fontSize: 13, fontWeight: 600 }}
-          >
-            <LogOut size={14} /> Lock
+        {authed ? (
+          <button type="button" onClick={logout} style={{ color: '#fff', display: 'flex', alignItems: 'center', gap: 6, fontSize: 13 }}>
+            <LogOut size={14} aria-hidden="true" /> Lock
           </button>
-        )}
+        ) : null}
       </header>
 
-      <main style={{ maxWidth: 720, margin: '0 auto', padding: '24px 16px 80px' }}>
+      <main className="admin-main">
         {!authed ? (
-          <form
-            onSubmit={handleUnlock}
-            style={{
-              marginTop: 40, background: '#fff', border: '1px solid var(--border)',
-              borderRadius: 16, padding: 24, display: 'flex', flexDirection: 'column', gap: 12,
-            }}
-          >
-            <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 22, fontWeight: 800 }}>
-              Review moderation
-            </h1>
-            <p style={{ fontSize: 14, color: 'var(--text-secondary)', lineHeight: 1.6 }}>
-              Enter the admin password. This page is not linked from the public site.
-            </p>
-            <input
-              type="password"
-              value={password}
-              onChange={e => setPassword(e.target.value)}
-              placeholder="Password"
-              autoFocus
-              style={{
-                width: '100%', border: '1.5px solid var(--border)', borderRadius: 10,
-                padding: '12px 14px', fontSize: 16, outline: 'none',
-              }}
-            />
-            {error && <div style={{ color: '#dc2626', fontSize: 13 }}>{error}</div>}
-            <button
-              type="submit"
-              style={{
-                background: 'var(--ucr-blue)', color: '#fff', borderRadius: 10,
-                padding: '12px 0', fontWeight: 700, fontSize: 15,
-              }}
-            >
-              Unlock
-            </button>
+          <form className="form welcome" style={{ maxWidth: 440, margin: '48px auto 0', padding: 28 }} onSubmit={handleUnlock}>
+            <h1 className="page-title" style={{ fontSize: 32 }}>Review moderation</h1>
+            <p className="muted">Enter the admin password. This page is not linked from the public site.</p>
+            <div className="field">
+              <label htmlFor="admin-password">Password</label>
+              <input
+                id="admin-password"
+                type="password"
+                name="password"
+                autoComplete="current-password"
+                value={password}
+                onChange={e => setPassword(e.target.value)}
+              />
+            </div>
+            {error ? <div className="form-error" role="alert">{error}</div> : null}
+            <button type="submit" className="btn-primary">Unlock</button>
           </form>
         ) : (
           <>
-            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12, marginBottom: 8 }}>
+            <div className="page-head">
               <div>
-                <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 22, fontWeight: 800 }}>
-                  Pending reviews
-                </h1>
-                <p style={{ fontSize: 13, color: 'var(--text-muted)', marginTop: 4 }}>
-                  {reviews.length} waiting · they are hidden from the site until you approve
-                </p>
+                <h1 className="page-title" style={{ fontSize: 32 }}>Pending reviews</h1>
+                <p className="page-sub">{reviews.length} waiting. Hidden from the site until you approve.</p>
               </div>
-              <button
-                onClick={load}
-                disabled={loading}
-                style={{
-                  display: 'flex', alignItems: 'center', gap: 6,
-                  background: '#fff', border: '1.5px solid var(--border)',
-                  borderRadius: 10, padding: '8px 12px', fontSize: 13, fontWeight: 600,
-                }}
-              >
-                <RefreshCw size={14} /> Refresh
+              <button type="button" className="btn-ghost" onClick={load} disabled={loading}>
+                <RefreshCw size={14} aria-hidden="true" /> Refresh
               </button>
             </div>
-
-            {notice && (
-              <div style={{ background: 'var(--easy-bg)', color: 'var(--easy)', borderRadius: 10, padding: '10px 12px', fontSize: 13, fontWeight: 600, marginBottom: 12 }}>
-                {notice}
-              </div>
-            )}
-            {error && (
-              <div style={{ background: 'var(--hard-bg)', color: 'var(--hard)', borderRadius: 10, padding: '10px 12px', fontSize: 13, marginBottom: 12 }}>
-                {error}
-              </div>
-            )}
-
+            {notice ? <div className="notice" role="status" style={{ marginBottom: 12 }}>{notice}</div> : null}
+            {error ? <div className="form-error" role="alert" style={{ marginBottom: 12 }}>{error}</div> : null}
             {loading ? (
-              <div style={{ textAlign: 'center', color: 'var(--text-muted)', padding: 40 }}>Loading…</div>
+              <div className="muted" style={{ textAlign: 'center', padding: 40 }}>Loading…</div>
             ) : reviews.length === 0 ? (
-              <div style={{
-                textAlign: 'center', background: '#fff', border: '1px solid var(--border)',
-                borderRadius: 16, padding: 40, color: 'var(--text-muted)',
-              }}>
-                No pending reviews. Nice.
+              <div className="empty">
+                <h2>No pending reviews</h2>
+                <p>New submissions will show up here.</p>
               </div>
             ) : (
               <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>

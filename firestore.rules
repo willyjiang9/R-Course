@@ -1,0 +1,60 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ---------- Helpers ----------
+    function validReview() {
+      let d = request.resource.data;
+      return d.keys().hasAll(['courseCode','difficulty','professorRating','workload','wouldRecommend','text','createdAt'])
+        && d.keys().hasOnly(['courseCode','difficulty','professorRating','workload','wouldRecommend','gradeReceived','termTaken','professor','text','createdAt'])
+        && d.courseCode is string && d.courseCode.size() >= 3 && d.courseCode.size() <= 15
+        && d.difficulty is number && d.difficulty >= 1 && d.difficulty <= 5
+        && d.professorRating is number && d.professorRating >= 1 && d.professorRating <= 5
+        && d.workload in ['Light', 'Medium', 'Heavy']
+        && d.wouldRecommend is bool
+        && d.get('gradeReceived', '') is string && d.get('gradeReceived', '').size() <= 3
+        && d.get('termTaken', '') is string && d.get('termTaken', '').size() <= 20
+        && d.get('professor', '') is string && d.get('professor', '').size() <= 80
+        && d.text is string && d.text.size() >= 10 && d.text.size() <= 2000
+        && d.createdAt == request.time;
+    }
+
+    function validStatsCreate() {
+      let n = request.resource.data;
+      return n.keys().hasOnly(['courseCode','reviewCount','totalDifficulty','totalProfRating','recommendCount'])
+        && n.reviewCount == 1
+        && n.totalDifficulty >= 1 && n.totalDifficulty <= 5
+        && n.totalProfRating >= 1 && n.totalProfRating <= 5
+        && n.recommendCount in [0, 1];
+    }
+
+    function validStatsUpdate() {
+      let n = request.resource.data;
+      let o = resource.data;
+      return n.courseCode == o.courseCode
+        && n.reviewCount == o.reviewCount + 1
+        && (n.totalDifficulty - o.totalDifficulty) >= 1 && (n.totalDifficulty - o.totalDifficulty) <= 5
+        && (n.totalProfRating - o.totalProfRating) >= 1 && (n.totalProfRating - o.totalProfRating) <= 5
+        && (n.recommendCount - o.recommendCount) in [0, 1];
+    }
+
+    // ---------- Collections ----------
+    match /reviews/{reviewId} {
+      allow read: if true;
+      allow create: if validReview();
+      allow update, delete: if false;   // edit/delete from the Firebase Console only
+    }
+
+    match /courseStats/{courseId} {
+      allow read: if true;
+      allow create: if validStatsCreate();
+      allow update: if validStatsUpdate();
+      allow delete: if false;
+    }
+
+    // Everything else is locked
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

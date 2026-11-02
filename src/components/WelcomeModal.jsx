@@ -68,7 +68,7 @@ export default function WelcomeModal() {
               A UCR student catalog of course reviews. Search a code or title, then open a class to see how hard it was for people who already took it.
             </p>
             <p>
-              New reviews are checked before they go live. If you took a class, add yours. If a friend is building a schedule, send them the site.
+              If you took a class, add yours. If a friend is building a schedule, send them the site. See the <a href="/terms.html">terms</a> for how reviews are used.
             </p>
             {copied ? (
               <div className="notice" role="status" aria-live="polite">Link copied to the clipboard.</div>

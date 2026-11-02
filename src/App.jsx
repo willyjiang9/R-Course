@@ -88,7 +88,7 @@ export default function App() {
       const q = deferredSearch.toLowerCase()
       list = list.filter(c =>
         c.fullCode.toLowerCase().includes(q) ||
-        c.fullCode.toLowerCase().replace(/\s+/g, '').includes(q) ||
+        c.fullCode.toLowerCase().replace(/\s+/g, '').includes(q.replace(/\s+/g, '')) ||
         c.title.toLowerCase().includes(q) ||
         (c.description || '').toLowerCase().includes(q) ||
         (c.prerequisites || '').toLowerCase().includes(q)
@@ -272,6 +272,10 @@ export default function App() {
               ) : null}
             </>
           )}
+          <p className="site-legal">
+            <a href="/terms.html">Terms &amp; Privacy</a>
+            <span> · Independent student project, not affiliated with UCR</span>
+          </p>
         </main>
       </div>
 

@@ -175,7 +175,7 @@ export default function CourseModal({ course, onClose }) {
 
               {submitted && !showForm ? (
                 <div className="notice" role="status" style={{ marginBottom: 12 }}>
-                  Your review was submitted. It will appear after it is checked.
+                  Your review was submitted.
                 </div>
               ) : null}
 

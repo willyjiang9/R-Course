@@ -37,8 +37,8 @@ export default function ReviewForm({ onSubmit, onCancel }) {
     setError('')
     try {
       await onSubmit(form)
-    } catch {
-      setError('Review did not send. Try again in a moment.')
+    } catch (err) {
+      setError(err?.message || 'Review did not send. Try again in a moment.')
       setSubmitting(false)
     }
   }

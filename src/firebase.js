@@ -1,5 +1,6 @@
 // src/firebase.js
 import { initializeApp } from 'firebase/app'
+import { initializeAppCheck, ReCaptchaV3Provider } from 'firebase/app-check'
 import {
   getFirestore,
   collection,
@@ -8,6 +9,7 @@ import {
   query,
   where,
   orderBy,
+  limit,
   serverTimestamp,
   doc,
   getDoc,
@@ -27,6 +29,18 @@ const firebaseConfig = {
 }
 
 const app = initializeApp(firebaseConfig)
+
+// ── App Check (optional) ──────────────────────────────────────────
+// 1. Firebase Console → App Check → register web app with reCAPTCHA v3
+// 2. Paste the site key between the quotes below
+const RECAPTCHA_SITE_KEY = ''
+if (RECAPTCHA_SITE_KEY) {
+  initializeAppCheck(app, {
+    provider: new ReCaptchaV3Provider(RECAPTCHA_SITE_KEY),
+    isTokenAutoRefreshEnabled: true,
+  })
+}
+
 export const db = getFirestore(app)
 
 export function trackEvent(name, params) {
@@ -35,7 +49,38 @@ export function trackEvent(name, params) {
   }
 }
 
-// ── Reviews ───────────────────────────────────────────────────────
+// ── Basic spam guard (per browser) ────────────────────────────────
+const COOLDOWN_MS = 30 * 1000
+
+function readLocal(key, fallback) {
+  try {
+    const v = localStorage.getItem(key)
+    return v ? JSON.parse(v) : fallback
+  } catch (e) {
+    return fallback
+  }
+}
+
+function writeLocal(key, value) {
+  try { localStorage.setItem(key, JSON.stringify(value)) } catch (e) {}
+}
+
+function checkSpamGuard(courseCode) {
+  const last = Number(readLocal('rc_last_review', 0))
+  if (Date.now() - last < COOLDOWN_MS) {
+    throw new Error('Please wait a few seconds before posting another review.')
+  }
+  const done = readLocal('rc_reviewed', [])
+  if (done.includes(courseCode)) {
+    throw new Error('You already reviewed this course on this device.')
+  }
+}
+
+function markReviewed(courseCode) {
+  writeLocal('rc_last_review', Date.now())
+  const done = readLocal('rc_reviewed', [])
+  writeLocal('rc_reviewed', [...done, courseCode])
+}
 
 function isPublicReview(review) {
   return review.status !== 'pending' && review.status !== 'rejected'
@@ -63,22 +108,25 @@ async function applyReviewToStats(courseCode, review) {
   }
 }
 
+// ── Reviews ───────────────────────────────────────────────────────
 export async function submitReview(courseCode, review) {
+  checkSpamGuard(courseCode)
+
   await addDoc(collection(db, 'reviews'), {
     courseCode,
     difficulty:      review.difficulty,
     professorRating: review.professorRating,
     workload:        review.workload,
     wouldRecommend:  review.wouldRecommend,
-    gradeReceived:   review.gradeReceived,
+    gradeReceived:   review.gradeReceived || '',
     termTaken:       review.termTaken || '',
-    professor:       review.professor,
+    professor:       review.professor || '',
     text:            review.text,
-    source:          'web',
-    status:          'pending',
     createdAt:       serverTimestamp(),
   })
 
+  await applyReviewToStats(courseCode, review)
+  markReviewed(courseCode)
   trackEvent('submit_review', { course_code: courseCode })
 }
 
@@ -86,7 +134,8 @@ export async function getReviews(courseCode) {
   const q = query(
     collection(db, 'reviews'),
     where('courseCode', '==', courseCode),
-    orderBy('createdAt', 'desc')
+    orderBy('createdAt', 'desc'),
+    limit(100)
   )
   const snap = await getDocs(q)
   return snap.docs
@@ -137,7 +186,7 @@ export async function getCourseStats(courseCode) {
   }
 }
 
-// Not used for main page anymore — kept for compatibility
+// Kept for compatibility — main page uses bundled stats now
 export async function getBatchCourseStats(courseCodes) {
   return {}
 }
